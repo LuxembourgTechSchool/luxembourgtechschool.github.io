@@ -140,6 +140,16 @@
 }
 
 /**
+ * Press
+ */
+
+.responsive-video {
+	width: 100%;
+	height: auto;
+}
+
+
+/**
  * Partners
  */
 
@@ -161,6 +171,20 @@
 	color: white;
 	min-height: 150px;
 	padding-top: 30px;
+}
+
+.press-links {
+
+	a {
+		color: white;
+		text-decoration: underline;
+
+		&:hover {
+			color: $blue-color;
+		}
+
+	}
+
 }
 
 /**
