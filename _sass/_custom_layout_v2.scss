@@ -1,0 +1,65 @@
+
+/**
+ * General
+ */
+
+.lts-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/**
+ * Coloring
+ */
+
+.content-white {
+    color: white;
+}
+
+/**
+ * Program Content
+ */
+
+.panel-custom {
+
+    width: 320px;
+    margin: auto;
+
+    .panel-block {
+        display: block;
+    }
+}
+
+.panel-custom-blue {
+    border-color: $blue-color;
+
+    > .panel-heading {
+        background-color: $blue-color;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+.panel-custom-orange {
+    border-color: $orange-color;
+
+    > .panel-heading {
+        background-color: $orange-color;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+.panel-custom-green {
+    border-color: $green-color;
+
+    > .panel-heading {
+        background-color: $green-color;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+.panel-custom-footer {
+    background-color: lightgray;
+}
