@@ -16,6 +16,14 @@
     color: white;
 }
 
+.bold-white {
+
+    strong {
+        color: white;
+    }
+
+}
+
 /**
  * Program Content
  */
@@ -63,3 +71,28 @@
 .panel-custom-footer {
     background-color: lightgray;
 }
+
+/**
+ * Partners
+ */
+
+#partners {
+    margin-top: 50px;
+
+    img {
+        max-height: 100px;
+        margin: 20px auto;
+    }
+}
+
+/**
+ * Team Content
+ */
+
+ #team {
+     .card-profile-image {
+         width: 200px;
+         margin: auto;
+     }
+ }
+
