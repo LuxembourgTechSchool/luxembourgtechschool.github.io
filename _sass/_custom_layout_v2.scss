@@ -34,7 +34,9 @@
  */
 
 .bg-main {
-    background: url(/images/bg_ictspring.jpg);
+    background: linear-gradient(
+                     rgba(20,20,20, .3), 
+                     rgba(20,20,20, .3)), url(/images/bg_ictspring.jpg);
     background-position: center 100%;
     background-repeat:  no-repeat;
     background-attachment: fixed;
@@ -62,9 +64,9 @@
  */
 
 .lts-hero-title {
-    font-weight: 800;
+    font-weight: 900;
     text-shadow: #777777 0.2em 0.2em 0.5em;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .lts-hero-item {
