@@ -21,42 +21,44 @@ custom_js: contact
   </div>
 </section>
 
-<div id="contact" class="lts-section">
-    <div class="columns is-mobile">
-        <div class="column is-half is-offset-one-quarter">
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.sendform_token }}" method="POST">
+<section id="contact" class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <form action="https://getsimpleform.com/messages?form_api_token={{ site.sendform_token }}" method="POST">
 
-                <input type='hidden' name='redirect_to' value='{{ site.github.url }}/thankyou.html' />
+                    <input type='hidden' name='redirect_to' value='{{ site.github.url }}/thankyou.html' />
 
-                <div class="field">
-                    <label for="name-input" class="label">Name</label>
+                    <div class="field">
+                        <label for="name-input" class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="input" name="name" id="name-input" placeholder="Your Name" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="email-input" class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" name="_replyto" id="email-input" placeholder="Your Email" required>
+                            <span class="icon is-small is-left">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="message-input" class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" name="message" rows="5" id="message-input" placeholder="Your Message" required></textarea>
+                        </div>
+                    </div>
+
                     <div class="control">
-                        <input class="input" type="input" name="name" id="name-input" placeholder="Your Name" required>
+                        <button class="button is-success" type="submit" value="Send" id="submit-btn" disabled="disabled">Submit</button>
                     </div>
-                </div>
-
-                <div class="field">
-                    <label for="email-input" class="label">Email</label>
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input" type="email" name="_replyto" id="email-input" placeholder="Your Email" required>
-                        <span class="icon is-small is-left">
-                            <i class="fa fa-envelope"></i>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label for="message-input" class="label">Message</label>
-                    <div class="control">
-                        <textarea class="textarea" name="message" rows="5" id="message-input" placeholder="Your Message" required></textarea>
-                    </div>
-                </div>
-
-                <div class="control">
-                    <button class="button is-success" type="submit" value="Send" id="submit-btn" disabled="disabled">Submit</button>
-                </div>
-                
-            </form>
+                    
+                </form>
+            </div>
         </div>
     </div>
-</div>
+</section>
