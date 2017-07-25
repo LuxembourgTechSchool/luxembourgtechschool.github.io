@@ -4,6 +4,7 @@
  */
 
 
+
 /**
  * Coloring
  */
@@ -21,8 +22,24 @@
 }
 
 /**
+ * Navigation
+ */
+
+#lts-logo {
+    max-height: none;
+}
+
+/**
  * Backgrounds
  */
+
+.bg-main {
+    background: url(/images/bg_ictspring.jpg);
+    background-position: center 100%;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
 
 .bg-team {
     background: url(/images/bg_team.jpg);
@@ -39,6 +56,24 @@
     //background-attachment: fixed;
     background-size:  cover;
 }
+
+/**
+ * Home Page
+ */
+
+.lts-hero-title {
+    font-weight: 800;
+    text-shadow: #777777 0.2em 0.2em 0.5em;
+    margin-bottom: 40px;
+}
+
+.lts-hero-item {
+    font-weight: 600;
+    text-shadow: #777777 0.2em 0.2em 0.5em;
+}
+
+
+
 
 /**
  * Program Content

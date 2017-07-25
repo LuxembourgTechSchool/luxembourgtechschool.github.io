@@ -2,8 +2,8 @@
 
   <nav class="navbar ">
     <div class="navbar-brand">
-      <a class="navbar-item" href="http://bulma.io">
-        <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+      <a class="navbar-item" href="{{ page.url | prepend: site.github.url }}">
+        <img id="lts-logo" src="{{ site.github.url }}/images/Logo_Small.png" alt="Luxembourg Tech School: Building the next Digital Leaders" height="45">
       </a>
 
       <a class="navbar-item is-hidden-desktop" href="https://github.com/LuxembourgTechSchool" target="_blank">
@@ -106,39 +106,5 @@
       </div>
     </div>
   </nav>
-
-
-  
-  <!--
-  <nav class="navbar navbar-default navbar-fixed-top custom-nav">
-    <div class="container-fluid">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{ page.url | prepend: site.github.url }}">
-          <img src="{{ site.github.url }}/images/Logo_Small.png" alt="LTS Logo" title="LTS Logo" class="logo">
-        </a>
-      </div>
-
-      
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/#">Home</a></li>
-          <li><a href="/#techschool">A new tech school</a></li>
-          <li><a href="/#program">Program</a></li>
-          <li><a href="/#howitworks">How it works</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
--->
-
 
 </header>
