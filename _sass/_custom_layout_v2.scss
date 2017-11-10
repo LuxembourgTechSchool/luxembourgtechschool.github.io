@@ -98,6 +98,16 @@
     }
 }
 
+.panel-custom-lvlup {
+
+    width: 450px;
+    margin: auto;
+
+    .panel-block {
+        display: block;
+    }
+}
+
 .panel-custom-blue {
     border-color: $blue-color;
 
