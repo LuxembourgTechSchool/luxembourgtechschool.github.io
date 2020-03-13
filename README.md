@@ -5,3 +5,8 @@ This repository holds the source code of the official website for the Luxembourg
 
 &copy; 2016 Luxembourg Tech School.
 
+## Run locally
+
+Using Docker:
+
+    docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/minimal jekyll serve
