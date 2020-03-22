@@ -21,6 +21,9 @@
 
 }
 
+.header-highlight {
+    color: #c4302b;
+}
 
 /**
  * Navigation
@@ -34,38 +37,40 @@
  * Backgrounds
  */
 
+ @mixin bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    //background-attachment: fixed;
+    background-size: cover;
+  }
+
 .bg-main {
     background: linear-gradient(
                      rgba(20,20,20, .4), 
                      rgba(20,20,20, .4)), url(/images/bg_work-2.jpg);
-    background-position: center center;
-    background-repeat:  no-repeat;
-    //background-attachment: fixed;
-    background-size:  cover;
+    @include bg;
 }
 
 .bg-media {
     background: url(/images/bg_media.jpg);
-    background-position: center center;
-    background-repeat:  no-repeat;
-    //background-attachment: fixed;
-    background-size:  cover;
+    @include bg;
 }
 
 .bg-team {
     background: url(/images/bg_team.jpg);
-    background-position: center center;
-    background-repeat:  no-repeat;
-    //background-attachment: fixed;
-    background-size:  cover;
+    @include bg;
 }
 
 .bg-contact {
     background: url(/images/bg_contact.jpg);
+    @include bg;
     background-position: 20% 20%;
-    background-repeat:  no-repeat;
-    //background-attachment: fixed;
-    background-size:  cover;
+}
+
+.bg-gamedev {
+    background: url(/images/bg_gamedev.jpg);
+    @include bg;
+    background-position: 20% 20%;
 }
 
 /**
@@ -205,3 +210,34 @@
 .instagram {
     color: #c4302b;
 }
+
+/**
+ * GameDev Challenge
+ */
+.first-price {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.second-price {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.third-price {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.course-title {
+    font-weight: 800;
+}
+
+.video-available {
+    color: $blue-color;
+}
+
+.video-unavailable {
+    color: gray;
+}
+
