@@ -27,7 +27,8 @@ permalink: gamedev
 
             <div class="columns">
                 <div class="column has-text-centered">
-                    <iframe width="100%" height="700" src="https://www.youtube.com/embed/CgfvTfYmKV0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="100%" height="700" src="https://www.youtube.com/embed/CgfvTfYmKV0" frameborder="0"
+                            allowfullscreen></iframe>
                 </div>
             </div>
             <div class="columns has-text-centered">
@@ -71,11 +72,13 @@ permalink: gamedev
             <div class="tile is-parent is-12">
                 <article class="tile is-child notification is-warning has-text-centered">
                     <p class="title">
-                    <span class="icon is-large"><i class="fa fa-bullhorn"></i></span> <strong>Register Now in this Online Course</strong></p>
+                        <span class="icon is-large"><i class="fa fa-bullhorn"></i></span> <strong>Register Now in this
+                        Online Course</strong></p>
                     <p class="subtitle"><strong>And learn to build your own game!</strong></p>
                     <div class="content">
                         <p>The Course starts on May 30 2020!</p>
-                        <a class="button is-large is-danger register-button" target="_blank" href="https://bit.ly/LTSOnlineGameEB">
+                        <a class="button is-large is-danger register-button" target="_blank"
+                           href="https://bit.ly/LTSOnlineGameEB">
                             <span class="icon is-medium">
                                 <i class="fa fa-hand-o-right"></i>
                             </span>
@@ -102,26 +105,29 @@ permalink: gamedev
                 <div class="column">
                     <div class="content content-white">
                         <p>
-                            You are going to learn how to go from an idea to a <strong>finished 3D or 2D game</strong>, in just a few weeks!
+                            You are going to learn how to go from an idea to a <strong>finished 3D or 2D game</strong>,
+                            in just a few weeks!
                             That’s what we do at LTS in the class, and now we are also doing it <strong>online</strong>!
                         </p>
                         <p>
                             You will learn to code in a <strong>fun and practical</strong> way.
                             <strong>Game dynamics</strong> will not be a secret to you anymore.
-                            You will also get a taste of <strong>storytelling</strong> techniques, 
+                            You will also get a taste of <strong>storytelling</strong> techniques,
                             digital artwork and online <strong>teamworking</strong>!
                         </p>
                         <p>
                             You’ll also have access to <strong>Digital Coaches</strong> and to our LTS Online Community.
                         </p>
                         <p>
-                            And the best part is that it is <strong>100% free</strong> thanks to all our partners who support us and make this possible!
+                            And the best part is that it is <strong>100% free</strong> thanks to all our partners who
+                            support us and make this possible!
                         </p>
                     </div>
                 </div>
 
                 <div class="column has-text-centered">
-                    <img class="image" src="{{ site.github.url }}/images/gamedev/Gamedev_Challenge2020_Poster_HowTo.png" alt="">
+                    <img class="image" src="{{ site.github.url }}/images/gamedev/Gamedev_Challenge2020_Poster_HowTo.png"
+                         alt="">
                 </div>
 
             </div>
@@ -148,28 +154,29 @@ permalink: gamedev
 
         <table class="table is-striped">
             <thead>
-                <tr>
-                    <th>N°</th>
-                    <th>Lesson</th>
-                    <th>What is it about?</th>
-                    <th>Week</th>
-                </tr>
+            <tr>
+                <th>N°</th>
+                <th>Lesson</th>
+                <th>What is it about?</th>
+                <th>Week</th>
+            </tr>
             </thead>
             <tbody>
-                {% for gamedev_video in site.gamedev_videos_0_intro %}
-                <tr>
-                    <th>{{ forloop.index }}</th>
-                    {% if gamedev_video.link %}
-                    <td class="course-title">
-                        <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson }}</a>
-                    </td>
-                    {% else %}
-                    <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
-                    {% endif %}
-                    <td>{{ gamedev_video.content | markdownify }}</td>
-                    <td>Week {{gamedev_video.week}}</td>
-                </tr>
-                {% endfor %}
+            {% for gamedev_video in site.gamedev_videos_0_intro %}
+            <tr>
+                <th>{{ forloop.index }}</th>
+                {% if gamedev_video.link %}
+                <td class="course-title">
+                    <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson
+                        }}</a>
+                </td>
+                {% else %}
+                <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
+                {% endif %}
+                <td>{{ gamedev_video.content | markdownify }}</td>
+                <td>Week {{gamedev_video.week}}</td>
+            </tr>
+            {% endfor %}
             </tbody>
         </table>
 
@@ -184,28 +191,29 @@ permalink: gamedev
 
         <table class="table is-striped">
             <thead>
-                <tr>
-                    <th>N°</th>
-                    <th>Lesson</th>
-                    <th>What is it about?</th>
-                    <th>Week</th>
-                </tr>
+            <tr>
+                <th>N°</th>
+                <th>Lesson</th>
+                <th>What is it about?</th>
+                <th>Week</th>
+            </tr>
             </thead>
             <tbody>
-                {% for gamedev_video in site.gamedev_videos_1_firststeps %}
-                <tr>
-                    <th>{{ forloop.index }}</th>
-                    {% if gamedev_video.link %}
-                    <td class="course-title">
-                        <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson }}</a>
-                    </td>
-                    {% else %}
-                    <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
-                    {% endif %}
-                    <td>{{ gamedev_video.content | markdownify }}</td>
-                    <td>Week {{gamedev_video.week}}</td>
-                </tr>
-                {% endfor %}
+            {% for gamedev_video in site.gamedev_videos_1_firststeps %}
+            <tr>
+                <th>{{ forloop.index }}</th>
+                {% if gamedev_video.link %}
+                <td class="course-title">
+                    <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson
+                        }}</a>
+                </td>
+                {% else %}
+                <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
+                {% endif %}
+                <td>{{ gamedev_video.content | markdownify }}</td>
+                <td>Week {{gamedev_video.week}}</td>
+            </tr>
+            {% endfor %}
             </tbody>
         </table>
 
@@ -220,28 +228,29 @@ permalink: gamedev
 
         <table class="table is-striped">
             <thead>
-                <tr>
-                    <th>N°</th>
-                    <th>Lesson</th>
-                    <th>What is it about?</th>
-                    <th>Week</th>
-                </tr>
+            <tr>
+                <th>N°</th>
+                <th>Lesson</th>
+                <th>What is it about?</th>
+                <th>Week</th>
+            </tr>
             </thead>
             <tbody>
-                {% for gamedev_video in site.gamedev_videos_2_fastproto %}
-                <tr>
-                    <th>{{ forloop.index }}</th>
-                    {% if gamedev_video.link %}
-                    <td class="course-title">
-                        <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson }}</a>
-                    </td>
-                    {% else %}
-                    <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
-                    {% endif %}
-                    <td>{{ gamedev_video.content | markdownify }}</td>
-                    <td>Week {{gamedev_video.week}}</td>
-                </tr>
-                {% endfor %}
+            {% for gamedev_video in site.gamedev_videos_2_fastproto %}
+            <tr>
+                <th>{{ forloop.index }}</th>
+                {% if gamedev_video.link %}
+                <td class="course-title">
+                    <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson
+                        }}</a>
+                </td>
+                {% else %}
+                <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
+                {% endif %}
+                <td>{{ gamedev_video.content | markdownify }}</td>
+                <td>Week {{gamedev_video.week}}</td>
+            </tr>
+            {% endfor %}
             </tbody>
         </table>
 
@@ -256,44 +265,45 @@ permalink: gamedev
 
         <table class="table is-striped">
             <thead>
-                <tr>
-                    <th>N°</th>
-                    <th>Lesson</th>
-                    <th>What is it about?</th>
-                    <th>Week</th>
-                </tr>
+            <tr>
+                <th>N°</th>
+                <th>Lesson</th>
+                <th>What is it about?</th>
+                <th>Week</th>
+            </tr>
             </thead>
             <tbody>
-                {% for gamedev_video in site.gamedev_videos_3_sttp %}
-                <tr>
-                    <th>{{ forloop.index }}</th>
-                    {% if gamedev_video.link %}
-                    <td class="course-title">
-                        <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson }}</a>
-                    </td>
-                    {% else %}
-                    <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
-                    {% endif %}
-                    <td>{{ gamedev_video.content | markdownify }}</td>
-                    <td>Week {{gamedev_video.week}}</td>
-                </tr>
-                {% endfor %}
+            {% for gamedev_video in site.gamedev_videos_3_sttp %}
+            <tr>
+                <th>{{ forloop.index }}</th>
+                {% if gamedev_video.link %}
+                <td class="course-title">
+                    <a class="video-available" href="{{ gamedev_video.link }}" target="_blank">{{ gamedev_video.lesson
+                        }}</a>
+                </td>
+                {% else %}
+                <td class="course-title video-unavailable">{{ gamedev_video.lesson }}</td>
+                {% endif %}
+                <td>{{ gamedev_video.content | markdownify }}</td>
+                <td>Week {{gamedev_video.week}}</td>
+            </tr>
+            {% endfor %}
 
-                <tfoot>
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th>More coming soon</th>
-                        <th>&nbsp;</th>
-                        <th>&nbsp;</th>
-                    </tr>
-                </tfoot>
+            <tfoot>
+            <tr>
+                <th>&nbsp;</th>
+                <th>More coming soon</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+            </tr>
+            </tfoot>
 
             </tbody>
         </table>
 
     </div>
 </section>
-        
+
 
 <section id="gamedev-tiles" class="section">
     <div class="container">
@@ -318,12 +328,17 @@ permalink: gamedev
                             <li>You must create a socially conscious game by avoiding any discriminatory content (based
                                 on gender, age, ethnicity, sexual orientation, etc.)
                             </li>
-                            <li>Your team is allowed to spend a <strong>maximum of 100€ for third party assets</strong></li>
-                            <li>To register, you must be a <strong>high-school student</strong> aged between ~15 and ~20 years old.</li>
-                            <li>You can participare individually or as a team of maximum <strong>3 members</strong>.</li>
-                            <li>You can only be in on team.</li>
+                            <li>Your team is allowed to spend a <strong>maximum of 100€ for third party assets</strong>
+                            </li>
+                            <li>To register, you must be a <strong>high-school student</strong> aged between ~15 and ~20
+                                years old.
+                            </li>
+                            <li>You can participare individually or as a team of maximum <strong>3 members</strong>.
+                            </li>
+                            <li>You can only be in one team.</li>
                             <li>Your team must submit a <strong>Game Design Document (GDD)</strong></li>
-                            <li>By registering, you give us permission to use your game in LTS <strong>social media communications
+                            <li>By registering, you give us permission to use your game in LTS <strong>social media
+                                communications
                                 (videos and images)</strong> but <strong>you keep the copyright of your game</strong>
                             </li>
                         </ol>
@@ -364,7 +379,8 @@ permalink: gamedev
                                 </div>
                                 <br/>
                                 <p>
-                                    All 3 winners get an additional 1000€ to donate to an NGO of their choice which is helping
+                                    All 3 winners get an additional 1000€ to donate to an NGO of their choice which is
+                                    helping
                                     people affected by COVID-19.
                                 </p>
                                 <p>
