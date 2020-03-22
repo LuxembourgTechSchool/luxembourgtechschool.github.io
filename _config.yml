@@ -19,3 +19,11 @@ sendform_token: 36185a41482185052c0b891d07b59072
 
 # Build settings
 markdown: kramdown
+
+# https://jekyllrb.com/docs/collections/
+collections_dir: collections
+collections:
+    - gamedev_videos_0_intro
+    - gamedev_videos_1_firststeps
+    - gamedev_videos_2_fastproto
+    - gamedev_videos_3_sttp
