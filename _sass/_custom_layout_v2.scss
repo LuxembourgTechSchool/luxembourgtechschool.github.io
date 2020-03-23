@@ -1,8 +1,6 @@
-
 /**
  * General
  */
-
 
 
 /**
@@ -10,19 +8,19 @@
  */
 
 .content-white {
-    color: white;
+  color: white;
 }
 
 .bold-white {
 
-    strong {
-        color: white;
-    }
+  strong {
+    color: white;
+  }
 
 }
 
 .header-highlight {
-    color: #c4302b;
+  color: #c4302b;
 }
 
 /**
@@ -30,47 +28,61 @@
  */
 
 #lts-logo {
-    max-height: none;
+  max-height: none;
 }
 
 /**
  * Backgrounds
  */
 
- @mixin bg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    //background-attachment: fixed;
-    background-size: cover;
-  }
+@mixin bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
+  background-size: cover;
+}
 
 .bg-main {
-    background: linear-gradient(
-                     rgba(20,20,20, .4), 
-                     rgba(20,20,20, .4)), url(/images/bg_work-2.jpg);
-    @include bg;
+  background: linear-gradient(
+                  rgba(20, 20, 20, .4),
+                  rgba(20, 20, 20, .4)), url(/images/bg_work-2.jpg);
+  @include bg;
 }
 
 .bg-media {
-    background: url(/images/bg_media.jpg);
-    @include bg;
+  background: url(/images/bg_media.jpg);
+  @include bg;
 }
 
 .bg-team {
-    background: url(/images/bg_team.jpg);
-    @include bg;
+  background: url(/images/bg_team.jpg);
+  @include bg;
 }
 
 .bg-contact {
-    background: url(/images/bg_contact.jpg);
-    @include bg;
-    background-position: 20% 20%;
+  background: url(/images/bg_contact.jpg);
+  @include bg;
+  background-position: 20% 20%;
 }
 
 .bg-gamedev {
-    background: url(/images/bg_gamedev.jpg);
-    @include bg;
-    background-position: 20% 20%;
+  background: url(/images/bg_gamedev.jpg);
+  @include bg;
+  background-position: 20% 20%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /**
@@ -78,15 +90,15 @@
  */
 
 .lts-hero-title {
-    font-size: 3rem;
-    font-weight: 900;
-    text-shadow: #777777 0.2em 0.2em 0.5em;
-    margin-bottom: 80px;
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: #777777 0.2em 0.2em 0.5em;
+  margin-bottom: 80px;
 }
 
 .lts-hero-item {
-    font-weight: 600;
-    text-shadow: #777777 0.2em 0.2em 0.5em;
+  font-weight: 600;
+  text-shadow: #777777 0.2em 0.2em 0.5em;
 }
 
 
@@ -96,56 +108,56 @@
 
 .panel-custom {
 
-    width: 320px;
-    margin: auto;
+  width: 320px;
+  margin: auto;
 
-    .panel-block {
-        display: block;
-    }
+  .panel-block {
+    display: block;
+  }
 }
 
 .panel-custom-lvlup {
 
-    width: 450px;
-    margin: auto;
+  width: 450px;
+  margin: auto;
 
-    .panel-block {
-        display: block;
-    }
+  .panel-block {
+    display: block;
+  }
 }
 
 .panel-custom-blue {
-    border-color: $blue-color;
+  border-color: $blue-color;
 
-    > .panel-heading {
-        background-color: $blue-color;
-        color: white;
-        font-weight: 700;
-    }
+  > .panel-heading {
+    background-color: $blue-color;
+    color: white;
+    font-weight: 700;
+  }
 }
 
 .panel-custom-orange {
-    border-color: $orange-color;
+  border-color: $orange-color;
 
-    > .panel-heading {
-        background-color: $orange-color;
-        color: white;
-        font-weight: 700;
-    }
+  > .panel-heading {
+    background-color: $orange-color;
+    color: white;
+    font-weight: 700;
+  }
 }
 
 .panel-custom-green {
-    border-color: $green-color;
+  border-color: $green-color;
 
-    > .panel-heading {
-        background-color: $green-color;
-        color: white;
-        font-weight: 700;
-    }
+  > .panel-heading {
+    background-color: $green-color;
+    color: white;
+    font-weight: 700;
+  }
 }
 
 .panel-custom-footer {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 /**
@@ -153,29 +165,29 @@
  */
 
 #partners {
-    img {
-        max-height: 100px;
-        margin: 20px auto;
-    }
+  img {
+    max-height: 100px;
+    margin: 20px auto;
+  }
 }
 
 /**
  * Team Content
  */
 
- #team {
-     .card-profile-image {
-         width: 200px;
-         margin: auto;
-     }
- }
+#team {
+  .card-profile-image {
+    width: 200px;
+    margin: auto;
+  }
+}
 
 /**
 * Register Box
 */
 
 .register-button {
-    width: 100%;
+  width: 100%;
 }
 
 
@@ -184,7 +196,7 @@
 */
 
 .media-title {
-    min-height: 55px;    
+  min-height: 55px;
 }
 
 /**
@@ -192,52 +204,52 @@
 */
 
 .github {
-    color: #333;
+  color: #333;
 }
 
 .twitter {
-    color: #55acee;
+  color: #55acee;
 }
 
 .facebook {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .youtube {
-    color: #c4302b;
+  color: #c4302b;
 }
 
 .instagram {
-    color: #c4302b;
+  color: #c4302b;
 }
 
 /**
  * GameDev Challenge
  */
 .first-price {
-    font-weight: 600;
-    font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .second-price {
-    font-weight: 500;
-    font-size: 2rem;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .third-price {
-    font-weight: 400;
-    font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .course-title {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .video-available {
-    color: $blue-color;
+  color: $blue-color;
 }
 
 .video-unavailable {
-    color: gray;
+  color: gray;
 }
 
