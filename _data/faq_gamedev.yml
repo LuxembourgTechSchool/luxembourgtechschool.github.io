@@ -1,0 +1,89 @@
+- question: How do I register my team?
+  answer: Right now, you have to register to the course itself. Team registration will be opened after March 30.
+
+- question: Can I create my own team?
+  answer: Yes, you have to create your team. Everyone in the team must register to the course.
+
+- question: What if I do not have a team?
+  answer: You can still participate to the challenge. We can also help you make or join a team. This is what the LTS Community is about.
+
+- question: When do we need to submit our game proposal / game design document ?
+  answer: You have to submit both, your game and your game design document before the 16th of May 2020 at 22h00.
+
+- question: Which script editor would you recommend? 
+  answer: Visual Studio Community Edition works very nicely with Unity, but is heavier. Visual Studio Code is lightweight but requires a few more steps to set up (https://code.visualstudio.com/docs/other/unity).
+
+- question: Will there be replays of the live sessions? 
+  answer: Yes, you can find the replays in Teams -> General -> Files.
+
+- question: How should we submit the Game? How do we submit our file (game) and where? 
+  answer: You will get the submission steps by email about 2 weeks before the deadline.
+
+- question: What are the assessment criteria for the game? 
+  answer: Games are evaluated based on the idea, gameplay, implementation, graphics and teamwork.
+
+- question: Considering we will all be working online how will you assess teamwork?
+  answer: We will have seperate calls with the different teams.
+
+- question: In which format should we write the Game Design Document (GDD)?
+  answer: You can choose any software you want. We just need a PDF version at the end.
+
+- question: How can you do your own design if you dont have Adobe Illustrator or Photoshop?
+  answer: We will provide a list of free software that will allow you create all the art you need (2D and 3D). If you have a @school.lu email, you actually have free access to Adobe Photoshop.
+
+- question: Is it possible to be in a group of 2 and receive external help?
+  answer: Coaches will be at your disposal whenever you need them, regardless of your team size. You will also have the occasion to find other students to join your team.
+
+- question: Could you explain the theme a bit better?
+  answer: The theme is called "Lost and Found". You can interpret it literally, as finding something/someone that got lost (like in Finding Nemo) or more abstract/deep like finding the meaning of life. You are free to use the theme as you please.
+
+- question: Can the game be multiplayer?
+  answer: Multiplayer on the same device? Yes. Multiplayer online? This is a lot more work and there might not be enough time. You can replace the "online" aspect with NPC's (Non-Player Characters)
+
+- question: Can the game be an online game? And what about a browser game?
+  answer: Online games are harder to develop, but a browser game could be more feasible.
+
+- question: What platform is our game supposed to be developed for?
+  answer: You can build for any platform, but we recommend for Desktops (Windows or MacOS). 
+
+- question: How will you rate the teamwork when someone works alone? 
+  answer: No one is penalised by teamwork, but great teamwork is appreciated and rewarded with extra points.
+
+- question: Is there any sort of advantage/disadvantage in being in a group rather than alone?
+  answer: This is subjective, it depends on you. But if you are alone, you can always join another group if you wish.
+
+- question: How much C# knowledge do we need?
+  answer: Not much, you can learn a lot from the tutorials and ask the coaches for support at all times.
+
+- question: Are there any limits to the assets we can use in our game from the Unity Asset Store?
+  answer: Yes, the limit is $100. If you already own paid assets, they count as well in the limit. Discounted assets are counted at their discounted price and not full price.
+
+- question: Can I put animals, magic animals and monster?
+  answer: Sure!
+
+- question: Can we make a 2D game?
+  answer: Sure! In our website you will also find tutorials for 2D games.
+
+- question: Are we expected to do everything from scratch or can we use pre-existing non-copyrighted sprites and art?
+  answer: You can use pre-existing non-copyrighted sprites and art as well as create your own.
+
+- question: While we are developing the game, do we have to develop it with only what we learned during the online course, or can we also develop with previous knowledge we had before the online course?
+  answer: Of course, you can use your previous knowledge. There are no limits.
+
+- question: Is there any evaluation difference between a 2D game and a 3D game?; like 3D games get more points than 2D...
+  answer: No. The style have no impact in the evaluation.
+
+- question: Are we allowed to reuse other game ideas?
+  answer: You can always get inspired in other game ideas and reuse some of them while keeping your personal touch.
+
+- question: Where will the videos be published?
+  answer: In the Game Development section of this website.
+
+- question: Are we allowed to use a game we made in last year's game module if it was made with Unity?
+  answer: You need to create a new one :)
+
+- question: Does a person with little game dev knowledge have a chance to win? 
+  answer: We try to make is as easy and accessible as possible for any level. Coaches are also there to help. We are basically "free" team members.
+
+- question: Can people still sign up for the course after it has started?
+  answer: You can sign up until 4th of April.
