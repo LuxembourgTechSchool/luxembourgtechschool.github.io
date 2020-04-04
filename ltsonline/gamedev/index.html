@@ -200,6 +200,14 @@ permalink: gamedev
             </thead>
             <tbody>
             {% for gamedev_video in site.gamedev_videos_1_firststeps %}
+                {% if week_number == null %}
+                    {% assign week_number = gamedev_video.week %}
+                {% endif %}
+                {% if week_number != gamedev_video.week %}
+                    <tr>
+                        <td colspan="5" class="table-row-separator"></td>
+                    </tr>
+                {% endif %}
             <tr>
                 <th>{{ forloop.index }}</th>
                 {% if gamedev_video.link %}
@@ -213,6 +221,7 @@ permalink: gamedev
                 <td>{{ gamedev_video.content | markdownify }}</td>
                 <td>Week {{gamedev_video.week}}</td>
             </tr>
+                {% assign week_number = gamedev_video.week %}
             {% endfor %}
             </tbody>
         </table>
