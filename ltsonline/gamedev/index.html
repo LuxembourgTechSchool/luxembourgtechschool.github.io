@@ -35,27 +35,23 @@ permalink: gamedev
 
 
                 <div class="column">
-                    <img src="{{ site.github.url }}/images/gamedev/icon-unity.png" alt=""
-                         height="150">
+                    <img src="{{ site.github.url }}/images/gamedev/icon-unity.png" height="150" class="icon150">
                     <h2 class="title lts-hero-item-no-shadow">Learn</h2>
                     <h3 class="subtitle lts-hero-item-no-shadow">Unity - the popular game engine</h3>
                 </div>
                 <div class="column">
-                    <img src="{{ site.github.url }}/images/gamedev/icon-game.png" alt=""
-                         height="150">
+                    <img src="{{ site.github.url }}/images/gamedev/icon-game.png" height="150" class="icon150">
                     <h2 class="title lts-hero-item-no-shadow">Create</h2>
                     <h3 class="subtitle lts-hero-item-no-shadow">your own game</h3>
                 </div>
 
                 <div class="column">
-                    <img src="{{ site.github.url }}/images/gamedev/icon-community.png" alt=""
-                         height="150">
+                    <img src="{{ site.github.url }}/images/gamedev/icon-community.png" height="150" class="icon150">
                     <h2 class="title lts-hero-item-no-shadow">Join</h2>
                     <h3 class="subtitle lts-hero-item-no-shadow">the LTS Community</h3>
                 </div>
                 <div class="column">
-                    <img src="{{ site.github.url }}/images/gamedev/icon-trophy.png" alt=""
-                         height="150">
+                    <img src="{{ site.github.url }}/images/gamedev/icon-trophy.png" height="150" class="icon150">
                     <h2 class="title lts-hero-item-no-shadow">Compete</h2>
                     <h3 class="subtitle lts-hero-item-no-shadow">for great prizes</h3>
                 </div>
@@ -141,8 +137,7 @@ permalink: gamedev
                 </div>
 
                 <div class="column has-text-centered">
-                    <img class="image" src="{{ site.github.url }}/images/gamedev/Gamedev_Challenge2020_Poster_HowTo.png"
-                         alt="">
+                    <img class="image" src="{{ site.github.url }}/images/gamedev/Gamedev_Challenge2020_Poster_HowTo.png">
                 </div>
 
             </div>
@@ -154,7 +149,7 @@ permalink: gamedev
 <section class="section">
     <div class="container">
 
-        <h1 class="title has-text-centered">
+        <h1 class="title has-text-centered lts-program-title">
             <strong>LEARNING PROGRAM</strong>
         </h1>
 
@@ -167,7 +162,7 @@ permalink: gamedev
             </div>
         </section>
 
-        <table class="table is-striped">
+        <table class="table is-striped is-fullwidth">
             <thead>
             <tr>
                 <th>N°</th>
@@ -204,7 +199,7 @@ permalink: gamedev
             </div>
         </section>
 
-        <table class="table is-striped">
+        <table class="table is-striped is-fullwidth">
             <thead>
             <tr>
                 <th>N°</th>
@@ -250,7 +245,7 @@ permalink: gamedev
             </div>
         </section>
 
-        <table class="table is-striped">
+        <table class="table is-striped is-fullwidth">
             <thead>
             <tr>
                 <th>N°</th>
@@ -287,7 +282,7 @@ permalink: gamedev
             </div>
         </section>
 
-        <table class="table is-striped">
+        <table class="table is-striped is-fullwidth">
             <thead>
             <tr>
                 <th>N°</th>
@@ -332,13 +327,13 @@ permalink: gamedev
 <section id="gamedev-tiles" class="section">
     <div class="container">
 
-        <h1 class="title has-text-centered">
+        <h1 class="title has-text-centered lts-program-title">
             <strong>THE CHALLENGE</strong>
         </h1>
 
         <div class="tile is-ancestor">
             <div class="tile is-parent is-6">
-                <article class="tile is-child notification is-info bold-white">
+                <article class="tile is-child notification">
                     <p class="title"><strong>RULES</strong></p>
                     <div class="content">
                         <ol class="content content-white">
@@ -378,14 +373,14 @@ permalink: gamedev
 
                     <div class="tile is-parent is-vertical">
 
-                        <article class="tile is-child notification is-success bold-white">
+                        <article class="tile is-child notification">
                             <p class="title"><strong>THEME FOR 2020</strong></p>
                             <div class="content">
                                 <h2><strong>Lost &amp; Found</strong></h2>
                             </div>
                         </article>
 
-                        <article class="tile is-child notification is-danger bold-white">
+                        <article class="tile is-child notification">
                             <p class="title">
                                 <span class="icon is-large"><i class="fa fa-trophy"></i></span>
                                 <strong>PRIZES</strong>
@@ -444,7 +439,7 @@ permalink: gamedev
         <br>
         {% for qa in site.data.faq_gamedev %}
         <h3 class="title">{{qa.question}}</h3>
-        <h6 class="subtitle is-6">{{qa.answer}}</h6>
+        <div class="content">{{qa.answer}}</div>
         <hr>
         {% endfor %}
     </div>
