@@ -37,6 +37,12 @@ $orange-color: 		#E67233;
 $blue-color: 		#4183D7;
 $darkblue-color:	#34495E;
 
+// Fonts
+$font-title: 'Changa One', cursive;
+
+// Bulma Overwrite
+$family-sans-serif: 'Roboto Slab', serif;
+
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -52,7 +58,8 @@ $darkblue-color:	#34495E;
 }
 
 @import
-	"custom_layout_v2"
+    "bulma",
+    "custom_layout_v2"
 ;
 
 

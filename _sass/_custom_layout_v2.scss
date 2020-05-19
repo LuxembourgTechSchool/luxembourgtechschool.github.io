@@ -2,7 +2,6 @@
  * General
  */
 
-
 /**
  * Coloring
  */
@@ -23,12 +22,30 @@
   color: #c4302b;
 }
 
+
+
+/**
+* Custom fonts (title and texts)
+*/
+
+.lts-title {
+  font-family: $font-title;
+}
+
+.title, .subtitle {
+  font-family: $font-title;
+}
+
+.tile > .title, .tile > .subtitle {
+  color: $blue-color;
+}
+
 /**
  * Navigation
  */
 
 #lts-logo {
-  max-height: none;
+  max-height: 50px;
 }
 
 /**
@@ -106,6 +123,10 @@
  * Program Content
  */
 
+.lts-program-title {
+  font-size: 3rem;
+}
+
 .panel-custom {
 
   width: 320px;
@@ -126,13 +147,18 @@
   }
 }
 
+@mixin lts-panel-heading {
+  color: white;
+  font-weight: 700;
+  font-size:  2rem;
+}
+
 .panel-custom-blue {
   border-color: $blue-color;
 
   > .panel-heading {
+    @include lts-panel-heading;
     background-color: $blue-color;
-    color: white;
-    font-weight: 700;
   }
 }
 
@@ -140,9 +166,8 @@
   border-color: $orange-color;
 
   > .panel-heading {
+    @include lts-panel-heading;
     background-color: $orange-color;
-    color: white;
-    font-weight: 700;
   }
 }
 
@@ -150,9 +175,8 @@
   border-color: $green-color;
 
   > .panel-heading {
+    @include lts-panel-heading;
     background-color: $green-color;
-    color: white;
-    font-weight: 700;
   }
 }
 
@@ -303,4 +327,12 @@
 
 .img-in-text-left {
     margin-right: 5%;
+}
+
+.icon150 {
+  height: 150px;
+}
+
+.icon300 {
+  height: 300px;
 }
