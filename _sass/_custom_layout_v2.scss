@@ -90,6 +90,11 @@
   background-position: 20% 20%;
 }
 
+.bg-register {
+  background: url(/images/bg_register.jpg);
+  @include bg;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -139,7 +144,7 @@
   }
 }
 
-.panel-custom-lvlup {
+.panel-custom-large {
 
   width: 450px;
   margin: auto;
