@@ -64,34 +64,41 @@
 .bg-main {
   background: linear-gradient(
                   rgba(20, 20, 20, .4),
-                  rgba(20, 20, 20, .4)), url(/images/bg_work-2.jpg);
+                  rgba(20, 20, 20, .4)), url(/images/bg/bg_work-2.jpg);
   @include bg;
 }
 
 .bg-media {
-  background: url(/images/bg_media.jpg);
+  background: url(/images/bg/bg_media.jpg);
   @include bg;
 }
 
 .bg-team {
-  background: url(/images/bg_team.jpg);
+  background: url(/images/bg/bg_team.jpg);
   @include bg;
 }
 
 .bg-contact {
-  background: url(/images/bg_contact.jpg);
+  background: url(/images/bg/bg_contact.jpg);
   @include bg;
   background-position: 20% 20%;
 }
 
 .bg-gamedev {
-  background: url(/images/bg_gamedev.jpg);
+  background: url(/images/bg/bg_gamedev.jpg);
   @include bg;
   background-position: 20% 20%;
 }
 
 .bg-register {
-  background: url(/images/bg_register.jpg);
+  background: url(/images/bg/bg_register.jpg);
+  @include bg;
+}
+
+.bg-jobs {
+  background: linear-gradient(
+                  rgba(20, 20, 20, .4),
+                  rgba(20, 20, 20, .4)), url(/images/bg/bg_jobs.jpg);
   @include bg;
 }
 
@@ -113,16 +120,22 @@
  * Home Page
  */
 
+.lts-main-hero {
+  color: white;
+}
+
 .lts-hero-title {
   font-size: 3rem;
   font-weight: 900;
   text-shadow: #777777 0.2em 0.2em 0.5em;
   margin-bottom: 80px;
+  color:white;
 }
 
 .lts-hero-item {
   font-weight: 600;
   text-shadow: #777777 0.2em 0.2em 0.5em;
+  color:white;
 }
 
 
