@@ -1,0 +1,64 @@
+- title: '#4 YEAR - 2019/2020'
+  videos:
+    - title: 'AstroPi Workshop at SES - 2019'
+      link: https://www.youtube.com/embed/UigzOSB7RgM
+    - title: 'LTS Mission 1 at University of Luxembourg, SNT - 2020'
+      link: https://www.youtube.com/embed/H35v6eCdIGg
+    - title: 'GameDev Module: Creativity Unleashed - 2020'
+      link: https://www.youtube.com/embed/9z6v8O2lO4k
+
+- title: '#3 YEAR - 2018/2019'
+  videos:
+    - title: 'AstroPi Workshop at University of Luxembourg - 2018'
+      link: https://www.youtube.com/embed/H35v6eCdIGg
+    - title: 'GameDev Module: Pitch &amp; Showcase at Lycée des Arts et Métiers - 2019'
+      link: https://www.youtube.com/embed/6nzQzaz_asQ
+    - title: 'Design & Coding HACKATHON to Benefit Society! @ University of Luxembourg - 2019'
+      link: https://www.youtube.com/embed/LEj-qwGIhpo
+    - title: 'Hackathon with Foyer on Wearable Insurance - 2019'
+      link: https://www.youtube.com/embed/DF7YFRTPxN8
+    - title: 'Big Data Module: Value Digital Skills at ICT Spring - 2019'
+      link: https://www.youtube.com/embed/veRH5apD0j4
+    - title: 'Cybersecurity Workshop - 2019'
+      link: https://www.youtube.com/embed/lje35MjdjuQ
+    - title: 'FinTech Module: Top 4 Tips for Great Teamwork - 2019'
+      link: https://www.youtube.com/embed/_iFEQ5OrK-I
+    - title: 'LTS Graduation - 2019'
+      link: https://www.youtube.com/embed/eJUpE-ixJC4
+
+- title: '#2 YEAR - 2017/2018'
+  videos:
+    - title: 'Game Dev Module: Pitch &amp; Showcase at Technoport - 2018'
+      link: https://www.youtube.com/embed/n7Oa_860g2I
+
+    - title: 'Level Up, AI4Finance Module: 48H Hackathon at PwC - 2018'
+      link: https://www.youtube.com/embed/P4dYWUR4W14
+
+    #- title: 'Workshop on Tomorrow's Public Service Delivery at ICT Spring - 2018 (&copy; <a href="http://www.fonction-publique.public.lu" target="_blank">Ministère de la Fonction Publique</a>)'
+    #  link: /assets/ICTSpring2018-Workshop.mp4
+    #  poster: /images/ICTSpring2018-VideoPoster.png
+    #  isYouTube: false
+
+    - title: 'FinTech Module: Hackathon at LHoFT - 2018'
+      link: https://www.youtube.com/embed/uYWHjqD_pPA
+
+
+- title: '#1 YEAR - 2016/2017'
+  videos:
+    - title: 'Game Dev Module: Pitch &amp; Showcase at Technoport - 2017'
+      link: https://www.youtube.com/embed/cV6FHH4ReEA
+
+    - title: 'Big Data Module: Performance at ICT Spring Gala Dinner'
+      link: https://www.youtube.com/embed/OeSwrakxfvI
+
+    - title: 'FinTech Module: Hackathon at LHoFT'
+      link: https://www.youtube.com/embed/tEAieWPrFn8
+
+    #- title: 'Meet Julie, a Future Digital Leader (&copy; <a href="https://digital-luxembourg.public.lu" target="_blank">Digital Luxembourg</a>)'
+    #  link: /assets/Julie Pompignoli_Geek-to-be_Lux-Tech-School.mp4
+    #  poster: null
+    #  isYouTube: false
+
+    - title: 'Checkout what happened in 1 year!'
+      link: https://www.youtube.com/embed/BpHzsrJK9fA
+                
