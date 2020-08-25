@@ -65,38 +65,22 @@
           Get in touch
         </a>
 
+        {% if site.registration.isOpen %}
         <a class="navbar-item" href="/register">
           <span class="tag is-danger"><strong>Register Here</strong></span>
         </a>
+        {% endif %}
         
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item" href="https://github.com/LuxembourgTechSchool" target="_blank">
-          <span class="icon github">
-            <i class="fa fa-github"></i>
+        {% for item in site.data.social %}
+        <a class="navbar-item" href="{{item.url}}" target="_blank">
+          <span class="{{item.class}}">
+            <i class="{{item.icon}}"></i>
           </span>
         </a>
-        <a class="navbar-item" href="https://twitter.com/LuxTechSchool" target="_blank">
-          <span class="icon twitter">
-            <i class="fa fa-twitter"></i>
-          </span>
-        </a>
-        <a class="navbar-item" href="https://www.facebook.com/LuxTechSchool/" target="_blank">
-          <span class="icon facebook">
-            <i class="fa fa-facebook"></i>
-          </span>
-        </a>
-        <a class="navbar-item" href="https://www.youtube.com/channel/UCQ06napTcxCkFFuhxCyUNLw" target="_blank">
-          <span class="icon youtube">
-            <i class="fa fa-youtube"></i>
-          </span>
-        </a>
-        <a class="navbar-item" href="https://www.instagram.com/luxtechschool/" target="_blank">
-          <span class="icon instagram">
-            <i class="fa fa-instagram"></i>
-          </span>
-        </a>
+        {% endfor %}
       </div>
     </div>
   </nav>

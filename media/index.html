@@ -21,207 +21,22 @@ permalink: media
 
 <!-- https://www.youtube.com/embed/UigzOSB7RgM -->
 
+{% for year in site.data.media %}
 <section id="media" class="section">
     <div class="container">
         <h1 class="title">
-            <strong>#4 YEAR - 2019/2020</strong>
+            <strong>{{year.title}}</strong>
         </h1>
 
-        <div class="columns">
+        {% for video in year.videos %}
             <div class="column">
-                <p class="content media-title">AstroPi Workshop at SES - 2019</p>
+                <p class="content media-title">{{video.title}}</p>
                 <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/UigzOSB7RgM" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="100%" height="372" src="{{video.link}}" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="column">
-                <p class="content media-title">LTS Mission 1 at University of Luxembourg, SNT - 2020</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/H35v6eCdIGg" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">GameDev Module: Creativity Unleashed - 2020</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/9z6v8O2lO4k" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                &nbsp;
-            </div>
-        </div>
+        {% endfor%}
 
     </div>
 </section>
-
-<section id="media" class="section">
-    <div class="container">
-        <h1 class="title">
-            <strong>#3 YEAR - 2018/2019</strong>
-        </h1>
-        <!--<h2 class="subtitle"></h2>-->
-        <div class="columns">
-
-            <div class="column">
-                <p class="content media-title">AstroPi Workshop at University of Luxembourg - 2018</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/_zm3SSDpyV8" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">GameDev Module: Pitch &amp; Showcase at Lycée des Arts et Métiers - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/6nzQzaz_asQ" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">Design & Coding HACKATHON to Benefit Society! @ University of Luxembourg - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/LEj-qwGIhpo" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">Hackathon with Foyer on Wearable Insurance - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/DF7YFRTPxN8" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">Big Data Module: Value Digital Skills at ICT Spring - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/veRH5apD0j4" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">Cybersecurity Workshop - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/lje35MjdjuQ" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">FinTech Module: Top 4 Tips for Great Teamwork - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/_iFEQ5OrK-I" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">LTS Graduation - 2019</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/eJUpE-ixJC4" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section id="media" class="section">
-    <div class="container">
-        <h1 class="title">
-            <strong>#2 YEAR - 2017/2018</strong>
-        </h1>
-        <!--<h2 class="subtitle"></h2>-->
-        <div class="columns">
-
-            <div class="column">
-                <p class="content media-title">Game Dev Module: Pitch &amp; Showcase at Technoport - 2018</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/n7Oa_860g2I" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">Level Up, AI4Finance Module: 48H Hackathon at PwC - 2018</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/P4dYWUR4W14" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">Workshop on Tomorrow's Public Service Delivery at ICT Spring - 2018 (&copy; <a href="http://www.fonction-publique.public.lu" target="_blank">Ministère de la Fonction Publique</a>)</p>
-                <div class="content has-text-centered">
-                    <video class="responsive-video" controls poster="{{ site.github.url }}/images/ICTSpring2018-VideoPoster.png">
-                        <source src="{{ site.github.url }}/assets/ICTSpring2018-Workshop.mp4" type="video/mp4">
-                        Sorry, your browser does not support HTML5 videos.
-                    </video>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">FinTech Module: Hackathon at LHoFT - 2018</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/uYWHjqD_pPA" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</section>
-    
-
-<section id="media" class="section">
-    <div class="container">
-        <h1 class="title">
-            <strong>#1 YEAR - 2016/2017</strong>
-        </h1>
-        <!--<h2 class="subtitle"></h2>-->
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">Game Dev Module: Pitch &amp; Showcase at Technoport - 2017</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/cV6FHH4ReEA" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">Big Data Module: Performance at ICT Spring Gala Dinner</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/OeSwrakxfvI" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">FinTech Module: Hackathon at LHoFT</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/tEAieWPrFn8" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                <p class="content media-title">Meet Julie, a Future Digital Leader (&copy; <a href="https://digital-luxembourg.public.lu" target="_blank">Digital Luxembourg</a>)</p>
-                <div class="content has-text-centered">
-                    <video class="responsive-video" controls>
-                        <source src="{{ site.github.url }}/assets/Julie Pompignoli_Geek-to-be_Lux-Tech-School.mp4"  type="video/mp4">
-                        Sorry, your browser does not support HTML5 videos.
-                    </video>
-                </div>
-            </div>
-        </div>
-        <div class="columns">
-            <div class="column">
-                <p class="content media-title">Checkout what happened in 1 year!</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="https://www.youtube.com/embed/BpHzsrJK9fA" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="column">
-                &nbsp;
-            </div>
-        </div>
-
-    </div>
-</section>
+{% endfor %}

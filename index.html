@@ -2,39 +2,6 @@
 layout: default
 ---
 
-<!--<section class="hero is-info is-fullheight bg-main">
-  <div class="hero-body">
-    <div class="container">
-      
-      <div class="columns">
-        <div class="column has-text-centered">
-          <h1 class="title lts-hero-title">The Tech School you were waiting for!</h1>
-        </div>
-      </div>
-
-      <div class="columns has-text-centered">
-
-        <div class="column">
-          <a href="#techschool"><img src="{{ site.github.url }}/images/icon-leader-2.png" alt="" width="200"></a>
-          <h1 class="title lts-hero-item">Build<h1>
-          <h2 class="subtitle lts-hero-item">The Leader In You</h2>
-        </div>
-        <div class="column">
-          <a href="#program"><img src="{{ site.github.url }}/images/icon-terminal-2.png" alt="" width="200"></a>
-          <h1 class="title lts-hero-item">Learn<h1>
-          <h2 class="subtitle lts-hero-item">The Latest Technologies</h2>
-        </div>
-        <div class="column">
-          <a href="#howitworks"><img src="{{ site.github.url }}/images/icon-graph-2.png" alt="" width="200"></a>
-          <h1 class="title lts-hero-item">Grow<h1>
-          <h2 class="subtitle lts-hero-item">Your Business Knowledge</h2>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>-->
-
 <section class="hero is-fullheight video">
 	<div class="hero-video">
 		<video class="responsive-video" poster="{{ site.github.url }}/images/bg/bg_video-supertrailer.jpg" playsinline autoplay muted loop>
@@ -73,6 +40,7 @@ layout: default
 <section id="techschool" class="section">
   <div class="container">
     
+    {% if site.registration.isOpen %}
     <div class="tile is-ancestor">
       <div class="tile is-parent is-12">
         <article class="tile is-child notification is-warning has-text-centered">
@@ -81,19 +49,20 @@ layout: default
             <div class="content">
               <p>The <strong>deadline is June 26th</strong>! Classes start in September!</p>
 
-              <a class="button is-large is-danger register-button" target="_blank" href="https://bit.ly/LTS2021">
+              <a class="button is-large is-danger register-button" target="_blank" href="{{site.registration.link_lvlone}}">
                   <span class="icon is-medium">
-                    <i class="fa fa-hand-o-right"></i>
+                    <i class="fr fa-hand-point-right"></i>
                   </span>
                   <span class="lts-title">I WANT TO REGISTER NOW</span>
                   <span class="icon is-medium">
-                      <i class="fa fa-hand-o-left"></i>
+                      <i class="fr fa-hand-point-left"></i>
                     </span>
                 </a>
             </div>
         </article>
       </div>
     </div>
+    {% endif %}
 
     <div class="tile is-ancestor is-vertical">
 
@@ -185,10 +154,6 @@ layout: default
 
       </div>
 
-      <div class="tile">
-        
-      </div>
-
 
     </div>
 
@@ -197,7 +162,7 @@ layout: default
       <div class="tile">
         <div class="tile is-parent is-6">
           <article class="tile is-child notification">
-            <p class="title"><strong>LTS LEVEL UP</strong> <span class="icon is-large"><i class="fa fa-level-up"></i></span></p>
+            <p class="title"><strong>LTS LEVEL UP</strong> <span class="icon is-large"><i class="fas fa-rocket"></i></span></p>
             <p class="subtitle">The adventure continues</p>
             <div class="content">
               <p>With more than <strong>83% of positive feedback</strong>, many students asked us: <br>"What about next year? What is the plan?".</p>
@@ -207,13 +172,13 @@ layout: default
         </div>
         <div class="tile is-parent is-6">
           <article class="tile is-child notification">
-            <p class="title"><strong>LTS LEVEL GO</strong> <span class="icon is-large"><i class="fa fa-arrow-circle-right"></i></span></p>
+            <p class="title"><strong>LTS LEVEL GO</strong> <span class="icon is-large"><i class="far fa-play-circle"></i></span></p>
             <p class="subtitle">One more level</p>
             <div class="content">
               <p>This new program is for children aged <strong>11 - 14 years old</strong>. You will create your own <strong>animated digital art</strong>! At the same time, you will learn the basics of coding, how computers work and tinker with materials and objects.</p>
 
               <p>The classes are weekly and will be in <strong>German/Luxemburgish and English.</strong></p>
-              <p><a class="button is-danger" href="/register">Register here</a></p>
+              {% if site.registration.isOpen %}<p><a class="button is-danger" href="/register">Register here</a></p>{% endif %}
             </div>
           </article>
         </div>

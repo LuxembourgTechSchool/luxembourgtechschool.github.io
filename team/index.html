@@ -22,280 +22,37 @@ permalink: team
 
 <section id="team" class="section">
   <div class="container">
-    <!-- 1. row -->
-    <div class="columns is-multiline">
-      <div class="column">
-
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/sergio.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Sergio Coronado</p>
-                <p class="subtitle is-6">The guy making things happen</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves learning everyday, teaches and manages all kinds of stuff. He also started LTS.
-              <br>
-              <a href="https://twitter.com/drscoronado" target="_blank">
-                <span class="icon twitter"><i class="fa fa-twitter"></i></span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="column">
-
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/ralph.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Ralph Marschall</p>
-                <p class="subtitle is-6">The one on the videos</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves software and creates lots of teaching content. He also designs stuff.
-              <br>
-              <a href="https://twitter.com/RalphMarschall" target="_blank">
-                <span class="icon twitter">
-                  <i class="fa fa-twitter"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="column">
-
-        <div class="card">
-          <div class="card-image has-text-centered">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/anush.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Anush Manukyan</p>
-                <p class="subtitle is-6">The feminine A.I. touch</p>
-              </div>
-            </div>
-
-            <div class="content">
-              She loves making robots super smart and teaches things to students. She also creates cool content.
-              <br>
-              <a href="https://twitter.com/Anush_Manukyan" target="_blank">
-                <span class="icon twitter"><i class="fa fa-twitter"></i></span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="column">
-
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/christophe.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Christophe Trefois</p>
-                <p class="subtitle is-6">The guy living in the terminal</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves sharing knowledge and handles the teaching platform. He also solves technical issues.
-              <br>
-              <a href="https://twitter.com/Trefex" target="_blank">
-                <span class="icon twitter"><i class="fa fa-twitter"></i></span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- 2. row -->
-    <div class="columns is-multiline">
-
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/rocio.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Rocio Lopez Perez</p>
-                <p class="subtitle is-6">The c.o.d.e. machine</p>
-              </div>
-            </div>
-
-            <div class="content">
-              She loves creating educational chatbots and working with students to realize their projects. Her passion is to educate the younger generations.
-              <br>
-              <a href="https://twitter.com/RocioLoperez" target="_blank">
-                <span class="icon twitter"><i class="fa fa-twitter"></i></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/filipe.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Filipe Costa Pinto</p>
-                <p class="subtitle is-6">Innovation addict</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves to create, educate and is fascinated by innovation.
-              <br>
-              <!--TODO Social-->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
+    
+    {% for member in site.data.team_members %}
+      {% cycle '<div class="columns is-multiline">', '', '', '' %}
+        <div class="column is-3">
+          <div class="card">
             <div class="card-image">
               <figure class="image card-profile-image">
-                <img src="{{ site.github.url }}/images/team/sara.png" alt="">
+                <img src="{{ site.github.url }}{{member.image}}" alt="">
               </figure>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Sara Kaiser</p>
-                  <p class="subtitle is-6">The STEAM pro</p>
+                  <p class="title is-4">{{member.name}}</p>
+                  <p class="subtitle is-6">{{member.title}}</p>
                 </div>
               </div>
 
               <div class="content">
-                She loves to bring arts, humanities and creativity into technology. She encourages young people to explore the world with open minds and to create colorful and meaningful experiences.
-                <br>
-                <a href="https://twitter.com/sakaiser" target="_blank">
-                  <span class="icon twitter"><i class="fa fa-twitter"></i></span>
+                {{member.description}}
+                {% if member.twitter %}<br>
+                <a href="{{member.twitter}}" target="_blank">
+                  <span class="icon twitter"><i class="fab fa-twitter"></i></span>
                 </a>
+                {% endif %}
               </div>
-            </div>
-          </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/georges.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Georges Jentgen</p>
-                <p class="subtitle is-6">Living in the clouds</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves software with a special focus on UX, front-end solutions, web and mobile app development. All connected to the clouds, obviously.
-              <br>
-              <a href="https://twitter.com/polysign" target="_blank">
-                <span class="icon twitter"><i class="fa fa-twitter"></i></span>
-              </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- 2. row -->
-    <div class="columns is-multiline">
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/melvyn.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Melvyn Mainini</p>
-                <p class="subtitle is-6">Maths runs through his veins</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves logic AND geometry AND everything else about mathematics.
-              <br>
-              <!-- SOCIAL -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image card-profile-image">
-              <img src="{{ site.github.url }}/images/team/valentin.png" alt="">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Valentin Grouès</p>
-                <p class="subtitle is-6">The Software Ninja.</p>
-              </div>
-            </div>
-
-            <div class="content">
-              He loves technology, programming and obviously Software!
-              <br>
-            </div>
-          </div>
-        </div>
-        &nbsp;
-      </div>
-      <div class="column">
-        &nbsp;
-      </div>
-      <div class="column">
-        &nbsp;
-      </div>
-    </div>
+      {% cycle '', '', '', '</div>' %}
+    {% endfor %}
 
   </div>
 </section>
