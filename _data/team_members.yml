@@ -57,3 +57,15 @@
   description: He loves technology, programming and obviously Software!
   image: /images/team/valentin.png
   twitter: 
+
+- name: Gary Cornelius
+  title: Code Poet
+  description: Interested in every new Techology. Simple!
+  image: /images/team/gary.png
+  twitter:
+
+- name: Antonio Del Rio
+  title: Digital Leader
+  description: He loves tech, especially blockchain and space exploration! After being a student at the LTS himself, he is really excited to be an LTS coach!
+  image: /images/team/antonio.png
+  twitter:
