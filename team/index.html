@@ -26,7 +26,7 @@ permalink: team
     {% for member in site.data.team_members %}
       {% cycle '<div class="columns is-multiline">', '', '', '' %}
         <div class="column is-3">
-          <div class="card">
+          <div class="card lts-team-card">
             <div class="card-image">
               <figure class="image card-profile-image">
                 <img src="{{ site.github.url }}{{member.image}}" alt="">
@@ -36,7 +36,10 @@ permalink: team
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">{{member.name}}</p>
-                  <p class="subtitle is-6">{{member.title}}</p>
+                  <p class="subtitle is-6">
+                    {% if member.jobtitle %}<span style="color:darkgray">{{member.jobtitle}}</span><br>{% endif %}
+                    {{member.title}}
+                  </p>
                 </div>
               </div>
 
