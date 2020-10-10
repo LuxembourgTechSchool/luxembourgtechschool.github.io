@@ -1,0 +1,60 @@
+- campus: Geesseknäppchen
+  schools:
+    - name: Athénée de Luxembourg
+      link: http://www.al.lu/
+    - name: Lycée Michel-Rodange
+      link: http://www.lmrl.lu/
+    - name: Lycée Aline Mayrisch
+      link: http://www.laml.lu/
+    - name: International School of Luxembourg
+      link: https://www.islux.lu
+- campus: Esch
+  schools:
+    - name: Lycée de Garçons Esch
+      link: http://lge.lu/
+    - name: Lycée Hubert Clément Esch
+      link: https://www.lhce.lu/
+- campus: Limpertsberg
+  schools:
+    - name: Lycée International School Michel Lucius
+      link: https://www.lml.lu/
+- campus: Mamer
+  schools:
+    - name: Lycée Josy Barthel Mamer
+      link: http://ljbm.lu/
+- campus: Clervaux
+  schools:
+    - name: Lycée Edward Steichen Clervaux
+      link: http://www.lesc.lu/
+- campus: Grevenmacher
+  schools:
+    - name: Maacher Lycée
+      link: https://www.maacherlycee.lu/fr
+- campus: And many more
+  schools:
+    - name: European School Luxembourg I Kirchberg
+      link: https://www.euroschool.lu/site
+    - name: European School Luxembourg II Mamer
+      link: http://www.eel2.eu/en
+    - name: Lycée Privé Emile Metz Luxembourg
+      link: https://www.ltpem.lu/
+    - name: Lycée Technique du Centre Luxembourg
+      link: https://www.ltc.lu/
+    - name: Lycée des Arts et Métiers Luxembourg
+      link: https://www.ltam.lu/
+    - name: Lycée de Garçon Luxembourg
+      link: https://lgl.lu/
+    - name: Lycée Robert-Schumann Luxembourg
+      link: http://www.lrsl.lu/
+    - name: Lycée classique de Diekirch
+      link: https://www.lcd.lu/
+    - name: Lycée Technique de Lallange
+      link: https://www.ltl.lu/
+    - name: Atert Lycée Redange
+      link: https://www.alr.lu/
+    - name: École Internationale Differdange & Esch-sur-Alzette
+      link: https://portal.education.lu/eid/
+    - name: St George's International School Luxembourg
+      link: https://www.st-georges.lu/
+    
+  

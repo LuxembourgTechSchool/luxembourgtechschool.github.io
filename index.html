@@ -76,10 +76,10 @@ layout: default
                   The Luxembourg Tech School A.s.b.l (LTS for short) is a new extracurricular school to support the development of future Digital Leaders.
                 </p>
                 <p>
-                  It is aimed at 15-19 years old students who are passionate about the digital realm and eager to learn and apply technology in a real business context.
+                  It is aimed at 11-19 years old students who are passionate about the digital realm and eager to learn and apply technology in a real business context.
                 </p>
                 <p>
-                  The first pilot started September 2016 with about 30 students from the Lycées at the Geesseknäppchen Campus. This was a <strong>immediate success</strong> and LTS is now in more than 7 schools and is coaching more than 120 students!
+                  The first pilot started September 2016 with about 30 students from the Lycées at the Geesseknäppchen Campus. This was a <strong>immediate success</strong> and LTS is now in more than 10 schools and is coaching more than 200 students!
                 </p>
                 <p>
                   Students follow a Business and Technology program divided into three blocks. They get personalized coaching and work on their own projects, which they showcase at the end of each block.
@@ -95,54 +95,22 @@ layout: default
             <div class="tile is-parent is-vertical">
             
               <article class="tile is-child notification">
-                <p class="title"><strong>7+</strong> SCHOOLS, <strong>120+</strong> STUDENTS</p>
-                <p class="subtitle"></p>
+                <p class="title"><strong>LTS LEVEL GO</strong> <span class="icon is-large"><i class="far fa-play-circle"></i></span></p>
+                <p class="subtitle">One more level</p>
                 <div class="content">
-                  
-                  <div class="columns">
-                    <div class="column is-4 has-text-right">
-                      <strong>Geesseknäppchen:</strong>
-                    </div>
-                    <div class="column">
-                      <a href="http://www.al.lu/" target="_blank">Athénée de Luxembourg</a>, <a href="http://www.lmrl.lu/" target="_blank">Lycée Michel-Rodange</a>, <a href="http://www.laml.lu/" target="_blank">Lycée Aline Mayrisch</a> and <a href="https://www.islux.lu" target="_blank">International School of Luxembourg</a>.
-                    </div>
-                  </div>
+                  <p>This new program is for children aged <strong>11 - 14 years old</strong>. You will create your own <strong>animated digital art</strong>! At the same time, you will learn the basics of coding, how computers work and tinker with materials and objects.</p>
+    
+                  <p>The classes are weekly and will be in <strong>German/Luxemburgish and English.</strong></p>
+                  {% if site.registration.isOpen %}<p><a class="button is-danger" href="/register">Register here</a></p>{% endif %}
+                </div>
+              </article>
 
-                  <div class="columns">
-                    <div class="column is-4 has-text-right">
-                      <strong>Esch:</strong>
-                    </div>
-                    <div class="column">
-                      <a href="http://lge.lu" target="_blank">Lycée de Garçons Esch</a>.
-                    </div>
-                  </div>
-
-                  <div class="columns">
-                    <div class="column is-4 has-text-right">
-                      <strong>Mamer:</strong>
-                    </div>
-                    <div class="column">
-                        <a href="http://ljbm.lu" target="_blank">Lycée Josy Barthel Mamer</a>.
-                    </div>
-                  </div>
-
-                  <div class="columns">
-                    <div class="column is-4 has-text-right">
-                      <strong>Clervaux:</strong>
-                    </div>
-                    <div class="column">
-                        <a href="http://www.lesc.lu" target="_blank">Lycée Edward Steichen Clervaux</a>.
-                    </div>
-                  </div>
-                  
-                  <div class="columns">
-                    <div class="column is-4 has-text-right">
-                      <strong>Other:</strong>
-                    </div>
-                    <div class="column">
-                      <a href="http://www.lrsl.lu" target="_blank">Lycée Robert-Schuman</a>, <a href="http://www.lml.lu" target="_blank">Lycée Michel Lucius</a>, <a href="http://www.ltpem.lu" target="_blank">Lycée Privé Emile Metz</a>, <a href="http://www.euroschool.lu/esluxone/Home/home.html" target="_blank">European School Luxembourg</a> and <a href="https://www.ltam.lu" target="_blank">Lycée des Arts et Métiers</a>.
-                    </div>
-                  </div>
+              <article class="tile is-child notification">
+                <p class="title"><strong>LTS LEVEL UP</strong> <span class="icon is-large"><i class="fas fa-rocket"></i></span></p>
+                <p class="subtitle">The adventure continues</p>
+                <div class="content">
+                  <p>With more than <strong>83% of positive feedback</strong>, many students asked us: <br>"What about next year? What is the plan?".</p>
+                  <p>The plan is to go to the next level! The program is even more spectacular and focuses on <strong>Space Resources</strong> and <strong>A.I. for Finance</strong>.</p>
                 </div>
               </article>
             
@@ -154,35 +122,30 @@ layout: default
 
       </div>
 
-
     </div>
 
     <div class="tile is-ancestor is-vertical">
-
-      <div class="tile">
-        <div class="tile is-parent is-6">
-          <article class="tile is-child notification">
-            <p class="title"><strong>LTS LEVEL UP</strong> <span class="icon is-large"><i class="fas fa-rocket"></i></span></p>
-            <p class="subtitle">The adventure continues</p>
-            <div class="content">
-              <p>With more than <strong>83% of positive feedback</strong>, many students asked us: <br>"What about next year? What is the plan?".</p>
-              <p>The plan is to go to the next level! The program is even more spectacular and focuses on <strong>Space Resources</strong> and <strong>A.I. for Finance</strong>.</p>
+      <article class="tile is-child notification">
+        <p class="title"><strong>10+</strong> SCHOOLS, <strong>200+</strong> STUDENTS</p>
+        <p class="subtitle">Flexibility and close to you</p>
+        <div class="content">
+          
+          {% for campus in site.data.schools %}
+          <div class="columns">
+            <div class="column is-3 has-text-right">
+              <strong>{{campus.campus}}:</strong>
             </div>
-          </article>
-        </div>
-        <div class="tile is-parent is-6">
-          <article class="tile is-child notification">
-            <p class="title"><strong>LTS LEVEL GO</strong> <span class="icon is-large"><i class="far fa-play-circle"></i></span></p>
-            <p class="subtitle">One more level</p>
-            <div class="content">
-              <p>This new program is for children aged <strong>11 - 14 years old</strong>. You will create your own <strong>animated digital art</strong>! At the same time, you will learn the basics of coding, how computers work and tinker with materials and objects.</p>
-
-              <p>The classes are weekly and will be in <strong>German/Luxemburgish and English.</strong></p>
-              {% if site.registration.isOpen %}<p><a class="button is-danger" href="/register">Register here</a></p>{% endif %}
+            <div class="column">
+              {% for school in campus.schools %}
+              <a href="{{school.link}}" target="_blank">{{school.name}}</a>&nbsp;&nbsp;&nbsp;
+              {% endfor %}
             </div>
-          </article>
+          </div>
+          {% endfor %}
+
+          
         </div>
-      </div>
+      </article>
     </div>
 
   </div>
