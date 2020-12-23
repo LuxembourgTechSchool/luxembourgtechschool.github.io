@@ -90,6 +90,11 @@
   background-position: 20% 20%;
 }
 
+.bg-hackathon-2021 {
+  background: url(/images/bg/bg-hackathon-2021.jpg);
+  @include bg;
+}
+
 .bg-register {
   background: url(/images/bg/bg_register.jpg);
   @include bg;
@@ -359,3 +364,8 @@
 .icon300 {
   height: 300px;
 }
+
+/**
+ * Spacing
+ */
+
