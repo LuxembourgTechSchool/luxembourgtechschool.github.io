@@ -2,526 +2,131 @@
 layout: default
 ---
 
-<section class="hero is-fullheight video">
-	<div class="hero-video">
-		<video class="responsive-video" poster="{{ site.github.url }}/images/bg/bg_video-supertrailer.jpg" playsinline autoplay muted loop>
-			<source src="{{ site.github.url }}/assets/SuperTrailer2020_720p.mov" type="video/mp4">
-		</video>
-	</div>
-	<div class="hero-body">
-		<div class="container">
-			<div class="columns">
-				<div class="column has-text-centered">
-					<h1 class="title lts-hero-title">The Tech School you were waiting for!</h1>
-				</div>
-			</div>
+<section class="section hero">
+    <div class="container">
+        <div class="hero__inner columns is-vcentered">
+            <div class="hero__video column">
+                <video class="responsive-video" poster="{{ site.github.url }}/images/bg/bg_video-supertrailer.jpg"
+                       playsinline autoplay muted loop>
+                    <source src="{{ site.github.url }}/assets/SuperTrailer2020_720p.mov" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero__content column">
+                <h1 class="title title--main">The Tech School you were waiting for!</h1>
 
-			<div class="columns has-text-centered">
-				<div class="column">
-					<a href="#techschool"><img src="{{ site.github.url }}/images/icon-leader-2.png" alt="" width="200"></a>
-					<h1 class="title lts-hero-item">Build<h1>
-					<h2 class="subtitle lts-hero-item">The Leader In You</h2>
-				</div>
-				<div class="column">
-					<a href="#program"><img src="{{ site.github.url }}/images/icon-terminal-2.png" alt="" width="200"></a>
-					<h1 class="title lts-hero-item">Learn<h1>
-					<h2 class="subtitle lts-hero-item">The Latest Technologies</h2>
-				</div>
-				<div class="column">
-					<a href="#howitworks"><img src="{{ site.github.url }}/images/icon-graph-2.png" alt="" width="200"></a>
-					<h1 class="title lts-hero-item">Grow<h1>
-					<h2 class="subtitle lts-hero-item">Your Business Knowledge</h2>
-				</div>
-			</div>
-		</div>
-	</div>
+                <ul class="list list--big">
+                    <li>Build the leader in you.</li>
+                    <li>Learn the latest technologies.</li>
+                    <li>Grow your business knowdledge.</li>
+                </ul>
+
+                <a href="#" class="button">Learn more</a>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="techschool" class="section">
-  <div class="container">
-    
-    {% if site.registration.isOpen %}
-    <div class="tile is-ancestor">
-      <div class="tile is-parent is-12">
-        <article class="tile is-child notification is-warning has-text-centered">
-            <p class="title" style="color: black"><span class="icon is-large"><i class="fa fa-bullhorn"></i></span> <strong>Register Now for 2020/2021!</strong></p>
-            <p class="subtitle"><strong>And become a Digital Leader!</strong></p>
-            <div class="content">
-              <p>The <strong>deadline is June 26th</strong>! Classes start in September!</p>
-
-              <a class="button is-large is-danger register-button" target="_blank" href="{{site.registration.link_lvlone}}">
-                  <span class="icon is-medium">
-                    <i class="fr fa-hand-point-right"></i>
-                  </span>
-                  <span class="lts-title">I WANT TO REGISTER NOW</span>
-                  <span class="icon is-medium">
-                      <i class="fr fa-hand-point-left"></i>
-                    </span>
-                </a>
+<section class="section image-left">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+                <img class="image section__image" src="{{ site.github.url }}/images/ictspring-1.jpg" alt="">
             </div>
-        </article>
-      </div>
-    </div>
-    {% endif %}
-
-    <div class="tile is-ancestor is-vertical">
-
-      <div class="tile">
-        <div class="tile is-parent is-6">
-          <article class="tile is-child notification">
-              <p class="title"><strong>A NEW TECH SCHOOL</strong></p>
-              <p class="subtitle">Made in Luxembourg</p>
-              <div class="content">
-                <p>
-                  The Luxembourg Tech School A.s.b.l (LTS for short) is a new extracurricular school to support the development of future Digital Leaders.
-                </p>
-                <p>
-                  It is aimed at 11-19 years old students who are passionate about the digital realm and eager to learn and apply technology in a real business context.
-                </p>
-                <p>
-                  The first pilot started September 2016 with about 30 students from the Lycées at the Geesseknäppchen Campus. This was a <strong>immediate success</strong> and LTS is now in more than 10 schools and is coaching more than 200 students!
-                </p>
-                <p>
-                  Students follow a Business and Technology program divided into three blocks. They get personalized coaching and work on their own projects, which they showcase at the end of each block.
-                </p>
-              </div>
-          </article>
-        </div>
-
-        <div class="tile is-vertical">
-
-          <div class="tile">
-
-            <div class="tile is-parent is-vertical">
-            
-              <article class="tile is-child notification">
-                <p class="title"><strong>LTS LEVEL GO</strong> <span class="icon is-large"><i class="far fa-play-circle"></i></span></p>
-                <p class="subtitle">One more level</p>
+            <div class="column">
+                <h1 class="title is-uppercase">Why ?</h1>
                 <div class="content">
-                  <p>This new program is for children aged <strong>11 - 14 years old</strong>. You will create your own <strong>animated digital art</strong>! At the same time, you will learn the basics of coding, how computers work and tinker with materials and objects.</p>
-    
-                  <p>The classes are weekly and will be in <strong>German/Luxemburgish and English.</strong></p>
-                  {% if site.registration.isOpen %}<p><a class="button is-danger" href="/register">Register here</a></p>{% endif %}
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
-              </article>
+                <a href="#" class="button">Read more</a>
+            </div>
+        </div> <!-- columns -->
+    </div>
+</section>
 
-              <article class="tile is-child notification">
-                <p class="title"><strong>LTS LEVEL UP</strong> <span class="icon is-large"><i class="fas fa-rocket"></i></span></p>
-                <p class="subtitle">The adventure continues</p>
+<section class="section image-right">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+                <img class="image section__image" src="{{ site.github.url }}/images/ictspring-1.jpg" alt="">
+            </div>
+            <div class="column">
+                <h1 class="title is-uppercase">What ? How ?</h1>
                 <div class="content">
-                  <p>With more than <strong>83% of positive feedback</strong>, many students asked us: <br>"What about next year? What is the plan?".</p>
-                  <p>The plan is to go to the next level! The program is even more spectacular and focuses on <strong>Space Resources</strong> and <strong>A.I. for Finance</strong>.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
-              </article>
-            
+                <a href="#" class="button">Read more</a>
             </div>
-            
-          </div>
-          
-        </div>
-
-      </div>
-
+        </div> <!-- columns -->
     </div>
-
-    <div class="tile is-ancestor is-vertical">
-      <article class="tile is-child notification">
-        <p class="title"><strong>10+</strong> SCHOOLS, <strong>200+</strong> STUDENTS</p>
-        <p class="subtitle">Flexibility and close to you</p>
-        <div class="content">
-          
-          {% for campus in site.data.schools %}
-          <div class="columns">
-            <div class="column is-3 has-text-right">
-              <strong>{{campus.campus}}:</strong>
-            </div>
-            <div class="column">
-              {% for school in campus.schools %}
-              <a href="{{school.link}}" target="_blank">{{school.name}}</a>&nbsp;&nbsp;&nbsp;
-              {% endfor %}
-            </div>
-          </div>
-          {% endfor %}
-
-          
-        </div>
-      </article>
-    </div>
-
-  </div>
 </section>
 
-<section id="news" class="section">
-  <div class="container">
-
-    <div class="columns">
-      <div class="column">
-        <h1 class="title is-4">Virtual FinTech Hackathon on Sustainable Investment</h1>
-        <div class="content has-text-centered"><!-- width="560" height="315" -->
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/KiSAQ3CW28c" frameborder="0" allowfullscreen></iframe>
-          <p>
-            <a href="/media" class="button is-info">
-              <span class="icon is-medium"><i class="fa fa-caret-right"></i></span><span>More Videos Right Here!</span>
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="column">
-        <a class="twitter-timeline" data-lang="en" data-width="800" data-height="500" data-theme="light" href="https://twitter.com/LuxTechSchool">Tweets by LuxTechSchool</a>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="program" class="hero is-primary is-bold">
-  <div class="hero-body">
+<section class="section where">
     <div class="container">
-      <h1 class="title lts-title">
-        <strong>THE EPIC PROGRAM</strong>
-      </h1>
-      <h2 class="subtitle lts-title">
-        Fun, exciting &amp; challenging
-      </h2>
-      <div class="columns">
-
-        <div class="column">
-          <div class="content content-white bold-white">
-            <p>The program is organised into <strong>3 blocks / courses</strong>. Each course is <strong>12 weeks</strong> long and centered on one specific business domain. At the end of each course, you (the student) will have the <strong>opportunity to present your project to the real world!</strong></p>
-            <p>The program below is a preview of the cool topics that are covered. There won't be much theory (a little is always useful). It is filled with practical examples, exercices and you work on your own project! You will learn a lot about <strong>software development, entrepreneurship</strong> and even increase your <strong>presentation skills</strong> by multiple factors.
-            <p>It won't be easy, but at the end you will have created an <strong>awesome piece of work</strong>, will have <strong>learned a ton of things</strong> and most importantly you will <strong>have had a lot of fun</strong>.</p>
-          </div>
+        <div class="where__header">
+            <h1 class="title is-uppercase">Where ?</h1>
+            <h2 class="subtitle">10+ Schools, 200+ Students</h2>
         </div>
 
-        <div class="column">
-          <img class="image" src="{{ site.github.url }}/images/epic-program.jpg" alt="">
+        <div class="columns is-desktop is-flex-wrap-wrap mt-5 where__list">
+            <div class="column is-half-desktop is-one-quarter-widescreen">
+                <h3 class="where__title where__title--blue">Center</h3>
+                <ul class="list list--bullet">
+                    <li>Athénée de Luxembourg</li>
+                    <li>Lycée Michel-Rodange</li>
+                    <li>Lycée Aline Mayrisch</li>
+                    <li>International School of Luxembourg</li>
+                    <li>Lycée International School Michel Lucius</li>
+                </ul>
+            </div>
+            <div class="column is-half-desktop is-one-quarter-widescreen">
+                <h3 class="where__title where__title--orange">South</h3>
+                <ul class="list list--bullet">
+                    <li>Lycée des Garçons Esch</li>
+                    <li>Lycée Hubert Clément Esch</li>
+                </ul>
+            </div>
+            <div class="column is-half-desktop is-one-quarter-widescreen">
+                <h3 class="where__title where__title--green">North</h3>
+                <ul class="list list--bullet">
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                </ul>
+            </div>
+            <div class="column is-half-desktop is-one-quarter-widescreen">
+                <h3 class="where__title">Center</h3>
+                <ul class="list list--bullet">
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                </ul>
+            </div>
         </div>
 
-      </div>
-    
+        <div class="where__footer">
+            <strong>Not a student in one of these schools ? No problem !</strong>
+            <p>You’re still welcome to join in any of these schools.</p>
+        </div>
     </div>
-  </div>
 </section>
 
-<section class="section">
-  <div class="container">
+<section class="section news">
 
-    <h1 class="title has-text-centered lts-program-title">
-      <strong>Program : LEVEL 1</strong>
-    </h1>
+    <h2 class="title has-text-centered is-uppercase">Latest News</h2>
 
-    <div class="columns has-text-centered">
-
-      <div class="column">
-        <nav class="panel panel-custom-large panel-custom-blue">
-          <p class="panel-heading">{ Game Dev }</p>
-          
-          <div class="panel-block">How to develop Video Games</div>
-          <div class="panel-block">From idea to market</div>
-          <div class="panel-block">Create &amp; design art for games </div>
-          <div class="panel-block">Sharpen your coding skills</div>
-          <div class="panel-block">Learn professional game engines</div>
-          <div class="panel-block"><strong>Game Competition Event</strong></div>
-
-          <div class="panel-block panel-custom-footer">
-            <strong>September to January</strong>
-          </div>
-        </nav>
-      </div>
-      
-      <div class="column">
-        <nav class="panel panel-custom-large panel-custom-orange">
-          <p class="panel-heading">{ Big Data }</p>
-
-          <div class="panel-block">Discover Big Data</div>
-          <div class="panel-block">Analyse large datasets</div>
-          <div class="panel-block">Create visualizations</div>
-          <div class="panel-block">Tell stories with data</div>
-          <div class="panel-block">Code with Python</div>
-          <div class="panel-block"><strong>Data for Social Good Event</strong></div>
-
-          <div class="panel-block panel-custom-footer">
-            <strong>Febuary to March</strong>
-          </div>
-        </nav>
-
-      </div>
-
-      <div class="column">
-        <nav class="panel panel-custom-large panel-custom-green">
-          <p class="panel-heading">{ FinTech }</p>
-          
-          <div class="panel-block">App Design &amp; User Experience (UX)</div>
-          <div class="panel-block">How financial transactions work</div>
-          <div class="panel-block">Prototype innovative banking apps</div>
-          <div class="panel-block">Implement your own Blockchain</div>
-          <div class="panel-block">Learn about web security</div>
-          <div class="panel-block"><strong>FinTech Hackathon</strong></div>
-
-          <div class="panel-block panel-custom-footer">
-            <strong>April to June</strong>
-          </div>
-        </nav>
-      </div>
-
+    <div class="button-center">
+        <a href="#" class="button">See all</a>
     </div>
-
-    <div class="columns is-half is-offset-one-quarter">
-      <div class="column">
-        <div class="content has-text-centered">
-          <p>
-            <a href="/media" class="button is-danger">
-              <span class="icon is-medium"><i class="fa fa-caret-right"></i></span><span>Make Sure To Check Out The Event Videos!</span></a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <h1 class="title has-text-centered lts-program-title">
-      <strong>Program : LEVEL UP</strong>
-    </h1>
-
-    <div class="columns has-text-centered">
-
-      <div class="column">
-          <nav class="panel panel-custom-large panel-custom-blue">
-            <p class="panel-heading">
-            { Space Resources }
-            </p>
-            
-            <div class="panel-block">Learn &amp; understand the basic elements of Space Mining</div>
-            <div class="panel-block">Motivate Space Explorations, Sciences &amp; Robotics</div>
-            <div class="panel-block">Mission Planning &amp; Communication</div>
-            <div class="panel-block">Program drones &amp; rovers</div>
-            <div class="panel-block">Deploy senors &amp; collect data</div>
-            <div class="panel-block">Learn about autonomous robots</div>
-            <div class="panel-block"><strong>Space Event</strong></div>
-
-            <div class="panel-block panel-custom-footer">
-              <strong>September to December</strong>
-            </div>
-          </nav>
-        </div>
-
-        <div class="column">
-          <nav class="panel panel-custom-large panel-custom-orange">
-            <p class="panel-heading">
-            { A.I. 4 Finance }
-            </p>
-            
-            <div class="panel-block">Discover Artificial Intelligence (A.I.)</div>
-            <div class="panel-block">Understand financial (r)evolution</div>
-            <div class="panel-block">Develop applications for wearables</div>
-            <div class="panel-block">Build you own Chatbot</div>
-            <div class="panel-block">Create an Advisor based on Deep Learning</div>
-            <div class="panel-block">Learn &amp; experiment with Fraud Detection</div>
-            <div class="panel-block"><strong>AI4Finance Hackathon</strong></div>
-
-            <div class="panel-block panel-custom-footer">
-              <strong>January to March</strong>
-            </div>
-          </nav>
-        </div>
-
-        <div class="column">
-          <nav class="panel panel-custom-large panel-custom-green">
-            <p class="panel-heading">
-            { A.I. Creativity &amp; Arts }
-            </p>
-            
-            <div class="panel-block">Discover Generative Artificial Intelligence (A.I.)</div>
-            <div class="panel-block">Understand the limits of A.I.</div>
-            <div class="panel-block">Create music with A.I.</div>
-            <div class="panel-block">Generate stories</div>
-            <div class="panel-block">Draw artistic images &amp; videos</div>
-            <div class="panel-block">Work on your own A.I. art project</div>
-            <div class="panel-block"><strong>Creative Showcase</strong></div>
-
-            <div class="panel-block panel-custom-footer">
-              <strong>April to June</strong>
-            </div>
-          </nav>
-        </div>
-
-      </div>
-
-  </div>
 </section>
 
+<section class="section want-to-join">
+    <h2 class="title title--white has-text-centered is-uppercase">Want to join ?</h2>
+    <h3 class="subtitle has-text-centered">It's totally free !</h3>
 
-
-<section id="howitworks" class="hero is-info is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        <strong>HOW IT WORKS</strong>
-      </h1>
-      <h2 class="subtitle">
-        A method you will love
-      </h2>
-      <div class="columns">
-
-        <div class="column">
-          <div class="content content-white bold-white">
-            <p>With over 17 years of teaching experience at the University, Asst-Prof. Dr. Coronado (associé) developed a learning method called <strong>Speed Project Management</strong> that focuses on creating and maintaining a continous learning dynamic environment.</p> 
-            <p>Everything is based on <strong>team work</strong> around <strong>creative and innovative</strong> ideas. Ideas comes from you and your team, and a <strong>Coach</strong> will guide you along the process. “Get it done” is the moto and <strong>Project Management</strong> will be your magic tool.</p>
-          </div>
-        </div>
-
-        <div class="column has-text-centered">
-          <img class="image" src="{{ site.github.url }}/images/work-ideas.jpg" alt="">
-        </div>
-        
-      </div>
+    <div class="button-center">
+        <a href="#" class="button button--big">Register</a>
     </div>
-  </div>
 </section>
-
-<section class="section">
-  <div class="container">
-    <div class="columns">
-
-      <div class="column has-text-centered">
-        <img class="image" src="{{ site.github.url }}/images/methodology.png" alt="">
-      </div>
-      <div class="column">
-        <h1 class="title has-text-centered">Open Scope Selection</h1>
-        <h2 class="subtitle has-text-centered">Do I find it interesting? Do I care about it?</h2>
-        <div class="content">
-          <p>Nothing kills your motivation more than working on something you do not feel passionate about.
-          There is no secret. You heard the <strong>"do what you love"</strong>. Well, once you do what you really like, you will discover the kind of <strong>motivation, drive and success</strong> that will propel you further forward than any other method.</p>
-
-          <p>That is why we encourage you to <strong>work on your own project</strong>. The scope is wide open and we provide you with a <strong>Playground - The Place to develop your ideas</strong>. You propose what you like. <strong>We help, guide and advise you at every moment.</strong></p>
-          
-        </div>
-      </div>
-
-    </div> <!-- columns -->
-
-    <div class="columns">
-      
-      <div class="column">
-        <h1 class="title has-text-centered">With a flavor of Business</h1>
-        <h2 class="subtitle has-text-centered">Get a feel of the business. Love it</h2>
-        <div class="content">
-          <p>Business and technology go <strong>hand in hand</strong>. Technology evolves at an unbelievable speed and tomorrow more will be possible. It can be used to <strong>solve problems</strong> faster, better and with less effort, <strong>build business opportunities</strong>, <strong>disrupt</strong> entire fields... and having a lot of fun while trying it.</p>
-          <p>Context is important. It is not only about technology, it is about <strong>what problem to solve and for whom</strong>; business, the society, the entire humanity...</p>
-        </div>
-      </div>
-      <div class="column has-text-centered">
-        <img class="image" src="{{ site.github.url }}/images/ictspring-1.jpg" alt="">
-      </div>
-
-    </div> <!-- columns -->
-
-    <div class="columns">
-
-      <div class="column has-text-centered">
-        <img class="image" src="{{ site.github.url }}/images/project-selection.jpg" alt="">
-      </div>
-      <div class="column">
-        <h1 class="title has-text-centered">"Flow" work assignments</h1>
-        <h2 class="subtitle has-text-centered">Enjoy the work and commit fully.</h2>
-        <div class="content">
-          <p>You have your selected scope, you love it and are deeply motivated to make it happen. Now, your muscle needs to flex and results needs to be delivered. The "Flow" is the key to <strong>produce constant, sustainable and high quality results</strong>.</p>
-          <p>Each week you have assignments, specific to your project. Those are not tests nor exams, but clear goals and challenges that you will need to work on. This will create a measurable and trackable <strong>progress that will excite you</strong>, week after week.</p>
-        </div>
-      </div>
-
-    </div> <!-- columns -->
-
-    <div class="columns">
-      
-      <div class="column">
-        <h1 class="title has-text-centered">And keeping up the rhythm</h1>
-        <h2 class="subtitle has-text-centered">Weekly follow-up and coaching.</h2>
-        <div class="content">
-          <p>Every week, we meet and follow up on the progress. This is the moment to reflect on the work done, the problems found and the <strong>next steps</strong>. The rhythm is not about rushing things and burning out, it is about building up a <strong>speed</strong> at wich you are able to make serious progress day after day, week after week and month after month.</p>
-          <p>Through <strong>very personalised coaching</strong>, you will get all the required information that you need to move forward. Whether it is about ideas, algorithms, user experiences, designs, strategies, marketing, business, sales or anything else, <strong>we've got your back!</strong></p>
-        </div>
-      </div>
-      <div class="column has-text-centered">
-        <img class="image" src="{{ site.github.url }}/images/project-work.jpg" alt="">
-      </div>
-
-    </div> <!-- columns -->
-
-  </div>
-</section>
-
-<section class="section">
-    <hr>
-    <div class="container">
-      <div class="columns">
-        <div class="column is-3">
-          <h1 class="title">SUPPORTED BY:</h1>
-          <h2 class="subtitle is-6">
-            Interested to partner up? <a href="/contact">Get in touch</a>
-          </h2>
-        </div>
-        <div class="column">
-
-          <div id="partners" class="columns is-mobile has-text-centered">
-            <div class="column">
-              <a href="http://www.men.public.lu/" target="_blank">
-                <img src="{{ site.github.url }}/images/logo-government.png" alt="Logo Luxembourg Government" class="image">
-              </a>
-            </div>
-            <div class="column">
-              <a href="http://www.digital-luxembourg.public.lu/" target="_blank">
-                <img src="{{ site.github.url }}/images/logo-digitalluxembourg.png" alt="Logo Digital Luxembourg" class="image">
-              </a>
-            </div>
-            <div class="column">
-              <a href="https://portal.education.lu/script/" target="_blank">
-                <img src="{{ site.github.url }}/images/GOUV_MENJE_SCRIPT.png" alt="SCRIPT" class="image">
-              </a>
-            </div>
-            <div class="column">
-              <a href="http://www.cgie.lu" target="_blank">
-                <img src="{{ site.github.url }}/images/LOGO_CGIE-LU.jpg" alt="CGIE" class="image">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="columns">
-        <div class="column is-3">
-          &nbsp;
-        </div>
-        <div class="column">
-
-          <div id="partners" class="columns is-mobile has-text-centered">
-            <div class="column">
-              <a href="https://space-agency.public.lu" target="_blank">
-                <img src="{{ site.github.url }}/images/logo_lsa.png" alt="Logo Luxembourg Space Agency" class="image">
-              </a>
-            </div>
-            <div class="column">
-              <a href="https://www.fnr.lu" target="_blank">
-                <img src="{{ site.github.url }}/images/logo_fnr.jpg" alt="Logo National Research Fund" class="image">
-              </a>
-            </div>
-            <div class="column">
-              <a href="https://www.loschfondation.lu" target="_blank">
-                <img src="{{ site.github.url }}/images/logo_fal.png" alt="André Losch Fondation" class="image">
-              </a>
-            </div>
-            <div class="column">
-              <a href="https://www.abbl.lu" target="_blank">
-                <img src="{{ site.github.url }}/images/logo_abbl.png" alt="The Luxembourg Bankers Association (ABBL)" class="image">
-              </a>
-            </div>
-            
-          </div>
-
-        </div>
-        
-      </div>
-
-    </div>
-  </section>
 

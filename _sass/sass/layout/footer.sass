@@ -1,9 +1,57 @@
-$footer-background-color: $scheme-main-bis !default
-$footer-color: false !default
-$footer-padding: 3rem 1.5rem 6rem !default
-
+//$footer-background-color: $scheme-main-bis !default
+//$footer-color: false !default
+//$footer-padding: 3rem 1.5rem 6rem !default
+//
+//.footer
+//  background-color: $footer-background-color
+//  padding: $footer-padding
+//  @if $footer-color
+//    color: $footer-color
 .footer
-  background-color: $footer-background-color
-  padding: $footer-padding
-  @if $footer-color
-    color: $footer-color
+  background-color: $black
+  padding: 30px 0 25px
+
+  +tablet
+    padding: 40px 0
+
+  &__inner
+    position: relative
+
+    +tablet
+      display: flex
+      justify-content: space-between
+      flex-flow: row wrap
+
+  &__menus
+    display: flex
+
+  &__menu
+    &:first-child
+      margin-right: 80px
+
+  &__item
+    font-family: $font-title
+    margin-bottom: 3px
+
+  &__link
+    color: $lightblue-color
+
+    &:hover
+      color: $white
+
+  &__credit
+    font-family: $font-title
+    font-size: 18px
+    color: white
+    width: 100%
+
+    +tablet
+      margin-top: 40px
+
+    +desktop
+      position: absolute
+      bottom: 2px
+      left: 50%
+      transform: translateX(-50%)
+      margin-top: 0
+      width: auto

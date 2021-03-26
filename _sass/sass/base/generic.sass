@@ -68,15 +68,23 @@ body
   font-size: $body-font-size
   font-weight: $body-weight
   line-height: $body-line-height
+  background: #f4f7f8
 
 // Inline
+
+p
+  font-size: 19px
+  line-height: 1.57
 
 a
   color: $link
   cursor: pointer
   text-decoration: none
+  transition: color 0.2s ease
+
   strong
     color: currentColor
+
   &:hover
     color: $link-hover
 
@@ -127,6 +135,7 @@ pre
   padding: $pre-padding
   white-space: pre
   word-wrap: normal
+
   code
     background-color: transparent
     color: currentColor
@@ -137,7 +146,9 @@ table
   td,
   th
     vertical-align: top
+
     &:not([align])
       text-align: inherit
+
   th
     color: $text-strong

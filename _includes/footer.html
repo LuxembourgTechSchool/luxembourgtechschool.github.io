@@ -1,56 +1,31 @@
 <footer class="footer">
-  <div class="container">
-    
-    <div class="columns">
-      <div class="column">
-      <ul>
-        <li>&copy; 2020 Luxembourg Tech School</li>
-        <li><a target="_blank" href="{{ site.github.url }}/assets/gdpr/LTSOnline_PrivacyPolicy_V1.pdf">Data Protection Policy</a></li>
-        <li><a href="{{ site.github.url }}/assets/LTS_PressKit_v1.zip">Press Kit</a></li>
-      </ul>
-        
-      </div>
+    <div class="container footer__inner">
+        <div class="footer__menus">
+            <ul class="footer__menu">
+                <li class="footer__item"><a href="{{ site.github.url }}/assets/LTS_PressKit_v1.zip" class="footer__link">Press Kit</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">In the Press</a></li>
+            </ul>
+            <ul class="footer__menu">
+                <li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+            </ul>
+        </div>
 
-      <div class="column">
-        <strong>We are Social, follow us:</strong>
-        <ul>
-          {% for item in site.data.social %}
-          <li><a target="_blank" href="{{item.url}}">
-            <span class="{{item.class}}"><i class="{{item.icon}}"></i></span> {{item.name}}</a></li>
-          {% endfor %}
+        <ul class="footer__socials socials">
+            {% for item in site.data.social %}
+            <li class="socials__item">
+                <a target="_blank" href="{{item.url}}">
+                    <img src="/icons/{{item.name | downcase }}.svg" alt="{{item.name | downcase }} icon">
+                </a>
+            </li>
+            {% endfor %}
         </ul>
-      </div>
-      <div class="column">
-          <p><strong>Press:</strong></p>
 
-          <p><a target="_blank" href="{{ site.github.url }}/assets/press/LTS-PR-LuxembourgLearningToWork.pdf">LTS - Learning to Work</a></p>
-
-          <p><a target="_blank" href="https://www.siliconluxembourg.lu/hackathon-at-luxembourg-tech-school-a-promising-future/">Silicon Luxembourg - Ai4Finance Hackathon</a></p>
-
-          <p><a target="_blank" href="https://www.lhoft.com/en/insights/the-future-digital-leaders-of-the-luxembourg-tech-school-play-the-financial-game-of-life">LHOFT - Ai4Finance Hackathon</a></p>
-          
-          <p><a target="_blank" href="https://digital-luxembourg.public.lu/news/second-year-row-tomorrows-leaders-game-development-converge-unleash-their-full-potential">Digital Luxembourg - Game Event 2018</a></p>
-
-          <p><a target="_blank" href="{{ site.github.url }}/assets/press/01.07.2017-LTS-Hackathon-AGEFI.pdf">AGEFI Luxembourg - FinTech Hackathon</a></p>
-
-          <p><a target="_blank" href="http://www.itone.lu/actualites/future-digital-leaders-luxtechschool-invent-bank-tomorrow">IT One - FinTech Hackathon</a></p>
-
-          <p><a  target="_blank" href="https://digital-luxembourg.public.lu/news/luxembourg-tech-school-students-build-bank-future">Digital Luxembourg  - FinTech Hackathon</a></p>
-
-          <p><a target="_blank" href="http://www.journal.lu/top-navigation/article/punkte-fuer-den-digitalen-cv/?L=0&cHash=5e3ae2b6315fb5381f27bd2c0bea9e5e">
-Lëtzebuerger Journal - Big Data</a></p>
-
-          <p><a target="_blank" href="https://digital-luxembourg.public.lu/news/luxembourg-tech-school-pupils-win-awards">Digital Luxembourg - Game Event 2017</a></p>
-
-          <p><a target="_blank" href="http://www.chronicle.lu/categoriesbusinessitcgaming/item/20274-luxembourg-tech-school-rewards-nine-pupils-for-gaming-talent">Chronicle.lu - Game Event</a></p>
-
-          <p><a target="_blank" href="https://digital-luxembourg.public.lu/news/official-launch-luxembourg-tech-school-pilot-project">Digital Luxembourg - Official Launch</a></p>
-          
-      </div>
+        <p class="footer__credit">&copy; 2021 Luxembourg Tech School</p>
     </div>
-    
-  </div>
 </footer>
 
 <script src="{{ "/javascript/bulma.js" | prepend: site.baseurl }}"></script>
-<script   src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"
+        integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
