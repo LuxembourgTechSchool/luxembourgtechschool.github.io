@@ -1,25 +1,70 @@
 .navbar
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
   background-color: $black
   padding: 17px 0
+  z-index: 100
+
+  +widescreen
+    position: relative
+    top: inherit
+    left: inherit
 
   &__inner
     display: flex
     justify-content: space-between
     align-items: center
 
+  &__menu
+    margin-top: 0
+    position: fixed
+    top: 80px
+    right: 0
+    background: $black
+    width: 100%
+    display: flex
+    flex-flow: column wrap
+    justify-content: center
+    align-items: flex-start
+    padding: 15px 3% 40px
+    transition: all 0.2s cubic-bezier(0.5, 1, 0.89, 1)
+    transform: translateX(100%)
+
+    &--open
+      transform: translateX(0)
+
+    +tablet
+      max-width: 360px
+
+    +widescreen
+      position: relative
+      top: inherit
+      left: inherit
+      background: inherit
+      width: auto
+      flex-flow: row wrap
+      padding: 0
+      visibility: visible
+      opacity: 1
+      max-width: inherit
+      transform: translateX(0)
+
   &__brand
     width: 237px
     height: 46px
 
-  &__burger
-    display: none
-
   &__item
-    font-size: 18px
+    font-size: 20px
     font-family: $font-title
     color: $lightblue-color
-    margin: 0 28px 0 0
+    margin: 0 0 10px
     padding: 5px
+
+    +widescreen
+      font-size: 18px
+      margin: 0 28px 0 0
 
     &:last-child
       margin-right: 0
