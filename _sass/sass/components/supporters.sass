@@ -7,14 +7,21 @@
     display: flex
     flex-flow: row wrap
     align-items: center
-    justify-content: space-between
+    justify-content: center
     max-width: 1032px
     margin: 40px auto 0
 
   &__item
-    max-width: 230px
+    max-width: 190px
     padding: 0 15px
-    margin: 0 0 60px
+    margin: 0 0 30px
+
+    +tablet
+      max-width: 230px
+      margin: 0 0 60px
+
+  &__link
+    display: inline-block
 
   &__cta
     font-weight: 600
