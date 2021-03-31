@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Luxembourg Tech School - Media
-permalink: media
+title: Luxembourg Tech School - Videos
+permalink: videos
 ---
 
-<section class="page-header has-text-centered container">
-    <h1 class="page-header__title">
-        Media
+<section class="page-header container">
+    <h1 class="title">
+        Videos
     </h1>
-    <h2 class="page-header__subtitle">
+    <h2 class="subtitle">
         Here's the list of videos about LTS.<br>Check our Facebook and Twitter to get more pictures and news.
     </h2>
 </section>
@@ -23,12 +23,12 @@ permalink: media
         </h1>
 
         {% for video in year.videos %}
-            <div class="column">
-                <p class="media-title">{{video.title}}</p>
-                <div class="content has-text-centered">
-                    <iframe width="100%" height="372" src="{{video.link}}" frameborder="0" allowfullscreen></iframe>
-                </div>
+        <div class="column">
+            <p class="media-title">{{video.title}}</p>
+            <div class="content has-text-centered">
+                <iframe width="100%" height="372" src="{{video.link}}" frameborder="0" allowfullscreen></iframe>
             </div>
+        </div>
         {% endfor%}
 
     </div>
