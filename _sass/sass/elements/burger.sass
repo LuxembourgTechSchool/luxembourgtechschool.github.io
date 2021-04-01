@@ -3,11 +3,14 @@
   width: 38px
   height: 24px
   right: 2%
-  top: 26px
+  top: 20px
   transition: transform 0.3s ease
 
   &--open
     transform: rotate(-90deg)
+
+  +tablet
+    top: 26px
 
   +widescreen
     display: none

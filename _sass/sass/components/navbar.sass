@@ -4,7 +4,6 @@
   left: 0
   width: 100%
   background-color: $black
-  padding: 17px 0
   z-index: 100
 
   +widescreen
@@ -20,7 +19,7 @@
   &__menu
     margin-top: 0
     position: fixed
-    top: 80px
+    top: 0
     right: 0
     background: $black
     width: 100%
@@ -29,14 +28,20 @@
     justify-content: center
     align-items: flex-start
     padding: 15px 3% 40px
-    transition: all 0.2s cubic-bezier(0.5, 1, 0.89, 1)
-    transform: translateX(100%)
+    transition: all 0.35s cubic-bezier(0.5, 1, 0.89, 1)
+    transform: translateY(-100%)
 
     &--open
-      transform: translateX(0)
+      top: 68px
+      transform: translateY(0)
 
     +tablet
+      top: 80px
+      transform: translateX(100%)
       max-width: 360px
+
+      &--open
+        transform: translateX(0)
 
     +widescreen
       position: relative
@@ -52,8 +57,27 @@
       transform: translateX(0)
 
   &__brand
-    width: 237px
-    height: 46px
+    width: 210px
+    height: 40px
+    margin-left: -8px
+
+    +tablet
+      width: 237px
+      height: 46px
+
+
+    &-container
+      padding: 14px 0
+      width: 100%
+      background-color: $black
+      z-index: 120
+
+      +tablet
+        padding: 17px 0
+
+      +widescreen
+        width: auto
+
 
   &__item
     font-size: 20px
