@@ -1,25 +1,19 @@
-$(document).ready(function(){
-    var checkCanSubmit = function() {
-        var nameOk = $('#name-input').val().length > 0;
-        var emailOk = $('#email-input').val().length > 0;
-        var messageOk = $('#message-input').val().length > 0;
+$(document).ready(function () {
+    function checkCanSubmit() {
+        let nameOk = $('#name-input').val().length > 0;
+        let emailOk = $('#email-input').val().length > 0;
+        let equiryOk = $('#enquiry-input').val().length > 0;
+        let messageOk = $('#message-input').val().length > 0;
+        let privacyOk = $('#privacy-input').prop('checked');
 
-        if ( nameOk && emailOk && messageOk ) {
-            $('#submit-btn').removeAttr("disabled");
+        if (nameOk && emailOk && messageOk && equiryOk && privacyOk) {
+            $('#submit-btn').removeAttr('disabled');
         } else {
-            $('#submit-btn').attr("disabled","disabled");
+            $('#submit-btn').attr('disabled', 'disabled');
         }
     }
 
-    $('#name-input').on('change keyup paste input', function() {
-        checkCanSubmit();
-    });
-
-    $('#email-input').on('change keyup paste input', function() {
-        checkCanSubmit();
-    });
-
-    $('#message-input').on('change keyup paste input', function() {
+    $('#name-input, #email-input, #enquiry-input, #message-input, #privacy-input').on('change keyup paste input', function () {
         checkCanSubmit();
     });
 });

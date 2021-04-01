@@ -17,13 +17,13 @@ custom_js: contact
 <section id="contact" class="section">
     <div class="container">
         <div class="columns">
-            <div class="column is-half is-offset-one-quarter">
+            <div class="column is-half is-offset-one-quarter contact-form">
                 <form action="https://getsimpleform.com/messages?form_api_token={{ site.sendform_token }}"
                       method="POST">
 
                     <input type='hidden' name='redirect_to' value='{{ site.github.url }}/thankyou.html'/>
 
-                    <div class="field">
+                    <div class="field mb-4">
                         <label for="name-input" class="label">Name</label>
                         <div class="control">
                             <input class="input" type="input" name="name" id="name-input" placeholder="Your Name"
@@ -31,14 +31,22 @@ custom_js: contact
                         </div>
                     </div>
 
-                    <div class="field">
+                    <div class="field mb-4">
                         <label for="email-input" class="label">Email</label>
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input" type="email" name="_replyto" id="email-input" placeholder="Your Email"
+                        <div class="control">
+                            <input class="input" type="email" name="_replyto" id="email-input" placeholder="Your e-mail"
                                    required>
-                            <span class="icon is-small is-left">
-                                <i class="fa fa-envelope"></i>
-                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field mb-4">
+                        <label for="email-input" class="label">Enquiry</label>
+                        <div class="select is-fullwidth">
+                            <select name="_replyto" id="enquiry-input" placeholder="Your Email"
+                                    required>
+                                <option value="">Select an enquiry</option>
+                                <option value="contact">Contact</option>
+                            </select>
                         </div>
                     </div>
 
@@ -50,8 +58,15 @@ custom_js: contact
                         </div>
                     </div>
 
-                    <div class="control">
-                        <button class="button is-success" type="submit" value="Send" id="submit-btn"
+                    <div class="field mt-4">
+                        <label class="checkbox">
+                            <input type="checkbox" id="privacy-input"  class="mr-2" required>
+                            I agree with the <a href="/privacy-policy">privacy policies</a>.
+                        </label>
+                    </div>
+
+                    <div class="control flex is-flex is-justify-content-flex-end">
+                        <button class="button button--blue" type="submit" value="Send" id="submit-btn"
                                 disabled="disabled">Submit
                         </button>
                     </div>
