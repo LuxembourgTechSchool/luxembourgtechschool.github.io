@@ -8,7 +8,7 @@ $title-sub-size: 0.75em !default
 $title-sup-size: 0.75em !default
 
 $subtitle-color: $text !default
-$subtitle-line-height: 1.25 !default
+$subtitle-line-height: 1.42 !default
 $subtitle-strong-color: $text-strong !default
 $subtitle-strong-weight: $weight-semibold !default
 $subtitle-negative-margin: -1.25rem !default
@@ -63,10 +63,14 @@ $subtitle-negative-margin: -1.25rem !default
 .subtitle
   font-family: $font-text
   font-size: 20px
-  font-weight: 600
-  color: #172F4D
+  font-weight: 400
+  color: #3B4754
   opacity: 0.8
   line-height: $subtitle-line-height
+  max-width: 768px
+
+  .has-text-centered &
+    margin: 0 auto
 
   +desktop
     font-size: 24px
