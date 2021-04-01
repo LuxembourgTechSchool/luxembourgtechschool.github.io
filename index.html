@@ -72,37 +72,16 @@ layout: default
         </div>
 
         <div class="columns is-desktop is-flex-wrap-wrap mt-5 where__list">
+            {% for location in site.data.schools %}
             <div class="column is-half-desktop is-one-quarter-widescreen">
-                <h3 class="where__title where__title--blue">Center</h3>
+                <h3 class="where__title where__title--{{location.color}}">{{location.location}}</h3>
                 <ul class="list list--bullet">
-                    <li>Athénée de Luxembourg</li>
-                    <li>Lycée Michel-Rodange</li>
-                    <li>Lycée Aline Mayrisch</li>
-                    <li>International School of Luxembourg</li>
-                    <li>Lycée International School Michel Lucius</li>
+                    {% for school in location.schools %}
+                    <li><a href="{{school.link}}" target="_blank">{{school.name}}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
-            <div class="column is-half-desktop is-one-quarter-widescreen">
-                <h3 class="where__title where__title--orange">South</h3>
-                <ul class="list list--bullet">
-                    <li>Lycée des Garçons Esch</li>
-                    <li>Lycée Hubert Clément Esch</li>
-                </ul>
-            </div>
-            <div class="column is-half-desktop is-one-quarter-widescreen">
-                <h3 class="where__title where__title--green">North</h3>
-                <ul class="list list--bullet">
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                </ul>
-            </div>
-            <div class="column is-half-desktop is-one-quarter-widescreen">
-                <h3 class="where__title">Center</h3>
-                <ul class="list list--bullet">
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                </ul>
-            </div>
+            {% endfor %}
         </div>
 
         <div class="where__footer">
