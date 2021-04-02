@@ -4,7 +4,7 @@ title: Luxembourg Tech School - News
 permalink: news
 ---
 
-<section class="page-header has-text-centered container">
+<section class="page-header container">
     <h1 class="title title--main is-spaced">
         News
     </h1>
@@ -13,10 +13,19 @@ permalink: news
     </h2>
 </section>
 
-<section class="section">
-    <div class="columns">
-        <div class="column">
-            ...
+<section class="section container">
+    <div class="columns is-flex-wrap-wrap">
+        {% for i in (1..6) %}
+        <div class="column is-half-tablet is-one-third-desktop">
+            <a class="news-preview" href="#">
+                <span class="news-preview__date">09/02/2021</span>
+                <h3 class="news-preview__title">AstroPi Workshop at SES - 2019</h3>
+                <div class="news-preview__image" style="background-image: url('')"></div>
+                <div class="news-preview__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua…
+                </div>
+            </a>
         </div>
+        {% endfor %}
     </div>
 </section>

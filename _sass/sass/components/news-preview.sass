@@ -1,0 +1,50 @@
+.news-preview
+  background: white
+  padding: 18px 0 18px 18px
+  display: block
+  color: $grey-dark
+
+  +tablet
+    padding: 25px 0 25px 25px
+
+  &__date
+    font-size: 1.125rem
+    font-weight: 600
+    padding-right: 18px
+
+    +tablet
+      padding-right: 25px
+
+  &__title
+    font-family: $font-title
+    font-size: 26px
+    line-height: 1
+    color: $black
+    text-transform: uppercase
+    padding-right: 18px
+    margin-bottom: 15px
+    transition: color 0.25s ease
+
+    +tablet
+      padding-right: 25px
+
+    .news-preview:hover &
+      color: $blue
+
+  &__image
+    width: 100%
+    padding-bottom: 48%
+    margin-bottom: 20px
+    background: lightgray
+    transition: all 0.2s ease
+
+    .news-preview:hover &
+      margin-left: -25px
+      width: calc(100% + 25px)
+
+  &__excerpt
+    font-size: 1.125rem
+    padding-right: 18px
+
+    +tablet
+      padding-right: 25px
