@@ -116,10 +116,7 @@ $font-text: 'Cabin', serif;
     }
 }
 
-@import
-    "bulma",
-    "custom_layout"
-;
+@import "bulma";
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
