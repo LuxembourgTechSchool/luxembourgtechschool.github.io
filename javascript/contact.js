@@ -1,3 +1,5 @@
+/* TODO: convert to vanilla and get rid of jquery */
+
 $(document).ready(function () {
     function checkCanSubmit() {
         let nameOk = $('#name-input').val().length > 0;
