@@ -1,0 +1,46 @@
+.how-it-works
+  +tablet
+    padding-left: 80px
+
+  &__title
+    position: relative
+    z-index: 5
+
+  &__section
+    position: relative
+    counter-increment: section
+    margin-bottom: 50px
+    padding-top: 50px
+    margin-top: -50px
+    padding-bottom: 28px
+
+    &:before
+      content: counter(section)
+      font-family: $font-title
+      font-size: 35px
+      line-height: 1
+      padding: 9px 17px 11px
+      border: 5px solid #E0E4E6
+      border-radius: 50%
+      display: inline-block
+      color: #E0E4E6
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 0
+
+      +tablet
+        font-size: 46px
+        left: -43px
+        padding: 10px 20px 12px
+
+  &__content
+    max-width: 800px
+
+    p
+      margin-bottom: 25px
+
+  &__image
+    min-width: 42.5%
+    +desktop
+      margin-left: 24px
