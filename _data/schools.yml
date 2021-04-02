@@ -24,7 +24,7 @@
     - name: Lycée Edward Steichen Clervaux
       link: http://www.lesc.lu/
 - location: East
-  color: 
+  color: red
   schools:
     - name: Lycée Josy Barthel Mamer
       link: http://ljbm.lu/

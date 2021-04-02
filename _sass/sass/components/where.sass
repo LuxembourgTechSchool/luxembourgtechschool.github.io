@@ -13,16 +13,19 @@
     text-transform: uppercase
 
     &--blue
-      color: $blue
+      color: $blue-color
 
     &--orange
-      color: $orange
+      color: $orange-color
 
     &--green
-      color: $green
+      color: $green-color
 
     &--gray
       color: $grey-dark
+
+    &--red
+      color: $red-color
 
   &__footer
     +tablet
@@ -35,3 +38,9 @@
       +tablet
         text-align: center
         font-size: 21px
+
+  &__link
+    color: $grey-dark
+
+    &:hover
+      color: $blue

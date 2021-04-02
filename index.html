@@ -73,11 +73,11 @@ layout: default
 
         <div class="columns is-desktop is-flex-wrap-wrap mt-5 where__list">
             {% for location in site.data.schools %}
-            <div class="column is-half-desktop is-one-quarter-widescreen">
+            <div class="column is-one-third-desktop is-one-fifth-widescreen">
                 <h3 class="where__title where__title--{{location.color}}">{{location.location}}</h3>
                 <ul class="list list--bullet">
                     {% for school in location.schools %}
-                    <li><a href="{{school.link}}" target="_blank">{{school.name}}</a></li>
+                    <li><a href="{{school.link}}" target="_blank" class="where__link">{{school.name}}</a></li>
                     {% endfor %}
                 </ul>
             </div>
