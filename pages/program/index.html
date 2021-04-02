@@ -9,11 +9,61 @@ permalink: program
         Program
     </h1>
     <h2 class="subtitle">
-        This is for all 11-19 years old students who are passionate about the digital realm and eager to learn and apply technology in a real business context.
+        This is for all 11-19 years old students who are passionate about the digital realm and eager to learn and apply
+        technology in a real business context.
     </h2>
 </section>
 
-<section class="section">
+<section class="section section--program">
+    {% for i in (0..2) %}
+    <div class="program-level">
+        <div class="container">
+            <h2 class="title is-uppercase">Level G0</h2>
+            <div class="program-level__information">
+                <div class="program-level__age">
+                    <strong class="is-uppercase">Age:</strong>
+                    11-14 years
+                </div>
+                <div class="program-level__price is-uppercase">
+                    <strong>Price:</strong>
+                    Free
+                </div>
+            </div>
+            <div class="columns is-tablet is-flex-wrap-wrap">
+                <div class="column is-half-tablet is-one-third-desktop program-module">
+                    <img class="program-module__image" src="">
+                    <h3 class="program-module__title">Creative Coding</h3>
+                    <ul class="list">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
 
+                <div class="column is-half-tablet is-one-third-desktop program-module">
+                    <img class="program-module__image" src="">
+                    <h3 class="program-module__title">Creative Coding</h3>
+                    <ul class="list">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+
+                <div class="column is-half-tablet is-one-third-desktop program-module">
+                    <img class="program-module__image" src="">
+                    <h3 class="program-module__title">Creative Coding</h3>
+                    <ul class="list">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="button button--big">Register</a>
+        </div>
+    </div>
+    {% endfor %}
 </section>
 

@@ -4,37 +4,40 @@
 li
   .list &
     font-size: 20px
+    line-height: 1.15
+    color: $black
     position: relative
-    padding-left: 24px
-    margin-bottom: 6px
+    padding-left: 22px
+    margin-bottom: 10px
 
     &::before
       content: ""
       width: 12px
       height: 3px
       background: $blue
-      border-radius: 50%
+      border-radius: 20px
       position: absolute
       left: 0
-      top: 8px
+      top: 10px
 
 
   .list--bullet &
     padding-left: 16px
     margin-bottom: 7px
-    line-height: 1.15
 
     &::before
       width: 6px
       height: 6px
       background: $black
+      top: 8px
 
 
   .list--big &
     font-size: 20px
     font-weight: 600
     padding-left: 32px
-    margin-bottom: 8px
+    margin-bottom: 15px
+    color: $grey-dark
 
     +desktop
       font-size: 24px
