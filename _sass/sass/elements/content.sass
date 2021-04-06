@@ -19,7 +19,12 @@ $content-table-foot-cell-color: $text-strong !default
 
 .content
   @extend %block
-  max-width: 715px;
+  max-width: 715px
+  color: #3B4754
+
+  &--large
+    max-width: 1164px
+
   // Inline
   li + li
     margin-top: 0.25em
