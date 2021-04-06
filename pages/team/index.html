@@ -16,43 +16,34 @@ permalink: team
 <section id="team" class="section">
     <div class="container">
 
-        {% for member in site.data.team_members %}
-        {% cycle '
-        <div class="columns is-multiline">', '', '', '' %}
-            <div class="column is-3">
-                <div class="card lts-team-card">
-                    <div class="card-image">
-                        <figure class="image card-profile-image">
-                            <img src="{{ site.github.url }}{{member.image}}" alt="">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">{{member.name}}</p>
-                                <p class="subtitle is-6">
-                                    {% if member.jobtitle %}<span style="color:darkgray">{{member.jobtitle}}</span><br>{%
-                                    endif %}
-                                    {{member.title}}
-                                </p>
-                            </div>
-                        </div>
+        <div class="columns is-multiline">
 
-                        <div class="content">
-                            {{member.description}}
-                            {% if member.twitter %}<br>
-                            <a href="{{member.twitter}}" target="_blank">
-                                <span class="icon twitter"><i class="fab fa-twitter"></i></span>
-                            </a>
-                            {% endif %}
-                        </div>
+            {% for member in site.data.team_members %}
+            <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+                <div class="coach">
+                    <img src="{{ site.github.url }}{{member.image}}" class="coach__image" alt="{{member.name}} picture">
+
+                    <div class="coach__socials">
+                        {% if member.twitter %}
+                        <a href="{{member.twitter}}" target="_blank" class="coach__twitter">
+                            <img src="/icons/twitter-blue.svg" alt="Twitter Icon" class="coach__twitter-image">
+                        </a>
+                        {% endif %}
+                    </div>
+
+                    <h3 class="coach__name">{{member.name}}</h3>
+                    <span class="coach__jobtitle">{{member.jobtitle}}</span>
+                    <span class="coach__title">{{member.title}}</span>
+
+                    <div class="coach__description">
+                        {{member.description}}
                     </div>
                 </div>
             </div>
-            {% cycle '', '', '', '
+            {% endfor %}
+
         </div>
-        ' %}
-        {% endfor %}
+    </div>
 
     </div>
 </section>
