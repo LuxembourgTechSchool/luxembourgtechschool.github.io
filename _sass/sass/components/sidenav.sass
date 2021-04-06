@@ -1,6 +1,7 @@
 .sidenav
   min-width: 220px
   margin-bottom: 70px
+  will-change: min-height
 
   +desktop
     min-width: 265px
@@ -8,6 +9,9 @@
   &__inner
     padding: 20px 27px
     border: 2px solid #91B6E6
+    transform: translate(0, 0) /* For browsers who don't support translate3d. */
+    transform: translate3d(0, 0, 0)
+    will-change: position, transform
 
   &__title
     font-family: $font-title
