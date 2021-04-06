@@ -9,56 +9,61 @@ permalink: program
         Program
     </h1>
     <h2 class="subtitle">
-        This is for all 11-19 years old students who are passionate about the digital realm and eager to learn and apply
+        This epic program is for all 11-19 years old students who are passionate about the digital realm and eager to learn and apply
         technology in a real business context.
     </h2>
+    <div class="content">
+        At the moment, we offer a 3 year program. You can start with Level Go or with Level One, depending on your age.
+        Each level is divided into up to 3 modules, each centered on one specific business domain.
+        <br>At the end of each course, you (the student) will have the opportunity to present your project to the real world!
+        <br>
+        The program below is a preview of the cool topics that are covered.
+        There won't be much theory (a little is always useful).
+        It is filled with practical examples, exercices and you work on your own project!
+        <br>You will learn a lot about software development, entrepreneurship and even increase your presentation skills by multiple factors.
+        <br>
+        It won't be easy, but at the end you will have created an awesome piece of work, will have learned a ton of things and most importantly you will have had a lot of fun.
+    </div>
 </section>
 
 <section class="section section--program">
-    {% for i in (0..2) %}
+    {% for program in site.data.programs %}
     <div class="program-level">
         <div class="container">
-            <h2 class="title is-uppercase">Level G0</h2>
+            <h2 class="title is-uppercase">{{program.name}}</h2>
+            <h2 class="subtitle">
+                {{program.abstract}}
+            </h2>
             <div class="program-level__information">
                 <div class="program-level__age">
                     <strong class="is-uppercase">Age:</strong>
-                    11-14 years
+                    {{program.age}}
                 </div>
-                <div class="program-level__price is-uppercase">
-                    <strong>Price:</strong>
-                    Free
+                <div class="program-level__price">
+                    <strong class="is-uppercase">Duration:</strong>
+                    1 Academic Year
                 </div>
+                {% if program.requirement %}
+                <div class="program-level__price">
+                    <strong class="is-uppercase">Requirement:</strong>
+                    {{ program.requirement }}
+                </div>
+                {% endif %}
             </div>
             <div class="columns is-tablet is-flex-wrap-wrap">
+                {% for module in program.modules %}
                 <div class="column is-half-tablet is-one-third-desktop program-module">
-                    <img class="program-module__image" src="">
-                    <h3 class="program-module__title">Creative Coding</h3>
+                    <img class="program-module__image" src="{{module.image}}">
+                    <h3 class="program-module__title">{{module.name}}</h3>
                     <ul class="list">
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
+                        {% for item in module.items %}
+                        <li>{{item}}</li>
+                        {% endfor %}
                     </ul>
+                    TODO Event: {{module.event}}<br>
+                    TODO Event ShowCase: {{module.eventLink}}
                 </div>
-
-                <div class="column is-half-tablet is-one-third-desktop program-module">
-                    <img class="program-module__image" src="">
-                    <h3 class="program-module__title">Creative Coding</h3>
-                    <ul class="list">
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                </div>
-
-                <div class="column is-half-tablet is-one-third-desktop program-module">
-                    <img class="program-module__image" src="">
-                    <h3 class="program-module__title">Creative Coding</h3>
-                    <ul class="list">
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                </div>
+                {% endfor %}
             </div>
 
             <a href="#" class="button button--big">Register</a>

@@ -1,0 +1,82 @@
+- name: Level Go
+  age: 11-14
+  modules:
+    - name: Module A
+      image: https://via.placeholder.com/150
+      items:
+        - item 1
+        - item 2
+        - item 3
+        - item 4
+      event: Todo
+      eventLink: '#'
+- name: Level One
+  age: X-Y
+  modules:
+    - name: GameDev
+      image: https://via.placeholder.com/150
+      items:
+        - How to develop Video Games
+        - From idea to market
+        - Create & design art for games
+        - Sharpen your coding skills
+        - Learn professional game engines
+      event: Game Competition Event
+      eventLink: '#'
+    - name: BigData
+      image: https://via.placeholder.com/150
+      items:
+        - Discover Big Data
+        - Analyse large datasets
+        - Create visualizations
+        - Tell stories with data
+        - Code with Python
+      event: Data for Social Good Event
+      eventLink: '#'
+    - name: FinTech
+      image: https://via.placeholder.com/150
+      items:
+        - App Design & User Experience (UX)
+        - How financial transactions work
+        - Prototype innovative banking apps
+        - Implement your own Blockchain
+        - Learn about web security
+      event: FinTech Hackathon
+      eventLink: '#'
+- name: Level Up
+  age: X-Y
+  requirement: Complete Level One
+  modules:
+    - name: Space Resources
+      image: https://via.placeholder.com/150
+      items:
+        - Learn & understand the basic elements of Space Mining
+        - Motivate Space Explorations, Sciences & Robotics
+        - Mission Planning & Communication
+        - Program drones & rovers
+        - Deploy senors & collect data
+        - Learn about autonomous robots
+      event: Space Event
+      eventLink: '#'
+    - name: AI4Finance
+      image: https://via.placeholder.com/150
+      items:
+        - Discover Artificial Intelligence (A.I.)
+        - Understand financial (r)evolution
+        - Develop applications for wearables
+        - Build you own Chatbot
+        - Create an Advisor based on Deep Learning
+        - Learn & experiment with Fraud Detection
+      event: AI4Finance Hackathon
+      eventLink: '#'
+    - name: AI Creativity & Arts
+      image: https://via.placeholder.com/150
+      items:
+        - Discover Generative Artificial Intelligence (A.I.)
+        - Understand the limits of A.I.
+        - Create music with A.I.
+        - Generate stories
+        - Draw artistic images & videos
+        - Work on your own A.I. art project
+      event: Creative Showcase
+      eventLink: '#'
