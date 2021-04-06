@@ -1,0 +1,26 @@
+.in-the-press
+  margin-top: -15px
+
+  &__item
+    position: relative
+    margin-bottom: 8px
+    padding-left: 33px
+
+    &:before
+      content: ""
+      width: 18px
+      height: 4px
+      border-radius: 10px
+      background: $blue
+      position: absolute
+      top: 50%
+      left: 0
+      transform: translateY(-50%)
+
+  &__link
+    font-size: 18px
+    font-weight: 600
+    display: inline-block
+
+    +tablet
+      font-size: 24px
