@@ -19,47 +19,15 @@
 
 
             <div class="navbar__menu">
-                <a class="navbar__item" href="/how-it-works">How it works ?</a>
-
-                <a class="navbar__item" href="/program">Program</a>
-
-                <a class="navbar__item" href="/news">News</a>
-
-                <a class="navbar__item" href="/projects">Projects</a>
-
-                <a class="navbar__item" href="/team">Team</a>
-
-                <a class="navbar__item" href="/contact">Get in touch</a>
+                {% for nav in site.data.navigation %}
+                <a href="/{{ nav.permalink }}"
+                   class="navbar__item {% if nav.permalink == page.permalink %}active{% endif %}">{{ nav.text }}</a>
+                {% endfor %}
 
                 <a class="button button--blue" href="/register">Registration</a>
 
-
-                <!--
-                <div class="navbar__item has-dropdown is-hoverable">
-                    <a class="navbar__link" href="/gamedev">LTS Online</a>
-                    <div class="navbar__dropdown ">
-                        <a class="navbar__item " href="/gamedev">GameDev</a>
-                        <hr class="navbar__divider">
-                        <a class="navbar__item " href="/creativecoding-en">Creative Coding (EN)</a>
-                        <a class="navbar__item " href="/creativecoding-de">Creative Coding (DE/LU)</a>
-                        <hr class="navbar__divider">
-                        <a class="navbar__item " href="/hackathon-ai4finance-2021">Hackathon - Digital for Financial
-                            Inclusion &nbsp;<span class="tag is-danger is-rounded"><strong>NEW</strong></span></a>
-                    </div>
-                </div>
-
-
-                <a class="navbar__item" href="/jobs">Open Positions</a>
-
-                <a class="navbar__item" href="/contact">Get in touch</a>
-
-                {% if site.registration.isOpen %}
-                <a class="navbar__item" href="/register">
-                    <span class="tag is-danger"><strong>Register Here</strong></span>
-                </a>
-                {% endif %}
-
-                -->
+                <!--{% if site.registration.isOpen %}-->
+                <!--{% endif %}-->
             </div>
         </div>
     </nav>
