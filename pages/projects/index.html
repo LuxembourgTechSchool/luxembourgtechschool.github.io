@@ -13,10 +13,18 @@ permalink: projects
     </h2>
 </section>
 
-<section class="section">
-    <div class="columns">
-        <div class="column">
-            ...
+<section class="section container">
+    <div class="columns is-multiline">
+        {% for i in (1..6) %}
+        <div class="column is-half-tablet is-one-third-desktop">
+            <a class="item-preview" href="#">
+                <h3 class="item-preview__title is-uppercase">Jugendpräis 2020</h3>
+                <div class="item-preview__image" style="background-image: url('')"></div>
+                <div class="item-preview__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua…
+                </div>
+            </a>
         </div>
+        {% endfor %}
     </div>
 </section>
