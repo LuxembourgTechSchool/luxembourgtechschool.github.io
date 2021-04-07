@@ -1,0 +1,30 @@
+.job-preview
+  list-style: none
+
+  &__link
+    display: block
+    background: white
+    margin-bottom: 18px
+    padding: 23px 25px
+
+  &__contract-type
+    font-size: 18px
+    font-weight: 600
+    text-transform: uppercase
+    color: #3D4855
+    margin-bottom: 7px
+    display: inline-block
+
+  &__title
+    font-family: $title-family
+    font-size: 28px
+    line-height: 1
+    color: #0D1A2B
+    text-transform: uppercase
+    transition: color 0.2s ease
+
+    +tablet
+      font-size: 36px
+
+    .job-preview:hover &
+      color: $blue-color
