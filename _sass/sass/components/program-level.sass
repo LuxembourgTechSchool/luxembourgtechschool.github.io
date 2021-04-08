@@ -1,5 +1,8 @@
 .program-level
-  padding: 100px 0
+  padding: 60px 0
+
+  +tablet
+    padding: 100px 0
 
   &:first-child
     padding-top: 15px
@@ -8,15 +11,22 @@
     background: white
 
   &__information
-    font-size: 20px
-    display: flex
+    font-size: 18px
     color: $black
     margin-bottom: 40px
 
+    +tablet
+      font-size: 20px
+      display: flex
+
     strong
       font-family: $font-title
-      font-size: 22px
+      font-size: 20px
       margin-right: 8px
 
+      +tablet
+        font-size: 22px
+
   &__extra
-    margin-left: 50px
+    +tablet
+      margin-left: 50px

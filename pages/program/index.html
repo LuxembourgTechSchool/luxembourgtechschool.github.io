@@ -9,20 +9,24 @@ permalink: program
         Program
     </h1>
     <h2 class="subtitle">
-        This epic program is for all 11-19 years old students who are passionate about the digital realm and eager to learn and apply
+        This epic program is for all 11-19 years old students who are passionate about the digital realm and eager to
+        learn and apply
         technology in a real business context.
     </h2>
-    <div class="content">
+    <div class="content content--highlighted">
         At the moment, we offer a 3 year program. You can start with Level Go or with Level One, depending on your age.
         Each level is divided into up to 3 modules, each centered on one specific business domain.
-        <br>At the end of each course, you (the student) will have the opportunity to present your project to the real world!
+        <br>At the end of each course, you (the student) will have the opportunity to present your project to the real
+        world!
         <br>
         The program below is a preview of the cool topics that are covered.
         There won't be much theory (a little is always useful).
         It is filled with practical examples, exercices and you work on your own project!
-        <br>You will learn a lot about software development, entrepreneurship and even increase your presentation skills by multiple factors.
+        <br>You will learn a lot about software development, entrepreneurship and even increase your presentation skills
+        by multiple factors.
         <br>
-        It won't be easy, but at the end you will have created an awesome piece of work, will have learned a ton of things and most importantly you will have had a lot of fun.
+        It won't be easy, but at the end you will have created an awesome piece of work, will have learned a ton of
+        things and most importantly you will have had a lot of fun.
     </div>
 </section>
 
@@ -59,14 +63,16 @@ permalink: program
                         {% for item in module.items %}
                         <li>{{item}}</li>
                         {% endfor %}
+
+                        <li><a href="{{module.eventLink}}" class="program-module__event">{{module.event}}</a></li>
                     </ul>
-                    TODO Event: {{module.event}}<br>
-                    TODO Event ShowCase: {{module.eventLink}}
                 </div>
                 {% endfor %}
             </div>
 
+            {% if program.name != "Level Up" %}
             <a href="#" class="button button--big">Register</a>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
