@@ -1,15 +1,25 @@
 ---
 layout: default
+custom_js: home
 ---
 
 <section class="section hero">
     <div class="container">
         <div class="hero__inner columns is-vcentered">
-            <div class="hero__video column">
-                <video class="responsive-video" poster="{{ site.github.url }}/images/bg/bg_video-supertrailer.jpg"
-                       playsinline autoplay muted loop>
-                    <source src="{{ site.github.url }}/assets/SuperTrailer2020_720p.mov" type="video/mp4">
+            <div class="hero__video column"
+                 style="background-image: url({{ site.github.url }}/images/bg/bg_video-supertrailer.jpg)">
+
+                <video autoplay="" muted="" loop="" id="myVideo" class="responsive-video js-video"
+                       data-url="{{ site.github.url }}/assets/SuperTrailer2020_720p.mov">
                 </video>
+
+                <a class="hero__play js-play" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40.42" viewBox="0 0 30 40.418"
+                         class="hero__play-icon">
+                        <path d="M30.76,58.573,55.637,40.914a2.594,2.594,0,0,0,0-4.189L30.76,19.131a2.572,2.572,0,0,0-4.06,2.127V56.575A2.551,2.551,0,0,0,30.76,58.573Z"
+                              transform="translate(-26.7 -18.645)" fill="currentColor"/>
+                    </svg>
+                </a>
             </div>
             <div class="hero__content column">
                 <h1 class="title title--main">The Tech School you were waiting for!</h1>
