@@ -15,17 +15,31 @@ permalink: news
 
 <section class="section container">
     <div class="columns is-multiline">
-        {% for i in (1..6) %}
+        {% for post in site.posts %}
         <div class="column is-half-tablet is-one-third-desktop">
-            <a class="item-preview" href="#">
-                <span class="item-preview__date">09/02/2021</span>
-                <h3 class="item-preview__title is-uppercase">AstroPi Workshop at SES - 2019</h3>
+            <a class="item-preview" href="{{post.url}}">
+                <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                </time>
+                <h3 class="item-preview__title is-uppercase">{{post.title}}</h3>
                 <div class="item-preview__image" style="background-image: url('')"></div>
-                <div class="item-preview__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua…
-                </div>
+                <div class="item-preview__excerpt">{{ post.excerpt }}</div>
             </a>
         </div>
         {% endfor %}
     </div>
 </section>
+
+
+
+<h1>TEST_ TAGS</h1>
+
+{% for tag in site.tags %}
+<h3>{{ tag[0] }}</h3>
+<ul>
+    {% for post in tag[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}
+
