@@ -10,7 +10,7 @@ li
     padding-left: 22px
     margin-bottom: 10px
 
-    &::before
+    &:before
       content: ""
       width: 12px
       height: 3px
@@ -19,6 +19,12 @@ li
       position: absolute
       left: 0
       top: 10px
+
+  &.program-module__event
+    padding-left: 0
+
+    &:before
+      display: none
 
 
   .list--bullet &
@@ -30,7 +36,6 @@ li
       height: 6px
       background: $black
       top: 8px
-
 
   .list--big &
     font-size: 20px
