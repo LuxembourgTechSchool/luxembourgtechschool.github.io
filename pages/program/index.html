@@ -61,7 +61,7 @@ permalink: program
             <div class="columns is-tablet is-flex-wrap-wrap">
                 {% for module in program.modules %}
                 <div class="column is-half-tablet is-one-third-desktop program-module">
-                    <img class="program-module__image" src="{{module.image}}">
+                    <img class="program-module__image" src="{{ site.github.url }}/{{module.image}}">
                     <h3 class="program-module__title">{{module.name}}</h3>
                     <ul class="list">
                         {% for item in module.items %}

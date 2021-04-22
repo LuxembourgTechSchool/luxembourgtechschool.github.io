@@ -2,7 +2,7 @@
   age: 12-14
   modules:
     - name: Module A
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_1_GameDev.png
       items:
         - item 1
         - item 2
@@ -10,11 +10,11 @@
         - item 4
       event: Todo
       eventLink: '#'
-- name: Level One
+- name: Level 1
   age: 15-19
   modules:
     - name: GameDev
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_1_GameDev.png
       items:
         - How to develop Video Games
         - From idea to market
@@ -24,7 +24,7 @@
       event: Game Competition Event
       eventLink: '#'
     - name: BigData
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_1_BigData.png
       items:
         - Discover Big Data
         - Analyse large datasets
@@ -34,7 +34,7 @@
       event: Data for Social Good Event
       eventLink: '#'
     - name: FinTech
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_1_FinTech.png
       items:
         - App Design & User Experience (UX)
         - How financial transactions work
@@ -48,7 +48,7 @@
   requirement: Complete Level One
   modules:
     - name: Space Resources
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_up_SpaceResources.png
       items:
         - Learn & understand the basic elements of Space Mining
         - Motivate Space Explorations, Sciences & Robotics
@@ -59,7 +59,7 @@
       event: Space Event
       eventLink: '#'
     - name: AI4Finance
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_up_Ai4Finance.png
       items:
         - Discover Artificial Intelligence (A.I.)
         - Understand financial (r)evolution
@@ -70,7 +70,7 @@
       event: AI4Finance Hackathon
       eventLink: '#'
     - name: AI Creativity & Arts
-      image: https://via.placeholder.com/150
+      image: images/modules/lvl_up_AiCreativityArts.png
       items:
         - Discover Generative Artificial Intelligence (A.I.)
         - Understand the limits of A.I.
