@@ -1,8 +1,8 @@
 - name: Level Go
   age: 12-14
   modules:
-    - name: Module A
-      image: images/modules/lvl_1_GameDev.png
+    - name: Creative Coding
+      image: images/modules/lvl_go_CreativeCoding.png
       items:
         - item 1
         - item 2
