@@ -15,8 +15,7 @@
       height: 776px
 
   &__content
-    padding-top: 85px
-
+    padding-top: 15px
     +tablet
       padding-top: 0
       max-width: 50%
@@ -26,8 +25,8 @@
     left: 50%
     top: 50%
     transform: translate(-50%, -50%)
-    width: 100px
-    height: 100px
+    width: 80px
+    height: 80px
     background: $white
     border-radius: 50%
     display: flex
@@ -35,6 +34,10 @@
     justify-content: center
     -webkit-transition: all 0.3s ease
     transition: all 0.3s ease
+
+    +tablet
+      width: 100px
+      height: 100px
 
     +desktop
       width: 132px
@@ -45,17 +48,22 @@
       visibility: hidden
 
     &-icon
-      width: 25px
+      width: 20px
       margin-left: 8px
       color: $black
       -webkit-transition: all 0.2s ease
       transition: all 0.2s ease
 
-      .hero__play:focus &
-        width: 23px
-
       .hero__play:hover &
         color: $blue
+
+      .hero__play:focus &
+        width: 18px
+
+      +tablet
+        width: 25px
+        .hero__play:focus &
+          width: 23px
 
       +desktop
         width: 30px
@@ -64,8 +72,9 @@
           width: 28px
 
   &__video
+    position: relative
     margin-bottom: 20px
-    display: none
+    background-color: #ebecec
 
     +tablet
       position: absolute
