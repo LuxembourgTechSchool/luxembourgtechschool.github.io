@@ -13,8 +13,8 @@ permalink: press
 <section class="section">
     <div class="container">
         <ul class="in-the-press">
-            {% for i in (1..6) %}
-            <li class="in-the-press__item"><a href="#" class="in-the-press__link">Lorem ipsum</a></li>
+            {% for press in site.data.press %}
+            <li class="in-the-press__item"><a href="{{ press.url }}" target="_blank" class="in-the-press__link">{{ press.title }}</a></li>
             {% endfor %}
         </ul>
     </div>
