@@ -4,12 +4,24 @@
     - name: Creative Coding
       image: images/modules/lvl_go_CreativeCoding.png
       items:
-        - item 1
-        - item 2
-        - item 3
-        - item 4
-      event: Todo
-      eventLink: '#'
+        - Learn the basics of coding
+        - Create digital graphics & animation patterns
+        - Create your first web page
+        - Express your creatvitiy with digital artworks
+    - name: Digital Thinking
+      image: images/modules/lvl_go_CreativeCoding.png
+      items:
+        - Understand how to talk to computers with online and unplugged activities
+        - Explore playfully "Computational Thinking"
+        - Strengthen your logical and critical thinking
+        - Discover important technologies like AI or Robotics
+    - name: Interaction Design
+      image: images/modules/lvl_go_CreativeCoding.png
+      items:
+        - Learn how machines and humans interact
+        - Use microcomputers for «Physical Computing»
+        - Get to know simple robots and learn more about space
+        - Explore and tinker on creative projects
 - name: Level 1
   age: 15-19
   modules:

@@ -68,10 +68,12 @@ permalink: program
                         <li>{{item}}</li>
                         {% endfor %}
 
+                        {% if module.eventLink %}
                         <li class="program-module__event">
                             <a href="{{module.eventLink}}" class="program-module__event-link"><span
                                     class="program-module__event-icon"></span>{{module.event}}</a>
                         </li>
+                        {% endif %}
                     </ul>
                 </div>
                 {% endfor %}
