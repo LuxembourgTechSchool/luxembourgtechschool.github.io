@@ -9,17 +9,17 @@
         - Create your first web page
         - Express your creatvitiy with digital artworks
     - name: Digital Thinking
-      image: images/modules/lvl_go_CreativeCoding.png
+      image: images/modules/lvl_go_DigitalThinking.png
       items:
         - Understand how to talk to computers with online and unplugged activities
         - Explore playfully "Computational Thinking"
         - Strengthen your logical and critical thinking
         - Discover important technologies like AI or Robotics
     - name: Interaction Design
-      image: images/modules/lvl_go_CreativeCoding.png
+      image: images/modules/lvl_go_InteractionDesign.png
       items:
         - Learn how machines and humans interact
-        - Use microcomputers for «Physical Computing»
+        - Use microcomputers for "Physical Computing"
         - Get to know simple robots and learn more about space
         - Explore and tinker on creative projects
 - name: Level 1
