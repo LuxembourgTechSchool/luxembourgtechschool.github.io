@@ -39,7 +39,7 @@ $subtitle-negative-margin: -1.25rem !default
   line-height: $title-line-height
 
   +tablet
-      font-size: 36px
+    font-size: 36px
 
   +desktop
     font-size: 46px
@@ -74,6 +74,7 @@ $subtitle-negative-margin: -1.25rem !default
   opacity: 0.8
   line-height: $subtitle-line-height
   max-width: 768px
+  margin-top: -6px
 
   .has-text-centered &
     margin: 0 auto
@@ -83,6 +84,13 @@ $subtitle-negative-margin: -1.25rem !default
 
   &--dark
     color: #172E4D
+
+  &--small
+    font-size: 18px
+    padding-top: 7px
+
+    +desktop
+      font-size: 20px
 
   strong
     color: $subtitle-strong-color

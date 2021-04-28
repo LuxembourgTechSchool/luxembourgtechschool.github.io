@@ -39,9 +39,9 @@ permalink: program
     <div class="program-level">
         <div class="container">
             <h2 class="title is-uppercase">{{program.name}}</h2>
-            <h2 class="subtitle">
+            <h3 class="subtitle subtitle--small">
                 {{program.description}}
-            </h2>
+            </h3>
             <div class="program-level__information">
                 <div class="program-level__age">
                     <strong class="is-uppercase">Age:</strong>
@@ -80,7 +80,7 @@ permalink: program
             </div>
 
             {% if program.name != "Level Up" %}
-            <a href="#" class="button button--big">Register</a>
+            <a href="/registration" class="button button--big">Registration</a>
             {% endif %}
         </div>
     </div>
