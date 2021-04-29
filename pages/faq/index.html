@@ -10,22 +10,17 @@ custom_js: faq
         FAQ
     </h1>
     <h2 class="subtitle">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        We try to answer all your questions!
     </h2>
 </section>
 
 <section class="section">
     <div class="container">
-        {% for i in (1..6) %}
+        {% for faq in site.data.faq %}
         <a class="faq" href="#hash">
-            <h3 class="faq__question">Lorem ipsum dolor sit amet, consectetur adipisicing elit ? <img src="icons/down.svg" alt="Down arrow" class="faq__arrow"></h3>
+            <h3 class="faq__question">{{faq.question}} <img src="icons/down.svg" alt="Down arrow" class="faq__arrow"></h3>
             <div class="faq__answer">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
+                {{faq.answer}}
             </div>
         </a>
         {% endfor %}
