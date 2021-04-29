@@ -30,27 +30,19 @@ permalink: registration
 
 <section class="section container">
     <ul class="is-flex is-flex-wrap-wrap">
+        {% for level in site.data.registration.levels %}
         <li class="register__level">
-            <h2 class="title is-uppercase">Level G0</h2>
+            <h2 class="title is-uppercase">{{ level.name }}</h2>
+            {% for info in level.information %}
             <div class="program-level__information">
                 <div class="program-level__age">
-                    <strong class="is-uppercase">Age:</strong>
-                    12-14
+                    <strong class="is-uppercase">{{info.key}}:</strong> {{info.value}}
                 </div>
             </div>
-            <a href="#" class="button button--blue">Register</a>
+            {% endfor %}
+            <a href="{{level.link}}" target="_blank" class="button button--blue">Register</a>
         </li>
-
-        <li class="register__level">
-            <h2 class="title is-uppercase">Level 1</h2>
-            <div class="program-level__information">
-                <div class="program-level__age">
-                    <strong class="is-uppercase">Age:</strong>
-                    15-19
-                </div>
-            </div>
-            <a href="#" class="button button--blue">Register</a>
-        </li>
+        {% endfor %}
     </ul>
 </section>
 
