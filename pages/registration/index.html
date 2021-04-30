@@ -12,20 +12,17 @@ permalink: registration
         It's open! Hurry up!
     </h2>
 
+    <!--
     <div class="content content--highlighted">
         <strong>Important:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        <br>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
 
         <ul>
             <li>lorem</li>
             <li>lorem</li>
-            <li>lorem</li>
         </ul>
     </div>
+    -->
 </section>
 
 <section class="section container">
@@ -33,14 +30,21 @@ permalink: registration
         {% for level in site.data.registration.levels %}
         <li class="register__level">
             <h2 class="title is-uppercase">{{ level.name }}</h2>
-            {% for info in level.information %}
-            <div class="program-level__information">
-                <div class="program-level__age">
+            <div class="program-level__informations">
+                {% for info in level.information %}
+                <div class="program-level__information">
                     <strong class="is-uppercase">{{info.key}}:</strong> {{info.value}}
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
+
             <a href="{{level.link}}" target="_blank" class="button button--blue">Register</a>
+
+            {% if level.footnote %}
+            <div class="program-level__footnote">
+                {{level.footnote}}
+            </div>
+            {% endif %}
         </li>
         {% endfor %}
     </ul>

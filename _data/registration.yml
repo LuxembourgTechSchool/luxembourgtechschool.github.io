@@ -32,10 +32,9 @@ levels:
         value: No coding knowledge required
       - key: Price
         value: 100% Free
-      - key: Online selection test
-        value: >
-          After registering, you will be invited to an online selection test scheduled for <em>Friday, 25 June 2021 at 17h00</em>.
-          This is a short test aims at challenging your motivation and tech-related interests.
-          All details about the selection test will be sent on <em>Friday, 11th June 2021</em>.
       - key: Deadline for registration
         value: 10/07/2021
+    footnote:
+        After registering, you will be invited to an <strong>online selection test</strong> scheduled for <strong>Friday, 25 June 2021 at 17h00</strong>.
+        This is a short test aims at challenging your motivation and tech-related interests.
+        All details about the selection test will be sent on <strong>Friday, 11th June 2021</strong>.

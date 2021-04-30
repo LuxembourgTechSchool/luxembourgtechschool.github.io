@@ -5,31 +5,45 @@
     padding: 100px 0
 
   &:first-child
-    padding-top: 15px
+    padding-top: 20px
+
+    +tablet
+      padding-top: 50px
 
   &:nth-child(2n)
     background: white
 
+  &__informations
+    margin-top: -10px
+    margin-bottom: 10px
+
   &__information
-    font-size: 18px
+    font-size: 17px
     color: $black
     margin-bottom: 40px
 
     .register__level &
-      margin-top: -18px
-      margin-bottom: 20px
+      margin-top: 0
+      margin-bottom: 4px
+
+      &:first-child
+        margin-top: -10px
 
     +tablet
-      font-size: 20px
+      font-size: 19px
       display: flex
 
     strong
       font-family: $font-title
-      font-size: 20px
+      font-size: 19px
       margin-right: 8px
 
       +tablet
-        font-size: 22px
+        font-size: 20px
+        margin-top: -2px
+
+  &__footnote
+    margin: 20px 0 0
 
   &__extra
     +tablet
