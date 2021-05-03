@@ -24,16 +24,16 @@ docker run --rm --volume="${PWD}:/srv/jekyll" -p 4000:4000 -it jekyll/minimal je
 
 ***
 
-##CSS / SASS
+## CSS / SASS
 
 The SASS was based on Bulma. **Although** it was modified and adapted to the design and **should not** be updated anymore.
 
-###A few new classes were added:
+### A few new classes were added:
 
 - ### Main Title
 >```title title--main``` ( should be used on ```h1```): will create the big title that should be used for the main title of a page
 
-- ###Title
+- ### Title
 >```title```: can be used for all the section headings
 
 >```title title--white```: will change the title color to white
@@ -46,7 +46,7 @@ The SASS was based on Bulma. **Although** it was modified and adapted to the des
 
 > ```list list--big```: can be used to create the huge list visible on **Home**
 
-##Some components were modified:
+## Some components were modified:
 
 - ### Buttons
 The button component has been simplified to only allow the buttons that were planned in the design and can be used like so:
@@ -56,4 +56,4 @@ The button component has been simplified to only allow the buttons that were pla
 
 >```button button--big```: will make the button huge; can be combined with button--blue
 
-###All in all, the recommendation is to look at already created pages and use the classes similarly.
+### All in all, the recommendation is to look at already created pages and use the classes similarly.
