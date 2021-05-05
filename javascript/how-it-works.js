@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     behavior: 'smooth'
                 });
 
-                history.pushState(hash, '', window.location.pathname + hash);
+                //history.pushState(hash, '', window.location.pathname + hash);
             }
         })
     })
