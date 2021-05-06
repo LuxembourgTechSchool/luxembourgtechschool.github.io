@@ -1,32 +1,48 @@
 .hero
   position: relative
   margin-top: 12px
+  background: $white
 
-  +tablet
-    height: 600px
+  &:after
+    content: ""
+    width: 400px
+    height: 365px
+    position: absolute
+    left: -150px
+    top: -210px
+    background-image: url("/images/bg/blob-blue.svg")
+    background-size: contain
+    background-repeat: no-repeat
+    z-index: 0
 
-  +desktop
-    height: 776px
+    +desktop
+      width: 470px
+      height: 430px
 
   &__inner
-    +tablet
-      height: 600px
+    padding: 40px 0 50px
+
     +desktop
-      height: 776px
+      display: flex
+      padding: 80px 0 240px
 
   &__content
-    padding-top: 15px
-    +tablet
-      padding-top: 0
-      max-width: 560px
+    position: relative
+    z-index: 10
+    padding-top: 10px
+
+    +desktop
+      padding-top: 200px
+      max-width: 700px
+      padding-right: 40px
 
   &__play
     position: absolute
     left: 50%
     top: 50%
     transform: translate(-50%, -50%)
-    width: 80px
-    height: 80px
+    width: 65px
+    height: 65px
     background: $white
     border-radius: 50%
     display: flex
@@ -34,21 +50,18 @@
     justify-content: center
     -webkit-transition: all 0.3s ease
     transition: all 0.3s ease
-
-    +tablet
-      width: 100px
-      height: 100px
+    z-index: 5
 
     +desktop
-      width: 132px
-      height: 132px
+      width: 90px
+      height: 90px
 
     &.fadeout
       opacity: 0
       visibility: hidden
 
     &-icon
-      width: 20px
+      width: 16px
       margin-left: 8px
       color: $black
       -webkit-transition: all 0.2s ease
@@ -58,42 +71,56 @@
         color: $blue
 
       .hero__play:focus &
-        width: 18px
-
-      +tablet
-        width: 25px
-        .hero__play:focus &
-          width: 23px
+        width: 14px
 
       +desktop
-        width: 30px
+        width: 20px
 
         .hero__play:focus &
-          width: 28px
+          width: 18px
 
   &__video
-    position: relative
     margin-bottom: 20px
-    background-color: #ebecec
 
-    +tablet
-      position: absolute
-      top: 0
-      right: 0
-      width: 50%
-      height: 100%
-      margin-bottom: 0
-      background-color: #ebecec
-      background-size: cover
-      background-position: center
+  &__video-inner
+    position: relative
+    background: #ebebeb
+    max-width: 620px
+    margin-left: auto
+    box-shadow: -10px 10px 25px rgba(13, 26, 43, 0.2)
+
+    +desktop
+      max-width: 768px
+
+    &:before
+      content: ""
       display: block
+      width: 100%
+      height: 100%
+      position: absolute
+      left: 0
+      top: 0
+      background: rgba(13, 26, 43, 0.35)
+
+    &:after
+      content: ""
+      width: 340px
+      height: 300px
+      position: absolute
+      left: -100px
+      bottom: -90px
+      background-image: url("/images/bg/blob-orange.svg")
+      background-size: contain
+      background-repeat: no-repeat
+      z-index: 0
+      display: none
+
+      +desktop
+        display: block
+
 
   video
+    position: relative
     display: block
     width: 100%
-    +tablet
-      position: absolute
-      top: 0
-      left: 0
-      height: 100%
-      object-fit: cover
+    z-index: 3

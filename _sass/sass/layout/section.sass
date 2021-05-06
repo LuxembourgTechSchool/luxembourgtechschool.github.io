@@ -26,9 +26,12 @@
     margin-bottom: 75px
 
   &__image
-    height: 380px
+    height: 300px
     object-fit: cover
     object-position: center
+
+    +tablet
+      height: 380px
 
     +desktop
       height: 470px
@@ -36,3 +39,5 @@
         padding-left: 4rem
       .image-left &
         padding-right: 4rem
+      &--shifted
+        margin-top: -190px

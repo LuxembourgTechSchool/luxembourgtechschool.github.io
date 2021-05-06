@@ -5,28 +5,30 @@ custom_js: home
 
 <section class="section section--hero hero">
     <div class="container">
-        <div class="hero__inner columns is-vcentered">
-            <div class="hero__video column"
-                 style="background-image: url({{ site.github.url }}/images/bg/FirstPageHeader.jpg)">
+        <div class="hero__inner is-flex-direction-row-reverse is-justify-content-space-between">
+            <div class="hero__video">
+                <div class="hero__video-inner">
+                    <video autoplay="" muted="" loop="" id="myVideo" class="responsive-video js-video"
+                           poster="/images/bg/video-poster.jpg"
+                           data-url="https://www.techschool.lu/assets/SuperTrailer2020_720p.mov"
+                           data-url-mobile="">
+                    </video>
 
-                <video autoplay="" muted="" loop="" id="myVideo" class="responsive-video js-video"
-                       data-url="{{ site.github.url }}/assets/SuperTrailer2020_720p.mov"
-                       data-url-mobile="">
-                </video>
+                    <a class="hero__play js-play" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40.42" viewBox="0 0 30 40.418"
+                             class="hero__play-icon">
+                            <path d="M30.76,58.573,55.637,40.914a2.594,2.594,0,0,0,0-4.189L30.76,19.131a2.572,2.572,0,0,0-4.06,2.127V56.575A2.551,2.551,0,0,0,30.76,58.573Z"
+                                  transform="translate(-26.7 -18.645)" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
 
-                <a class="hero__play js-play" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40.42" viewBox="0 0 30 40.418"
-                         class="hero__play-icon">
-                        <path d="M30.76,58.573,55.637,40.914a2.594,2.594,0,0,0,0-4.189L30.76,19.131a2.572,2.572,0,0,0-4.06,2.127V56.575A2.551,2.551,0,0,0,30.76,58.573Z"
-                              transform="translate(-26.7 -18.645)" fill="currentColor"/>
-                    </svg>
-                </a>
             </div>
-            <div class="hero__content column">
+            <div class="hero__content">
                 <h1 class="title title--main">Become a Digital Leader</h1>
 
                 <ul class="list list--big">
-                    <li>For 11-19 years old students</li>
+                    <li>For 12-19 years old students</li>
                     <li>Learn the latest technologies.</li>
                     <li>Grow your business knowledge.</li>
                     <li>Express your creativity</li>
@@ -40,9 +42,10 @@ custom_js: home
 
 <section class="section image-left">
     <div class="container">
-        <div class="columns is-vcentered">
+        <div class="columns">
             <div class="column has-text-centered">
-                <img class="image section__image" src="{{ site.github.url }}/images/highlights/LTSGameEvent-91.jpg" alt="">
+                <img class="image section__image section__image--shifted" src="{{ site.github.url }}/images/highlights/LTSGameEvent-91.jpg"
+                     alt="">
             </div>
             <div class="column">
                 <h2 class="title is-uppercase">Why LTS ?</h2>
@@ -50,10 +53,13 @@ custom_js: home
                     <p>
                         Luxembourg needs people with digital skills!
                         Still, a large number of children and students have never been engaged in any coding activity.
-                        This is both a challenge and an opportunity to fill this void and provide new learning possibilities.
+                        This is both a challenge and an opportunity to fill this void and provide new learning
+                        possibilities.
                     </p>
                     <p>
-                        If you are between 11 and 19 years old, passionate about the digital realm and eager to learn and apply technology in a real business context, then the Luxembourg Tech School (LTS for short) is for you!
+                        If you are between 11 and 19 years old, passionate about the digital realm and eager to learn
+                        and apply technology in a real business context, then the Luxembourg Tech School (LTS for short)
+                        is for you!
                     </p>
                 </div>
                 <a href="/how-it-works" class="button">How it works?</a>
@@ -66,18 +72,22 @@ custom_js: home
     <div class="container">
         <div class="columns is-vcentered">
             <div class="column has-text-centered">
-                <img class="image section__image" src="{{ site.github.url }}/images/highlights/AstroPiSES2019-3.14.1.jpg" alt="">
+                <img class="image section__image"
+                     src="{{ site.github.url }}/images/highlights/AstroPiSES2019-3.14.1.jpg" alt="">
             </div>
             <div class="column">
                 <h2 class="title is-uppercase">What ? How ?</h2>
                 <div class="content">
                     <p>
-                        Since 2016, the Luxembourg Tech School supports the national strategy by developing the future digital leaders.
-                        We implemented a unique project-based methodology that has proven, not only, successful, but also highly motivating and fun for you.
+                        Since 2016, the Luxembourg Tech School supports the national strategy by developing the future
+                        digital leaders.
+                        We implemented a unique project-based methodology that has proven, not only, successful, but
+                        also highly motivating and fun for you.
                     </p>
                     <p>
                         You work in teams on your own projects, learn new technologies and get personalised coaching!
-                        From Creative Coding, to Game Development, passing by Financial Technologies, Artificial Intelligence or even Space, we provide a packed program.
+                        From Creative Coding, to Game Development, passing by Financial Technologies, Artificial
+                        Intelligence or even Space, we provide a packed program.
                     </p>
                 </div>
                 <a href="/program" class="button" title="Read more about how it works">Discover the program</a>
