@@ -4,6 +4,8 @@ title: Luxembourg Tech School - Registrations
 permalink: registration
 ---
 
+<div class="blob"></div>
+
 <section class="page-header container">
     <h1 class="title title--main is-spaced">
         Want to register?
@@ -33,7 +35,7 @@ permalink: registration
             <div class="program-level__informations">
                 {% for info in level.information %}
                 <div class="program-level__information">
-                    <strong class="is-uppercase">{{info.key}}:</strong> {{info.value}}
+                    <strong>{{info.key}}</strong> <span>{{info.value}}</span>
                 </div>
                 {% endfor %}
             </div>

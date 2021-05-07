@@ -19,7 +19,6 @@
 
   &__information
     font-size: 17px
-    color: $black
     margin-bottom: 40px
 
     .register__level &
@@ -32,17 +31,21 @@
     +tablet
       font-size: 19px
       display: flex
+      align-items: center
 
     strong
-      font-family: $font-title
-      font-size: 19px
-      margin-right: 8px
+      font-size: 14px
+      margin-right: 12px
+      font-weight: 400
 
       +tablet
-        font-size: 20px
-        margin-top: -2px
+        font-size: 16px
+
+    span
+      color: $black
 
   &__footnote
+    line-height: 1.5
     margin: 20px 0 0
 
   &__extra
