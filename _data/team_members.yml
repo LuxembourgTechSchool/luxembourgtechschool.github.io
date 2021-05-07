@@ -52,21 +52,21 @@
   title: Innovation addict
   description: He loves to create, educate and is fascinated by innovation.
   image: /images/team/filipe.png
-  twitter: 
+  twitter:
 
 - name: Melvyn Mainini
   jobtitle: Digital Coach
   title: Maths runs through his veins
   description: He loves logic AND geometry AND everything else about mathematics.
   image: /images/team/melvyn.png
-  twitter: 
+  twitter:
 
 - name: Valentin Grouès
   jobtitle: Lead Coach
   title: The Software Ninja.
   description: He loves technology, programming and obviously Software!
   image: /images/team/valentin.png
-  twitter: 
+  twitter:
 
 - name: Gary Cornelius
   jobtitle: Digital Coach
@@ -88,6 +88,7 @@
   description:
   image: /images/team/isman.png
   twitter:
+  needs-border: true
 
 - name: Laura Plein
   jobtitle: Lead Coach
@@ -95,3 +96,4 @@
   description:
   image: /images/team/laura.png
   twitter:
+  needs-border: true
