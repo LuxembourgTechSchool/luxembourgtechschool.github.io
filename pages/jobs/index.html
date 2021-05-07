@@ -18,18 +18,18 @@ permalink: jobs
 <section class="section container">
     <div class="jobs">
 
-        {% unless site.jobs %}
+        {% unless site.data.jobs.open %}
         <div class="jobs__noresult has-text-centered">
             <h3 class="jobs__title">No open positions for the moment.</h3>
             <a href="/contact" class="button button--blue is-uppercase">Apply spontaneously</a>
         </div>
         {% endunless %}
 
-        {% if site.jobs %}
-        {% for job in site.jobs %}
+        {% if site.data.jobs.open %}
+        {% for job in site.data.jobs.positions %}
         <div class="jobs__list">
             <li class="job-preview">
-                <a href="{{ job.url }}" class="job-preview__link">
+                <a href="{{ job.url }}" class="job-preview__link" target="_blank">
                     <span class="job-preview__contract-type">{{ job.contract }}</span>
                     <h3 class="job-preview__title">{{ job.title }}</h3>
                 </a>
