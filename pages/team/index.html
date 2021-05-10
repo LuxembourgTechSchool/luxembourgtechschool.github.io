@@ -23,7 +23,7 @@ permalink: team
             {% for member in site.data.team_members %}
             <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
                 <div class="coach">
-                    <div class="coach__image-wrapper {% if member.needs-border %}img-border{% endif %}">
+                    <div class="coach__image-wrapper img-border">
                         {% if member.image %}
                         <img src="{{ site.github.url }}{{member.image}}" class="coach__image"
                              alt="{{member.name}} picture">
