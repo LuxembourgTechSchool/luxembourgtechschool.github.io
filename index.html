@@ -128,15 +128,18 @@ custom_js: home
         <h2 class="title has-text-centered is-uppercase mb-6">Latest News</h2>
 
         <div class="columns is-flex-wrap-wrap is-justify-content-center">
-            {% for i in (1..2) %}
+            {% for post in site.posts %}
+            {% if forloop.rindex == 2 %}
+                {% break %}
+            {% endif %}
             <div class="column is-half-tablet is-one-third-desktop">
-                <a class="item-preview" href="#">
-                    <span class="item-preview__date">09/02/2021</span>
-                    <h3 class="item-preview__title is-uppercase">AstroPi Workshop at SES - 2019</h3>
-                    <div class="item-preview__image" style="background-image: url('')"></div>
-                    <div class="item-preview__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua…
-                    </div>
+                <a class="item-preview" href="{{post.url}}">
+                    <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {{ post.date | date: "%b %-d, %Y" }}
+                    </time>
+                    <h3 class="item-preview__title is-uppercase">{{post.title}}</h3>
+                    <div class="item-preview__image" style="background-image: url({{ post.thumbnail }})"></div>
+                    <div class="item-preview__excerpt">{{ post.excerpt }}</div>
                 </a>
             </div>
             {% endfor %}
