@@ -2,8 +2,8 @@
 layout: project 
 title: "Financial Game of Life (FinGoL)"
 date: 2021-05-10 08:00:00 +0200 
-short_description: An educational finance game for young people
-subtitle: An educational finance game for young people
+short_description: An educational finance game for young people.
+subtitle: An educational finance game for young people.
 thumbnail: /images/projects/fingol.jpg
 ---
 

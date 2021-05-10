@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Jugendpräis"
+date: 2021-05-07 08:00:00 +0200
+short_description: We’re excited and honoured that LTS has been awarded the Luxembourgish “Jugendpräis 2021” for the best national youth project in the category “Go Digital”.
+thumbnail: /images/news/jugendprais.jpg
+---
+
+We’re excited and honoured that LTS has been awarded the Luxembourgish “Jugendpräis 2021” for the best national youth project in the category “Go Digital”.
+
+![JugendPräis - LTS winning the first price in the category Go Digital](/images/news/jugendprais.jpg)
+
+### Providing Digital Education to All Young People
+
+With our project “Creative Coding for ALL” we aim to provide all young people living in Luxembourg with equal opportunities to do their first steps in the world of coding, digital thinking and creating in a fun and playful way. The initiative started in April 2020 with a Creative Coding Online Course and a Summer Camp for Young Refugees living in Luxembourg. And these 2 courses were just the beginning, we are now even more motivated to continue and expand the offer to more young people in Luxembourg with specific needs.
+
+Congratulations to all other nominees and winners! And a big shout out to our fantastic LTS Student Coaches Barbara, Leon, Nora, Juan, Séréna, Henri, Jakub, Antonio and Tiago as well as to the whole LTS Team who made the start of “Creative Coding for ALL” possible.
+
+Special thanks to Anne Frausing from Croix-Rouge luxembourgeoise, State Street (Social Responsibility), Eric Busch and Digital Luxembourg for their support of this project as well as to the Service national de la jeunesse  for making the awards happen. 
+

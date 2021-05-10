@@ -2,8 +2,8 @@
 layout: project 
 title: "Creative Coding for ALL"
 date: 2021-05-10 08:00:00 +0200 
-short_description: Make tech education available for all young people in Luxembourg
-subtitle: Make tech education available for all young people in Luxembourg
+short_description: Make tech education available for all young people in Luxembourg.
+subtitle: Make tech education available for all young people in Luxembourg.
 thumbnail: /images/projects/cc4all.jpg
 ---
 

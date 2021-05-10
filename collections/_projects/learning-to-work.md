@@ -2,8 +2,8 @@
 layout: project 
 title: "Learning to Work"
 date: 2021-05-10 08:00:00 +0200 
-short_description: Offering LTS students first jobs to gain work experience
-subtitle: Offering LTS students first jobs to gain work experience
+short_description: Offering LTS students first jobs to gain work experience.
+subtitle: Offering LTS students first jobs to gain work experience.
 thumbnail: /images/projects/placeholder.jpg
 ---
 
