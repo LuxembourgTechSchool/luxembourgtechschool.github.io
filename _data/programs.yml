@@ -1,31 +1,29 @@
 - name: Level Go
   description: >
-    Would you like to create digital art and animations with shapes, patterns and images?
-    And at the same time learn the basics of coding and computers? 
-    For all those curious to explore the world of technology: Start here!
+    In our new entry Level G0, young lycée students get the possibility to actively create in the digital world. This is a playful and hands-on introduction into the world of coding, computers and emerging technologies.<br>Our focus lies on «Creative Coding»:  the participants will express themselves creatively with digital graphics, patterns, animations as well as with small web development projects.
   age: 12-14
   modules:
     - name: Creative Coding
       image: images/modules/lvl_go_CreativeCoding.png
       items:
-        - Learn the basics of coding
-        - Create digital graphics & animation patterns
-        - Create your first web page
-        - Express your creatvitiy with digital artworks
+        - Have fun to start to code by creating digital graphics and animated patterns
+        - Learn and understand the basics of coding with the help of immediate visual feedback
+        - Create your first simple web development projects
+        - Express yourself creatively with your own digital artworks
     - name: Digital Thinking
       image: images/modules/lvl_go_DigitalThinking.png
       items:
-        - Understand how to talk to computers with online and unplugged activities
-        - Explore playfully "Computational Thinking"
-        - Strengthen your logical and critical thinking
-        - Discover important technologies like AI or Robotics
+        - Understand how to talk to machines and computers with online and unplugged activities
+        - Explore playfully the four core areas of «Computational Thinking» (Decomposition, Pattern Matching, Abstraction and Automation)
+        - Strengthen your Logical and Critical Thinking
+        - Get a first basic understanding of important technologies like AI or Robotics
     - name: Interaction Design
       image: images/modules/lvl_go_InteractionDesign.png
       items:
-        - Learn how machines and humans interact
-        - Use microcomputers for "Physical Computing"
+        - Learn about how machines and humans interact
+        - Have a first introduction to «Physical Computing» with microcomputers
         - Get to know simple robots and learn more about space
-        - Explore and tinker on creative projects
+        - Have enough time to explore and tinker
 - name: Level 1
   description: >
     Interested to learn about technology, teamwork and to work on your own project?
