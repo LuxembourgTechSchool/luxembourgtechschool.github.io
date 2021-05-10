@@ -1,7 +1,6 @@
 - name: Level Go
   description: >
     Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
-    <br> Join our 2021-2022 «Level G0» program and get weekly classes around «Creative Coding» and «Digital Thinking» together with like-minded colleagues from different lycées.
   age: 12-14
   modules:
     - name: Creative Coding
