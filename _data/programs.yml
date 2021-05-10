@@ -1,6 +1,7 @@
 - name: Level Go
   description: >
-    In our new entry Level G0, young lycée students get the possibility to actively create in the digital world. This is a playful and hands-on introduction into the world of coding, computers and emerging technologies.<br>Our focus lies on «Creative Coding»:  the participants will express themselves creatively with digital graphics, patterns, animations as well as with small web development projects.
+    Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
+    <br> Join our 2021-2022 «Level G0» program and get weekly classes around «Creative Coding» and «Digital Thinking» together with like-minded colleagues from different lycées.
   age: 12-14
   modules:
     - name: Creative Coding

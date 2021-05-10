@@ -3,7 +3,7 @@ layout: project
 title: "LTS Digital Leadership Program at INAP"
 date: 2021-05-10 08:00:00 +0200 
 short_description: Pilot Digital Leadership Program for Luxembourgish States Employees
-subtitle: Offering LTS students first jobs to gain work experience
+subtitle: Pilot Digital Leadership Program for Luxembourgish States Employees
 thumbnail: /images/projects/placeholder.jpg
 ---
 
