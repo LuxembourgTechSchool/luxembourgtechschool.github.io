@@ -26,24 +26,10 @@ permalink: news
                     {{ post.date | date: "%b %-d, %Y" }}
                 </time>
                 <h3 class="item-preview__title is-uppercase">{{post.title}}</h3>
-                <div class="item-preview__image" style="background-image: url('')"></div>
-                <div class="item-preview__excerpt">{{ post.excerpt }}</div>
+                <div class="item-preview__image" style="background-image: url({{ post.thumbnail }})"></div>
+                <div class="item-preview__excerpt">{{ post.short_description }}</div>
             </a>
         </div>
         {% endfor %}
     </div>
 </section>
-
-
-
-<h1>TEST_ TAGS</h1>
-
-{% for tag in site.tags %}
-<h3>{{ tag[0] }}</h3>
-<ul>
-    {% for post in tag[1] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-{% endfor %}
-

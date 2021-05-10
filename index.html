@@ -44,7 +44,8 @@ custom_js: home
     <div class="container">
         <div class="columns">
             <div class="column has-text-centered">
-                <img class="image section__image section__image--shifted" src="{{ site.github.url }}/images/highlights/LTSGameEvent-91.jpg"
+                <img class="image section__image section__image--shifted"
+                     src="{{ site.github.url }}/images/highlights/LTSGameEvent-91.jpg"
                      alt="">
             </div>
             <div class="column">
@@ -129,17 +130,18 @@ custom_js: home
 
         <div class="columns is-flex-wrap-wrap is-justify-content-center">
             {% for post in site.posts %}
-            {% if forloop.rindex == 2 %}
+            {% if forloop.rindex == 3 %}
                 {% break %}
             {% endif %}
             <div class="column is-half-tablet is-one-third-desktop">
                 <a class="item-preview" href="{{post.url}}">
-                    <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}"
+                          itemprop="datePublished">
                         {{ post.date | date: "%b %-d, %Y" }}
                     </time>
                     <h3 class="item-preview__title is-uppercase">{{post.title}}</h3>
                     <div class="item-preview__image" style="background-image: url({{ post.thumbnail }})"></div>
-                    <div class="item-preview__excerpt">{{ post.excerpt }}</div>
+                    <div class="item-preview__excerpt">{{ post.short_description }}</div>
                 </a>
             </div>
             {% endfor %}

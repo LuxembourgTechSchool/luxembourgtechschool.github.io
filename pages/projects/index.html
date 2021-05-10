@@ -17,14 +17,12 @@ permalink: projects
 
 <section class="section container">
     <div class="columns is-multiline">
-        {% for i in (1..6) %}
+        {% for project in site.projects %}
         <div class="column is-half-tablet is-one-third-desktop">
-            <a class="item-preview" href="#">
-                <h3 class="item-preview__title is-uppercase">Jugendpräis 2020</h3>
-                <div class="item-preview__image" style="background-image: url('')"></div>
-                <div class="item-preview__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua…
-                </div>
+            <a class="item-preview" href="{{project.url}}">
+                <h3 class="item-preview__title is-uppercase">{{project.title}}</h3>
+                <div class="item-preview__image" style="background-image: url({{ project.thumbnail }})"></div>
+                <div class="item-preview__excerpt">{{ project.short_description }}</div>
             </a>
         </div>
         {% endfor %}
