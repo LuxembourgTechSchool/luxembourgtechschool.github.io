@@ -1,0 +1,24 @@
+- name: Logo Luxembourg Government
+  url: http://www.men.public.lu/
+  image: /images/sponsors/logo-gov.png
+- name: Digital Luxembourg
+  url: http://www.digital-luxembourg.public.lu/
+  image: /images/sponsors/logo-digitalluxembourg.png
+- name: SCRIPT
+  url: https://portal.education.lu/script/
+  image: /images/sponsors/logo-menej.png
+- name: CGIE
+  url: http://www.cgie.lu
+  image: /images/sponsors/logo-cgie.png
+- name: Luxembourg Space Agency
+  url: https://space-agency.public.lu
+  image: /images/sponsors/logo-lsa.png
+- name: National Research Fund
+  url: https://www.fnr.lu
+  image: /images/sponsors/logo-fnr.png
+- name: André Losch Fondation
+  url: https://www.loschfondation.lu
+  image: /images/sponsors/logo-fal.png
+- name: The Luxembourg Bankers Association (ABBL)
+  url: https://www.abbl.lu
+  image: /images/sponsors/logo-abbl.png
