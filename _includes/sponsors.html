@@ -1,0 +1,18 @@
+<section class="section sponsors">
+    <h2 class="title has-text-centered is-uppercase">Supported by</h2>
+
+    <ul class="sponsors__list">
+        {% for sponsor in site.data.sponsors %}
+        <li class="sponsors__item">
+            <a href="{{sponsor.url}}" target="_blank" class="sponsors__link">
+                <img src="{{ site.github.url }}{{sponsor.image}}" alt="{{sponsor.name}}" class="class="sponsors__image">
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="sponsors__cta has-text-centered">
+        Interested to partner up? <a href="/contact">Get in touch</a>
+    </p>
+
+</section>
