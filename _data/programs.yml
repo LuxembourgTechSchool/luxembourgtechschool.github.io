@@ -39,7 +39,7 @@
         - Sharpen your coding skills
         - Learn professional game engines
       event: Game Competition Event
-      eventLink: '#'
+      eventLink:
     - name: BigData
       image: images/modules/lvl_1_BigData.png
       items:
@@ -49,7 +49,7 @@
         - Tell stories with data
         - Code with Python
       event: Data for Social Good Event
-      eventLink: '#'
+      eventLink:
     - name: FinTech
       image: images/modules/lvl_1_FinTech.png
       items:
@@ -59,7 +59,7 @@
         - Implement your own Blockchain
         - Learn about web security
       event: FinTech Hackathon
-      eventLink: '#'
+      eventLink:
 - name: Level Up
   description: >
     With more than 85% satisfaction from Level One students, they asked for more.
@@ -77,7 +77,7 @@
         - Deploy senors & collect data
         - Learn about autonomous robots
       event: Space Event
-      eventLink: '#'
+      eventLink:
     - name: AI4Finance
       image: images/modules/lvl_up_Ai4Finance.png
       items:
@@ -88,7 +88,7 @@
         - Create an Advisor based on Deep Learning
         - Learn & experiment with Fraud Detection
       event: AI4Finance Hackathon
-      eventLink: '#'
+      eventLink:
     - name: AI Creativity & Arts
       image: images/modules/lvl_up_AiCreativityArts.png
       items:
@@ -99,4 +99,4 @@
         - Draw artistic images & videos
         - Work on your own A.I. art project
       event: Creative Showcase
-      eventLink: '#'
+      eventLink:
