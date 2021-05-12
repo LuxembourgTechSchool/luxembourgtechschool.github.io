@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         $home_video.appendChild($source);
         $play_button.classList.add('fadeout');
+        $home_video.play();
     })
 });
