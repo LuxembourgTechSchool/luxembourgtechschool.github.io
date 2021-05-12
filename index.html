@@ -129,10 +129,7 @@ custom_js: home
         <h2 class="title has-text-centered is-uppercase mb-6">Latest News</h2>
 
         <div class="columns is-flex-wrap-wrap is-justify-content-center">
-            {% for post in site.posts %}
-            {% if forloop.rindex == 3 %}
-                {% break %}
-            {% endif %}
+            {% for post in site.posts limit: 2 %}
             <div class="column is-half-tablet is-one-third-desktop">
                 <a class="item-preview" href="{{post.url}}">
                     <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}"
