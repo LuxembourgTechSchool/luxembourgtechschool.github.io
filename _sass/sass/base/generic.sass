@@ -52,9 +52,10 @@ section
 body,
 button,
 input,
+optgroup,
 select,
 textarea
-  font-family: $body-family
+  font-family: $family-primary
 
 code,
 pre
@@ -67,17 +68,39 @@ body
   font-size: $body-font-size
   font-weight: $body-weight
   line-height: $body-line-height
+  background: #f4f7f8
+  padding-top: 58px
+
+  +tablet
+    padding-top: 68px
+
+main
+  position: relative
 
 // Inline
+p, li
+  font-size: 17px
+  line-height: 1.57
+
+  +tablet
+    font-size: 19px
 
 a
   color: $link
   cursor: pointer
   text-decoration: none
+  -webkit-transition: color 0.2s ease
+  transition: color 0.2s ease
+
   strong
     color: currentColor
+
+  &:focus
+    outline: 1px dashed $blue-color
+
   &:hover
-    color: $link-hover
+    color: $black
+    outline: none
 
 code
   background-color: $code-background
@@ -109,7 +132,6 @@ span
   font-weight: inherit
 
 strong
-  color: $strong-color
   font-weight: $strong-weight
 
 // Block
@@ -126,6 +148,7 @@ pre
   padding: $pre-padding
   white-space: pre
   word-wrap: normal
+
   code
     background-color: transparent
     color: currentColor
@@ -136,7 +159,9 @@ table
   td,
   th
     vertical-align: top
+
     &:not([align])
-      text-align: left
+      text-align: inherit
+
   th
     color: $text-strong

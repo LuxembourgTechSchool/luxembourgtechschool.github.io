@@ -1,0 +1,66 @@
+.coach
+  background: $white
+  padding: 25px 28px
+  height: 100%
+
+  &__image-wrapper
+    max-width: 172px
+    height: 172px
+    border-radius: 50%
+    margin: 0 auto 15px
+    overflow: hidden
+    background: #DEDFE1
+    border: 1px solid #DEDFE1
+
+    &.img-border
+      border: 5px solid #DEDFE1
+      padding: 5px
+      background: linear-gradient(45deg, rgba(28,135,245,1) 0%, rgba(201,11,47,1) 100%)
+
+  &__image
+    width: 100%
+    display: block
+    border-radius: 50%
+
+  &__socials
+    height: 28px
+
+  &__twitter
+    display: inline-block
+    -webkit-transition: opacity 0.2s ease
+    transition: opacity 0.2s ease
+
+    &:hover
+      opacity: 0.75
+
+  &__name
+    font-family: $font-title
+    font-size: 28px
+    line-height: 1
+    color: $black
+    margin-bottom: 6px
+
+  &__jobtitle
+    font-size: 18px
+    line-height: 1
+    font-weight: 600
+    color: #3D4755
+    margin-top: 3px
+    display: block
+
+  &__description
+    position: relative
+    margin-top: 13px
+    padding-top: 13px
+    font-size: 16px
+    line-height: 1.5
+    color: #3B4754
+
+    &:before
+      content: ""
+      width: 24px
+      height: 1px
+      background: #707070
+      position: absolute
+      top: 0
+      left: 0

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Luxembourg Tech School - Press
+permalink: press
+---
+
+<div class="blob"></div>
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        In the Press
+    </h1>
+    <h2 class="subtitle">
+        Articles and media coverage featuring LTS
+    </h2>
+</section>
+
+<section class="section">
+    <div class="container">
+        <ul class="in-the-press">
+            {% for press in site.data.press %}
+            <li class="in-the-press__item"><a href="{{ press.url }}" target="_blank" class="in-the-press__link">{{ press.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+

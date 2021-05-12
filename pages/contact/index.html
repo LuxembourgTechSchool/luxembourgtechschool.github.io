@@ -1,0 +1,70 @@
+---
+layout: default
+title: Luxembourg Tech School - Contact
+permalink: contact
+custom_js:
+- kwes
+---
+
+<div class="blob"></div>
+
+<section class="page-header has-text-centered container">
+    <h1 class="title title--main is-spaced">Want to get in touch?</h1>
+    <h2 class="subtitle">Just drop us a line by filling up the form below.</h2>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter contact-form">
+                <form class="kwes-form" action="https://kwes.io/api/foreign/forms/rVNHbaBKGShMrd7SMSRB" method="POST">
+                    
+                    <div class="field mb-4">
+                        <label for="name" class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="input" name="name" id="name" placeholder="Your Name" required rules="required|max:255">
+                        </div>
+                    </div>
+
+                    <div class="field mb-4">
+                        <label for="email" class="label">Email</label>
+                        <div class="control">
+                            <input class="input" type="email" name="email" id="email" placeholder="Your e-mail" required>
+                        </div>
+                    </div>
+
+                    <div class="field mb-4">
+                        <label for="topic" class="label">Topic</label>
+                        <div class="select is-fullwidth">
+                            <select name="topic" id="topic">
+                                <option value="general">General</option>
+                                <option value="registration">Registration</option>
+                                <option value="sponsor">Sponsorship</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="message" class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" name="message" rows="5" id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field mt-4">
+                        <label class="checkbox">
+                            <input type="checkbox" id="privacy-input" name="acceptprivacy" class="mr-2" required>
+                            I agree with the <a target="_blank" href="{{ site.github.url }}/assets/gdpr/LTSOnline_PrivacyPolicy_V1.pdf">Data Protection Policy</a>.
+                        </label>
+                    </div>
+
+                    <div class="control flex is-flex is-justify-content-flex-end">
+                        <button class="button button--blue" type="submit" id="submit-btn">Submit
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

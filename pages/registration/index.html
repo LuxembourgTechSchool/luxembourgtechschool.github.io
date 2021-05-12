@@ -1,0 +1,54 @@
+---
+layout: default
+title: Luxembourg Tech School - Registrations
+permalink: registration
+---
+
+<div class="blob"></div>
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        Want to register?
+    </h1>
+    <h2 class="subtitle">
+        It's open! Hurry up!
+    </h2>
+
+    <!--
+    <div class="content content--highlighted">
+        <strong>Important:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        <ul>
+            <li>lorem</li>
+            <li>lorem</li>
+        </ul>
+    </div>
+    -->
+</section>
+
+<section class="section container">
+    <ul class="is-flex is-flex-wrap-wrap">
+        {% for level in site.data.registration.levels %}
+        <li class="register__level">
+            <h2 class="title is-uppercase">{{ level.name }}</h2>
+            <div class="program-level__informations">
+                {% for info in level.information %}
+                <div class="program-level__information">
+                    <strong>{{info.key}}</strong> <span>{{info.value}}</span>
+                </div>
+                {% endfor %}
+            </div>
+
+            <a href="{{level.link}}" target="_blank" class="button button--blue">Register</a>
+
+            {% if level.footnote %}
+            <div class="program-level__footnote">
+                {{level.footnote}}
+            </div>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+

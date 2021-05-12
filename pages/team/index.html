@@ -1,0 +1,58 @@
+---
+layout: default
+title: Luxembourg Tech School - Team
+permalink: team
+---
+
+<div class="blob"></div>
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        Meet The Digital Coaches!
+    </h1>
+    <h2 class="subtitle">
+        Each specialized in their own Tech domain!
+    </h2>
+</section>
+
+<section id="team" class="section">
+    <div class="container">
+
+        <div class="columns is-centered is-multiline">
+
+            {% for member in site.data.team_members %}
+            <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+                <div class="coach">
+                    <div class="coach__image-wrapper img-border">
+                        {% if member.image %}
+                        <img src="{{ site.github.url }}{{member.image}}" class="coach__image"
+                             alt="{{member.name}} picture">
+                        {% endif %}
+                    </div>
+
+                    <div class="coach__socials">
+                        {% if member.twitter %}
+                        <a href="{{member.twitter}}" target="_blank" class="coach__twitter">
+                            <img src="/icons/twitter-blue.svg" alt="Twitter Icon" class="coach__twitter-image">
+                        </a>
+                        {% endif %}
+                    </div>
+
+                    <h3 class="coach__name">{{member.name}}</h3>
+                    <span class="coach__jobtitle">{{member.jobtitle}}</span>
+
+                    {% if member.description %}
+                    <div class="coach__description">
+                        {{member.description}}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+    </div>
+</section>

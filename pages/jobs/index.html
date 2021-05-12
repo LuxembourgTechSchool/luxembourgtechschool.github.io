@@ -1,0 +1,42 @@
+---
+layout: default
+title: Luxembourg Tech School - Jobs
+permalink: jobs
+---
+
+<div class="blob"></div>
+
+<section class="page-header has-text-centered container">
+    <h1 class="title title--main is-spaced">
+        Jobs
+    </h1>
+    <h2 class="subtitle">
+        Looking to be part of something bigger ? We are recruiting !
+    </h2>
+</section>
+
+<section class="section container">
+    <div class="jobs">
+
+        {% unless site.data.jobs.open %}
+        <div class="jobs__noresult has-text-centered">
+            <h3 class="jobs__title">No open positions for the moment.</h3>
+            <a href="/contact" class="button button--blue is-uppercase">Apply spontaneously</a>
+        </div>
+        {% endunless %}
+
+        {% if site.data.jobs.open %}
+        {% for job in site.data.jobs.positions %}
+        <div class="jobs__list">
+            <li class="job-preview">
+                <a href="{{ job.url }}" class="job-preview__link" target="_blank">
+                    <span class="job-preview__contract-type">{{ job.contract }}</span>
+                    <h3 class="job-preview__title">{{ job.title }}</h3>
+                </a>
+            </li>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+    </div>
+</section>

@@ -1,0 +1,92 @@
+---
+layout: default
+title: Luxembourg Tech School - Program
+permalink: program
+---
+
+<div class="blob"></div>
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        Discover The Program
+    </h1>
+    <h2 class="subtitle">
+        This epic program is for all 12-19 years old students who are passionate about the digital realm and eager to
+        learn and apply technology in a real business and creative context.
+    </h2>
+    <div class="content content--highlighted">
+        At the moment, we offer a <strong>3 year program</strong>. You can start with Level G0 or with Level One,
+        depending on your age.
+        Each level is divided into up to 3 modules, each centered on one specific domain.
+        <br>At the end of each course, you (the student) will have the opportunity to <strong>present your project to
+        the real
+        world</strong>!
+        <br>
+        The program below is a preview of the cool topics that are covered.
+        There won't be much theory (a little is always useful).
+        It is filled with <strong>practical examples</strong>, <strong>exercices</strong> and you <strong>work on your
+        own project</strong>!
+        <br>During Level G0 you will discover the creative side of coding and how to talk to machines.
+        During Level One and Level Up, will learn a lot about <strong>teamwork</strong>, <strong>software
+        development</strong>,
+        entrepreneurship and even increase your presentation skills
+        by multiple factors.
+        <br>
+        It won't be easy, but at the end you will have created many awesome projects, will have learned a ton of
+        new things and, most importantly, while having a lot of fun.
+    </div>
+</section>
+
+<section class="section section--program">
+    {% for program in site.data.programs %}
+    <div class="program-level">
+        <div class="container">
+            <h2 class="title is-uppercase">{{program.name}}</h2>
+            <h3 class="subtitle subtitle--small">
+                {{program.description}}
+            </h3>
+            <div class="program-level__information">
+                <div class="program-level__age">
+                    <strong class="is-uppercase">Age:</strong>
+                    {{program.age}}
+                </div>
+                <div class="program-level__extra">
+                    <strong class="is-uppercase">Duration:</strong>
+                    1 Academic Year
+                </div>
+                {% if program.requirement %}
+                <div class="program-level__extra">
+                    <strong class="is-uppercase">Requirement:</strong>
+                    {{ program.requirement }}
+                </div>
+                {% endif %}
+            </div>
+            <div class="columns is-tablet is-flex-wrap-wrap">
+                {% for module in program.modules %}
+                <div class="column is-half-tablet is-one-third-desktop program-module">
+                    <img class="program-module__image" src="{{ site.github.url }}/{{module.image}}">
+                    <h3 class="program-module__title">{{module.name}}</h3>
+                    <ul class="list">
+                        {% for item in module.items %}
+                        <li>{{item}}</li>
+                        {% endfor %}
+
+                        {% if module.eventLink %}
+                        <li class="program-module__event">
+                            <a href="{{module.eventLink}}" class="program-module__event-link"><span
+                                    class="program-module__event-icon"></span>{{module.event}}</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+
+            {% if program.name != "Level Up" %}
+            <a href="/registration" class="button button--purple button--big">Registration</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+

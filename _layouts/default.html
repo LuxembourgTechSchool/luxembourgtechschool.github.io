@@ -9,10 +9,13 @@
 
     {{ content }}
 
+    {% include sponsors.html %}
     {% include footer.html %}
 
     {% if page.custom_js %}
-      <script src='{{ site.github.url }}/javascript/{{ page.custom_js }}.js' type="text/javascript"></script>
+      {% for js_file in page.custom_js %}
+      <script src='{{ site.github.url }}/javascript/{{ js_file }}.js' type="text/javascript" defer></script>
+      {% endfor %}
     {% endif %}
 
   </body>

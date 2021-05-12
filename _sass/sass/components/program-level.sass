@@ -1,0 +1,54 @@
+.program-level
+  padding: 60px 0
+
+  +tablet
+    padding: 100px 0
+
+  &:first-child
+    padding-top: 20px
+
+    +tablet
+      padding-top: 50px
+
+  &:nth-child(2n)
+    background: white
+
+  &__informations
+    margin-top: -10px
+    margin-bottom: 15px
+
+  &__information
+    font-size: 17px
+    margin-bottom: 40px
+
+    .register__level &
+      margin-top: 0
+      margin-bottom: 4px
+
+      &:first-child
+        margin-top: -10px
+
+    +tablet
+      font-size: 19px
+      display: flex
+      align-items: center
+
+    strong
+      font-size: 14px
+      margin-right: 12px
+      font-weight: 400
+
+      +tablet
+        font-size: 16px
+
+    span
+      color: $black
+
+  &__footnote
+    font-size: 16px
+    line-height: 1.5
+    margin: 20px 0 0
+
+  &__extra
+    +tablet
+      margin-left: 50px

@@ -1,0 +1,102 @@
+- name: Level Go
+  description: >
+    Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
+  age: 12-14
+  modules:
+    - name: Creative Coding
+      image: images/modules/lvl_go_CreativeCoding.png
+      items:
+        - Have fun to start to code by creating digital graphics and animated patterns
+        - Learn and understand the basics of coding with the help of immediate visual feedback
+        - Create your first simple web development projects
+        - Express yourself creatively with your own digital artworks
+    - name: Digital Thinking
+      image: images/modules/lvl_go_DigitalThinking.png
+      items:
+        - Understand how to talk to machines and computers with online and unplugged activities
+        - Explore playfully the four core areas of «Computational Thinking» (Decomposition, Pattern Matching, Abstraction and Automation)
+        - Strengthen your Logical and Critical Thinking
+        - Get a first basic understanding of important technologies like AI or Robotics
+    - name: Interaction Design
+      image: images/modules/lvl_go_InteractionDesign.png
+      items:
+        - Learn about how machines and humans interact
+        - Have a first introduction to «Physical Computing» with microcomputers
+        - Get to know simple robots and learn more about space
+        - Have enough time to explore and tinker
+- name: Level 1
+  description: >
+    Interested to learn about technology, teamwork and to work on your own project?
+    This level covers several industries and will set you on the path to become a Digital Leader.
+  age: 15-19
+  modules:
+    - name: GameDev
+      image: images/modules/lvl_1_GameDev.png
+      items:
+        - How to develop Video Games
+        - From idea to market
+        - Create & design art for games
+        - Sharpen your coding skills
+        - Learn professional game engines
+      event: Game Competition Event
+      eventLink: '#'
+    - name: BigData
+      image: images/modules/lvl_1_BigData.png
+      items:
+        - Discover Big Data
+        - Analyse large datasets
+        - Create visualizations
+        - Tell stories with data
+        - Code with Python
+      event: Data for Social Good Event
+      eventLink: '#'
+    - name: FinTech
+      image: images/modules/lvl_1_FinTech.png
+      items:
+        - App Design & User Experience (UX)
+        - How financial transactions work
+        - Prototype innovative banking apps
+        - Implement your own Blockchain
+        - Learn about web security
+      event: FinTech Hackathon
+      eventLink: '#'
+- name: Level Up
+  description: >
+    With more than 85% satisfaction from Level One students, they asked for more.
+    The next level covers even more technological domains and will let you discover Space and the world of Artificial Intelligence.
+  age: 15-19
+  requirement: Complete Level One
+  modules:
+    - name: Space Resources
+      image: images/modules/lvl_up_SpaceResources.png
+      items:
+        - Learn & understand the basic elements of Space Mining
+        - Motivate Space Explorations, Sciences & Robotics
+        - Mission Planning & Communication
+        - Program drones & rovers
+        - Deploy senors & collect data
+        - Learn about autonomous robots
+      event: Space Event
+      eventLink: '#'
+    - name: AI4Finance
+      image: images/modules/lvl_up_Ai4Finance.png
+      items:
+        - Discover Artificial Intelligence (A.I.)
+        - Understand financial (r)evolution
+        - Develop applications for wearables
+        - Build you own Chatbot
+        - Create an Advisor based on Deep Learning
+        - Learn & experiment with Fraud Detection
+      event: AI4Finance Hackathon
+      eventLink: '#'
+    - name: AI Creativity & Arts
+      image: images/modules/lvl_up_AiCreativityArts.png
+      items:
+        - Discover Generative Artificial Intelligence (A.I.)
+        - Understand the limits of A.I.
+        - Create music with A.I.
+        - Generate stories
+        - Draw artistic images & videos
+        - Work on your own A.I. art project
+      event: Creative Showcase
+      eventLink: '#'

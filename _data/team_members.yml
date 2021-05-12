@@ -1,83 +1,83 @@
 - name: Sergio Coronado
   jobtitle: Founder
-  title: The guy making things happen
   description: He loves learning everyday, teaches and manages all kinds of stuff. He also started LTS.
-  image: /images/team/sergio.png
+  image: /images/team/Sergio.jpg
   twitter: https://twitter.com/drscoronado
 
 - name: Ralph Marschall
   jobtitle: Co-Founder
-  title: The one on the videos
   description: He loves software and creates lots of teaching content. He also designs stuff.
-  image: /images/team/ralph.png
+  image: /images/team/Ralph.jpg
   twitter: https://twitter.com/RalphMarschall
 
 - name: Anush Manukyan
   jobtitle: Co-Founder & Head of Innovation
-  title: The feminine A.I. touch
   description: She loves making robots super smart and teaches things to students. She also creates cool content.
-  image: /images/team/anush.png
+  image: /images/team/Anush.jpg
   twitter: https://twitter.com/Anush_Manukyan
 
 - name: Christophe Trefois
   jobtitle: Co-Founder
-  title: The guy living in the terminal
   description: He loves sharing knowledge and handles the teaching platform. He also solves technical issues.
-  image: /images/team/christophe.png
+  image: /images/team/Christophe.jpg
   twitter: https://twitter.com/Trefex
 
 - name: Rocio Lopez Perez
   jobtitle: AI Research Associate
-  title: The c.o.d.e. machine
   description: She loves creating educational chatbots and working with students to realize their projects. Her passion is to educate the younger generations.
-  image: /images/team/rocio.png
+  image: /images/team/Rocio.jpg
   twitter: https://twitter.com/RocioLoperez
 
 - name: Sara Kaiser
   jobtitle: Program Director
-  title: The STEAM pro
   description: She loves to bring arts, humanities and creativity into technology. Encourages young people to explore the world with open minds and to create colorful and meaningful experiences.
-  image: /images/team/sara.png
+  image: /images/team/Sara.jpg
   twitter: https://twitter.com/sakaiser
 
 - name: Georges Jentgen
   jobtitle: Lead Coach
-  title: Living in the clouds
   description: He loves software with a special focus on UX, front-end solutions, web and mobile app development. All connected to the clouds, obviously.
-  image: /images/team/georges.png
+  image: /images/team/Georges.jpg
   twitter: https://twitter.com/polysign
 
 - name: Filipe Costa Pinto
   jobtitle: Digital Coach
-  title: Innovation addict
   description: He loves to create, educate and is fascinated by innovation.
-  image: /images/team/filipe.png
-  twitter: 
+  image: /images/team/Filipe.jpg
+  twitter:
 
 - name: Melvyn Mainini
   jobtitle: Digital Coach
-  title: Maths runs through his veins
   description: He loves logic AND geometry AND everything else about mathematics.
-  image: /images/team/melvyn.png
-  twitter: 
+  image: /images/team/Melvyn.jpg
+  twitter:
 
 - name: Valentin Grouès
   jobtitle: Lead Coach
-  title: The Software Ninja.
   description: He loves technology, programming and obviously Software!
-  image: /images/team/valentin.png
-  twitter: 
+  image: /images/team/Valentin.jpg
+  twitter:
 
 - name: Gary Cornelius
   jobtitle: Digital Coach
-  title: Code Poet
   description: Interested in every new Techology. Simple!
-  image: /images/team/gary.png
+  image: /images/team/Gary.jpg
   twitter: https://twitter.com/to4dy
 
 - name: Antonio Del Rio
   jobtitle: Digital Coach
-  title: Digital Leader
   description: He loves tech, especially blockchain and space exploration! After being a student at the LTS himself, he is really excited to be an LTS coach!
-  image: /images/team/antonio.png
+  image: /images/team/Antonio.jpg
+  twitter:
+
+- name: Isman Fromes
+  jobtitle: Lead Coach
+  description: He loves web development and everything linked to it.
+  image: /images/team/isman.png
+  twitter:
+
+- name: Laura Plein
+  jobtitle: Lead Coach
+  description: She loves to bring young people together and teach them about creative coding. She also likes AI and Cybersecurity.
+  image: /images/team/laura.png
   twitter:

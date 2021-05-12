@@ -1,0 +1,35 @@
+---
+layout: default
+title: Luxembourg Tech School - News
+permalink: news
+---
+
+<div class="blob"></div>
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        News
+    </h1>
+    <h2 class="subtitle">
+        A lot of exciting events and activities happen during an LTS school year!<br>
+        Here's the latest news!<br>
+        You can watch our latest videos <a href="/videos">here</a>.
+    </h2>
+</section>
+
+<section class="section container">
+    <div class="columns is-multiline">
+        {% for post in site.posts %}
+        <div class="column is-half-tablet is-one-third-desktop">
+            <a class="item-preview" href="{{post.url}}">
+                <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                </time>
+                <h3 class="item-preview__title is-uppercase">{{post.title}}</h3>
+                <div class="item-preview__image" style="background-image: url({{ post.thumbnail }})"></div>
+                <div class="item-preview__excerpt">{{ post.short_description }}</div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -7,7 +7,7 @@
 
 # Site settings
 title: Luxembourg Tech School
-email: your-email@domain.com
+email: info@techschool.lu
 description: > # this means to ignore newlines until "baseurl:"
     The Luxembourg Tech School (LTS for short) is a new extracurricular school concept to support the development of future Digital Leaders. It is aimed at 15-20 years old students who are passionate about the digital realm and eager to learn and apply technology in a real business context.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,13 +23,12 @@ markdown: kramdown
 # https://jekyllrb.com/docs/collections/
 collections_dir: collections
 collections:
-    - gamedev_videos_0_intro
-    - gamedev_videos_1_firststeps
-    - gamedev_videos_2_fastproto
-    - gamedev_videos_3_sttp
+    #- gamedev_videos_0_intro
+    #- gamedev_videos_1_firststeps
+    #- gamedev_videos_2_fastproto
+    #- gamedev_videos_3_sttp
+    projects:
+      output: true
+
 
 # CUSTOM
-registration:
-    isOpen: false
-    link_lvlvone: https://bit.ly/LTS2021
-    link_lvlgo: https://bit.ly/LTSG02021

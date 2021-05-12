@@ -1,0 +1,48 @@
+---
+layout: default
+title: Luxembourg Tech School - FAQ
+permalink: faq
+custom_js: faq
+---
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        FAQ
+    </h1>
+    <h2 class="subtitle">
+        If we haven't answered all your questions yet, you may find the information you need here on this page. If you
+        still have questions, you can also send us your questions via the contact form.
+    </h2>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="faqs">
+            <h2 class="faq__title">For Participants and Parent</h2>
+            {% for faq in site.data.faq_participants %}
+            <a class="faq">
+                <h3 class="faq__question">{{faq.question}} <img src="icons/down.svg" alt="Down arrow"
+                                                                class="faq__arrow"></h3>
+                <div class="faq__answer">
+                    {{faq.answer}}
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="faqs">
+            <h2 class="faq__title">For Individuals or Organizations Interested to Collaborate With Us</h2>
+            {% for faq in site.data.faq_organisations %}
+            <a class="faq">
+                <h3 class="faq__question">{{faq.question}} <img src="icons/down.svg" alt="Down arrow"
+                                                                class="faq__arrow">
+                </h3>
+                <div class="faq__answer">
+                    {{faq.answer}}
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+

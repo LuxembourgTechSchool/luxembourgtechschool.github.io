@@ -1,0 +1,52 @@
+.item-preview
+  background: white
+  padding: 18px 0 18px 18px
+  display: block
+  color: $grey-dark
+  height: 100%
+
+  +tablet
+    padding: 25px 0 25px 25px
+
+  &__date
+    font-size: 1.125rem
+    font-weight: 600
+    padding-right: 18px
+
+    +tablet
+      padding-right: 25px
+
+  &__title
+    font-family: $font-title
+    font-size: 26px
+    line-height: 1
+    color: $black
+    padding-right: 18px
+    margin-bottom: 18px
+    -webkit-transition: color 0.25s ease
+    transition: color 0.25s ease
+
+    +tablet
+      padding-right: 25px
+
+    .item-preview:hover &
+      color: $blue
+
+  &__image
+    width: 100%
+    padding-bottom: 48%
+    margin-bottom: 20px
+    background: lightgray
+    background-position: center
+    transition: background 0.4s ease
+    background-size: 103%
+
+    .item-preview:hover &
+      background-size: 100%
+
+  &__excerpt
+    font-size: 1.125rem
+    padding-right: 18px
+
+    +tablet
+      padding-right: 25px

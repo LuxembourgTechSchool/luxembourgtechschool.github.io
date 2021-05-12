@@ -1,0 +1,48 @@
+.program-module
+  &__image
+    width: 200px
+    height: 200px
+    margin-bottom: 24px
+
+  &__title
+    font-family: $font-title
+    font-size: 22px
+    line-height: 1
+    margin-bottom: 14px
+    color: $black
+
+    +desktop
+      font-size: 26px
+      margin-bottom: 20px
+
+  &__event
+    font-weight: 600
+    margin-top: 12px
+
+    &-link
+      display: inline-flex
+      align-items: center
+
+    &-icon
+      position: relative
+      width: 36px
+      height: 36px
+      background-color: $blue-color
+      margin-right: 10px
+      -webkit-transition: background-color 0.2s ease
+      transition: background-color 0.2s ease
+
+      .program-module__event-link:hover &
+        background-color: $black
+
+      &:before
+        content: ""
+        width: 22px
+        height: 22px
+        background-image: url("../icons/calendar.svg")
+        background-size: contain
+        background-repeat: no-repeat
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)

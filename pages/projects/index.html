@@ -1,0 +1,30 @@
+---
+layout: default
+title: Luxembourg Tech School - Projects
+permalink: projects
+---
+
+<div class="blob"></div>
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        Big Projects
+    </h1>
+    <h2 class="subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </h2>
+</section>
+
+<section class="section container">
+    <div class="columns is-multiline">
+        {% for project in site.projects %}
+        <div class="column is-half-tablet is-one-third-desktop">
+            <a class="item-preview" href="{{project.url}}">
+                <h3 class="item-preview__title is-uppercase">{{project.title}}</h3>
+                <div class="item-preview__image" style="background-image: url({{ project.thumbnail }})"></div>
+                <div class="item-preview__excerpt">{{ project.short_description }}</div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
