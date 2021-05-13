@@ -6,23 +6,23 @@
     - name: Creative Coding
       image: images/modules/lvl_go_CreativeCoding.png
       items:
-        - Have fun to start to code by creating digital graphics and animated patterns
-        - Learn and understand the basics of coding with the help of immediate visual feedback
-        - Create your first simple web development projects
-        - Express yourself creatively with your own digital artworks
+        - Create digital and animated graphics with code
+        - Understand the basics of coding
+        - Code first web development projects
+        - Express yourself creatively
     - name: Digital Thinking
       image: images/modules/lvl_go_DigitalThinking.png
       items:
-        - Understand how to talk to machines and computers with online and unplugged activities
-        - Explore playfully the four core areas of «Computational Thinking» (Decomposition, Pattern Matching, Abstraction and Automation)
-        - Strengthen your Logical and Critical Thinking
-        - Get a first basic understanding of important technologies like AI or Robotics
+        - Discover how to talk to machines and computers
+        - Strengthen your logical thinking online and unplugged
+        - Get a first understanding of Artificial Intelligence (A.I.)
+        - Build up your digital knowledge, skills and values
     - name: Interaction Design
       image: images/modules/lvl_go_InteractionDesign.png
       items:
-        - Learn about how machines and humans interact
-        - Have a first introduction to «Physical Computing» with microcomputers
-        - Get to know simple robots and learn more about space
+        - Learn how machines and humans interact
+        - Start to work with microcomputers
+        - Get to know simple robots and learn more about Space
         - Have enough time to explore and tinker
 - name: Level 1
   description: >
