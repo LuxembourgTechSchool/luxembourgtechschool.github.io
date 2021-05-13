@@ -1,29 +1,20 @@
-- name: GitHub
-  url: https://github.com/LuxembourgTechSchool
-  class: icon github
-  icon: fab fa-github
+- name: Linkedin
+  url: https://www.linkedin.com/company/luxembourg-tech-school
 
 - name: Twitter
   url: https://twitter.com/LuxTechSchool
-  class: icon twitter
-  icon: fab fa-twitter
-
-- name: Facebook
-  url: https://www.facebook.com/LuxTechSchool/
-  class: icon facebook
-  icon: fab fa-facebook
-
-- name: YouTube
-  url: https://www.youtube.com/channel/UCQ06napTcxCkFFuhxCyUNLw
-  class: icon youtube
-  icon: fab fa-youtube
 
 - name: Instagram
   url: https://www.instagram.com/luxtechschool/
-  class: icon instagram
-  icon: fab fa-instagram
+
+- name: Facebook
+  url: https://www.facebook.com/LuxTechSchool/
+
+- name: GitHub
+  url: https://github.com/LuxembourgTechSchool
 
 - name: Medium
   url: https://medium.com/luxembourg-tech-school
-  class: icon github
-  icon: fab fa-medium
+
+- name: YouTube
+  url: https://www.youtube.com/channel/UCQ06napTcxCkFFuhxCyUNLw
