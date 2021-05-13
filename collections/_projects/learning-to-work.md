@@ -4,8 +4,10 @@ title: "Learning to Work"
 date: 2021-05-10 08:00:00 +0200 
 short_description: Offering LTS students first jobs to gain work experience.
 subtitle: Offering LTS students first jobs to gain work experience.
-thumbnail: /images/projects/placeholder.jpg
+thumbnail: /images/projects/learning-to-work.jpg
 ---
+
+![Picture of LTS Coaches and Students with State Street celebrating their private grant](/images/projects/learning-to-work.jpg)
 
 In 2019 LTS won its first private grant from the State Street Foundation which led to the start of the «Learning to Work, My 1st Job Experience in Tech» program.
 
