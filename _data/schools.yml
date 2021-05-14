@@ -26,11 +26,11 @@
 - location: East
   color: red
   schools:
-    - name: Lycée Josy Barthel Mamer
-      link: http://ljbm.lu/
+    - name: Maacher Lycée
+      link: https://www.maacherlycee.lu/fr
 - location: West
   color: 
   schools:
-    - name: Maacher Lycée
-      link: https://www.maacherlycee.lu/fr
+    - name: Lycée Josy Barthel Mamer
+      link: http://ljbm.lu/
       
