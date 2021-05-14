@@ -9,7 +9,7 @@
 title: Luxembourg Tech School
 email: info@techschool.lu
 description: > # this means to ignore newlines until "baseurl:"
-    The Luxembourg Tech School (LTS for short) is a new extracurricular school concept to support the development of future Digital Leaders. It is aimed at 15-20 years old students who are passionate about the digital realm and eager to learn and apply technology in a real business context.
+  The Luxembourg Tech School is an educational program aimed at 12-19 years old students who are curious about the digital realm and eager to apply technology in a real business and creative context.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.techschool.lu" # the base hostname & protocol for your site
 twitter_username: jekyllrb
