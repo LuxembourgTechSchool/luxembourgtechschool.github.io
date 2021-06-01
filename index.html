@@ -20,6 +20,7 @@ custom_js: home
                             <path d="M30.76,58.573,55.637,40.914a2.594,2.594,0,0,0,0-4.189L30.76,19.131a2.572,2.572,0,0,0-4.06,2.127V56.575A2.551,2.551,0,0,0,30.76,58.573Z"
                                   transform="translate(-26.7 -18.645)" fill="currentColor"/>
                         </svg>
+                        <span class="hero__play-label">Video Play Button</span>
                     </a>
                 </div>
 
@@ -59,7 +60,8 @@ custom_js: home
                     </p>
                     <p>
                         If you are between 12 and 19 years old, passionate about the digital realm and eager to learn
-                        and apply technology in a real business or creative context, then the Luxembourg Tech School (LTS for short)
+                        and apply technology in a real business or creative context, then the Luxembourg Tech School
+                        (LTS for short)
                         is for you!
                     </p>
                 </div>
@@ -110,7 +112,8 @@ custom_js: home
                 <h3 class="where__title where__title--{{location.color}}">{{location.location}}</h3>
                 <ul class="list list--bullet">
                     {% for school in location.schools %}
-                    <li><a href="{{school.link}}" target="_blank" rel="noopener noreferrer" class="where__link">{{school.name}}</a></li>
+                    <li><a href="{{school.link}}" target="_blank" rel="noopener noreferrer" class="where__link">{{school.name}}</a>
+                    </li>
                     {% endfor %}
                 </ul>
             </div>
@@ -119,7 +122,8 @@ custom_js: home
 
         <div class="where__footer">
             <strong>Not a student in one of these schools ? No problem !</strong>
-            <p><a href="/contact">Get in touch with us</a> and we will find a suitable group for you in one of the places.</p>
+            <p><a href="/contact">Get in touch with us</a> and we will find a suitable group for you in one of the
+                places.</p>
         </div>
     </div>
 </section>
