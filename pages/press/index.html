@@ -19,7 +19,7 @@ permalink: press
     <div class="container">
         <ul class="in-the-press">
             {% for press in site.data.press %}
-            <li class="in-the-press__item"><a href="{{ press.url }}" target="_blank" class="in-the-press__link">{{ press.title }}</a></li>
+            <li class="in-the-press__item"><a href="{{ press.url }}" target="_blank" rel="noopener noreferrer" class="in-the-press__link">{{ press.title }}</a></li>
             {% endfor %}
         </ul>
     </div>

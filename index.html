@@ -110,7 +110,7 @@ custom_js: home
                 <h3 class="where__title where__title--{{location.color}}">{{location.location}}</h3>
                 <ul class="list list--bullet">
                     {% for school in location.schools %}
-                    <li><a href="{{school.link}}" target="_blank" class="where__link">{{school.name}}</a></li>
+                    <li><a href="{{school.link}}" target="_blank" rel="noopener noreferrer" class="where__link">{{school.name}}</a></li>
                     {% endfor %}
                 </ul>
             </div>
