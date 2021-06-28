@@ -24,6 +24,5 @@ The participants will receive support from their LTS Coaches and get mentoring s
 
 ### Pitches + Prizes 
 
-After 2 days of intense hacking, the students will present on Sunday their ideas for new digital financial products and solutions. Join us on YouTube to watch the live pitches and discover the winners! 
-
-<b>- Link will be confirmed soon</b>
+After 2 days of intense hacking, the students will present on Sunday their ideas for new digital financial products and solutions.
+[ Join us on YouTube to watch the live pitches and discover the winners!](https://youtu.be/drhkLxqdUmA)
