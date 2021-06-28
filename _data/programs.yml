@@ -2,6 +2,7 @@
   description: >
     Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
   age: 12-14
+  registration_status: closed
   modules:
     - name: Creative Coding
       image: images/modules/lvl_go_CreativeCoding.png
@@ -29,6 +30,7 @@
     Interested to learn about technology, teamwork and to work on your own project?
     This level covers several industries and will set you on the path to become a Digital Leader.
   age: 15-19
+  registration_status: open
   modules:
     - name: GameDev
       image: images/modules/lvl_1_GameDev.png

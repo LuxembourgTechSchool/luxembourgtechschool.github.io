@@ -40,7 +40,9 @@ permalink: registration
                 {% endfor %}
             </div>
 
-            <a href="{{level.link}}" target="_blank" rel="noopener noreferrer" class="button button--blue">Register</a>
+            <a href="{{level.link}}" {% if level.link_target== "external" %} target="_blank" {% endif %} rel="noopener
+            noreferrer" class="button button--blue {% if level.status == "closed" %}button--disabled{% endif %}
+            ">{{level.button_text}}</a>
 
             {% if level.footnote %}
             <div class="program-level__footnote">

@@ -83,8 +83,8 @@ permalink: program
                 {% endfor %}
             </div>
 
-            {% if program.name != "Level Up" %}
-            <a href="/registration" class="button button--purple button--big">Registration</a>
+            {% if program.registration_status == 'open' %}
+                <a href="/registration" class="button button--purple button--big">Registration</a>
             {% endif %}
         </div>
     </div>
