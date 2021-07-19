@@ -1,14 +1,11 @@
-- name: Logo Luxembourg Government
-  url: http://www.men.public.lu/
-  image: /images/sponsors/logo-gov.png
 - name: Digital Luxembourg
-  url: http://www.digital-luxembourg.public.lu/
+  url: https://digital-luxembourg.public.lu/
   image: /images/sponsors/logo-digitalluxembourg.png
 - name: SCRIPT
-  url: https://portal.education.lu/script/
-  image: /images/sponsors/logo-menej.png
+  url: https://www.script.lu/
+  image: /images/sponsors/logo-script.png
 - name: CGIE
-  url: http://www.cgie.lu
+  url: https://portal.education.lu/cgie/
   image: /images/sponsors/logo-cgie.png
 - name: Luxembourg Space Agency
   url: https://space-agency.public.lu
@@ -24,4 +21,4 @@
   image: /images/sponsors/logo-abbl.png
 - name: Luxembourg House of Financial Technology (LHoFT)
   url: https://lhoft.com
-  image: /images/sponsors/logo-lhoft.webp
+  image: /images/sponsors/logo-lhoft.png
