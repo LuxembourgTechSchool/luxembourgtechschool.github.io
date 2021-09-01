@@ -3,7 +3,7 @@
   description: >
     Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
   age: 12-14
-  registration_status: closed
+  registration_status: open
   modules:
     - name: Creative Coding
       image: images/modules/lvl_go_CreativeCoding.png

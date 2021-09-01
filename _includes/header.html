@@ -27,10 +27,9 @@
                    class="navbar__item {% if nav.permalink == page.permalink %}active{% endif %}">{{ nav.text }}</a>
                 {% endfor %}
 
+                {% if site.data.registration.open %}
                 <a class="button button--blue button--nav" href="/registration">Registration</a>
-
-                <!--{% if site.registration.isOpen %}-->
-                <!--{% endif %}-->
+                {% endif %}
             </div>
         </div>
     </nav>

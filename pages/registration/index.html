@@ -6,6 +6,7 @@ permalink: registration
 
 <div class="blob"></div>
 
+{% if site.data.registration.open %}
 <section class="page-header container">
     <h1 class="title title--main is-spaced">
         Want to register?
@@ -13,7 +14,6 @@ permalink: registration
     <h2 class="subtitle">
         It's open! Hurry up!
     </h2>
-
     <!--
     <div class="content content--highlighted">
         <strong>Important:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -27,7 +27,18 @@ permalink: registration
     -->
 </section>
 
+
+{% else %}
+<section class="page-header has-text-centered container">
+    <h1 class="title title--main is-spaced">
+        Registration
+    </h1>
+</section>
+{% endif %}
+
 <section class="section container">
+
+    {% if site.data.registration.open %}
     <ul class="is-flex is-flex-wrap-wrap">
         {% for level in site.data.registration.levels %}
         <li class="register__level">
@@ -52,5 +63,12 @@ permalink: registration
         </li>
         {% endfor %}
     </ul>
+    {% else %}
+        <div class="register__level register__level--closed">
+            <h2 class="title">Registrations are closed</h2>
+            <p>Unfortunately the registrations for the school-year 2021-2022 are <strong>closed</strong>.</p>
+            <p>But no worries, you will be able to register for the next school-year in <strong>May 2022</strong>.</p>
+        </div>
+    {% endif %}
 </section>
 

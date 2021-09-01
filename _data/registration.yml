@@ -1,11 +1,12 @@
-open: true
+open: false
 levels:
   - name: Level G0
     # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UMjRHSVJENFJGUFkwMVhZNzZNSjdNMFJJUC4u'
     link: '#'
     link_target: internal
-    status: closed
-    button_text: Closed
+    #status: closed
+    status: open
+    button_text: Register
     information:
       - key: Age
         value: 12-14
@@ -25,8 +26,11 @@ levels:
     # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UM1YwQksxWEVNTlpXMjJXUlZJQk1ETE1PRi4u'
     link: '/contact'
     link_target: internal
-    status: waiting
-    button_text: A few spots left, contact us !
+    #status: closed
+    #status: waiting
+    status: Register
+    #button_text: A few spots left, contact us !
+    button_text: Register
     information:
       - key: Age
         value: 15-19
