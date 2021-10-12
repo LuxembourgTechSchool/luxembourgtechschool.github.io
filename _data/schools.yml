@@ -21,8 +21,8 @@
 - location: North
   color: green
   schools:
-    - name: Lycée Edward Steichen Clervaux
-      link: http://www.lesc.lu/
+    - name: Lycée Technique Agricole
+      link: https://www.lta.lu/
 - location: East
   color: red
   schools:
