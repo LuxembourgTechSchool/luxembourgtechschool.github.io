@@ -64,6 +64,12 @@
   image: /images/team/Gary.jpg
   twitter: https://twitter.com/to4dy
 
+- name: Aymeric Fouquier d'Hérouël
+  jobtitle: Lead Coach
+  description: He loves to learn, develop, and teach all kinds of methods for problem solving.
+  image: /images/team/aymeric.jpg
+  twitter:
+
 - name: Antonio Del Rio
   jobtitle: Digital Coach
   description: He loves tech, especially blockchain and space exploration! After being a student at the LTS himself, he is really excited to be an LTS coach!
