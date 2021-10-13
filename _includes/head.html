@@ -17,7 +17,7 @@
     <meta property="og:description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image"
-          content="{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.github.url }}/images/ogImage.jpg{% endif %}">
+          content="{% if page.thumbnail %}{{ site.github.url }}{{ page.thumbnail }}{% else %}{{ site.github.url }}/images/ogImage.jpg{% endif %}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -27,7 +27,7 @@
     <meta property="twitter:description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="twitter:image"
-          content="{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.github.url }}/images/ogImage.jpg{% endif %}">
+          content="{% if page.thumbnail %}{{ site.github.url }}{{ page.thumbnail }}{% else %}{{ site.github.url }}/images/ogImage.jpg{% endif %}">
 
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
 
