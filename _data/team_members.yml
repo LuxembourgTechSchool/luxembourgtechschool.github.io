@@ -1,67 +1,67 @@
 - name: Sergio Coronado
   jobtitle: Founder
   description: He loves learning everyday, teaches and manages all kinds of stuff. He also started LTS.
-  image: /images/team/Sergio.jpg
+  image: /images/team/sergio.jpg
   twitter: https://twitter.com/drscoronado
 
 - name: Ralph Marschall
   jobtitle: Co-Founder
   description: He loves software and creates lots of teaching content. He also designs stuff.
-  image: /images/team/Ralph.jpg
+  image: /images/team/ralph.jpg
   twitter: https://twitter.com/RalphMarschall
 
 - name: Anush Manukyan
   jobtitle: Co-Founder & Head of Innovation
   description: She loves making robots super smart and teaches things to students. She also creates cool content.
-  image: /images/team/Anush.jpg
+  image: /images/team/anush.jpg
   twitter: https://twitter.com/Anush_Manukyan
 
 - name: Christophe Trefois
   jobtitle: Co-Founder
   description: He loves sharing knowledge and handles the teaching platform. He also solves technical issues.
-  image: /images/team/Christophe.jpg
+  image: /images/team/christophe.jpg
   twitter: https://twitter.com/Trefex
 
 - name: Rocio Lopez Perez
   jobtitle: AI Research Associate
   description: She loves creating educational chatbots and working with students to realize their projects. Her passion is to educate the younger generations.
-  image: /images/team/Rocio.jpg
+  image: /images/team/rocio.jpg
   twitter: https://twitter.com/RocioLoperez
 
 - name: Sara Kaiser
   jobtitle: Program Director
-  description: She loves to bring arts, humanities and creativity into technology. Encourages young people to explore the world with open minds and to create colorful and meaningful experiences.
-  image: /images/team/Sara.jpg
+  description: She loves to bring arts, humanities and creativity into technology.
+  image: /images/team/sara.jpg
   twitter: https://twitter.com/sakaiser
 
 - name: Georges Jentgen
   jobtitle: Lead Coach
   description: He loves software with a special focus on UX, front-end solutions, web and mobile app development. All connected to the clouds, obviously.
-  image: /images/team/Georges.jpg
+  image: /images/team/georges.jpg
   twitter: https://twitter.com/polysign
 
 - name: Filipe Costa Pinto
   jobtitle: Digital Coach
   description: He loves to create, educate and is fascinated by innovation.
-  image: /images/team/Filipe.jpg
+  image: /images/team/filipe.jpg
   twitter:
 
 - name: Melvyn Mainini
   jobtitle: Digital Coach
   description: He loves logic AND geometry AND everything else about mathematics.
-  image: /images/team/Melvyn.jpg
+  image: /images/team/melvyn.jpg
   twitter:
 
 - name: Valentin Grouès
   jobtitle: Lead Coach
   description: He loves technology, programming and obviously Software!
-  image: /images/team/Valentin.jpg
+  image: /images/team/valentin.jpg
   twitter:
 
 - name: Gary Cornelius
   jobtitle: Digital Coach
   description: Interested in every new Techology. Simple!
-  image: /images/team/Gary.jpg
+  image: /images/team/gary.jpg
   twitter: https://twitter.com/to4dy
 
 - name: Aymeric d'Hérouël
@@ -73,23 +73,35 @@
 - name: Antonio Del Rio
   jobtitle: Digital Coach
   description: He loves tech, especially blockchain and space exploration! After being a student at the LTS himself, he is really excited to be an LTS coach!
-  image: /images/team/Antonio.jpg
+  image: /images/team/antonio.jpg
   twitter:
 
 - name: Isman Fromes
   jobtitle: Lead Coach
   description: He loves web development and everything linked to it.
-  image: /images/team/isman.png
+  image: /images/team/isman.jpg
   twitter:
 
 - name: Laura Plein
   jobtitle: Lead Coach
   description: She loves to bring young people together and teach them about creative coding. She also likes AI and Cybersecurity.
-  image: /images/team/laura.png
+  image: /images/team/laura.jpg
   twitter:
 
 - name: Julie Tangeten
   jobtitle: Lead Coach
   description: She loves problem solving and to join research from different disciplines together in order to get the big(ger) picture - all with a philosophical touch.
-  image: /images/team/julie.png
+  image: /images/team/julie.jpg
+  twitter:
+
+- name: Amelia Conte
+  jobtitle: Project Officer
+  description: She loves who inspires values and empowers creativity.
+  image: /images/team/amelia.jpg
+  twitter:
+
+- name: Johannes Kneer
+  jobtitle: Digital Coach
+  description: He loves complex technical problems and the engineering toolset that supports solving those - enthusiastic about numeric modelling, lab experiments and 3d printing.
+  image: /images/team/johannes.jpg
   twitter:
