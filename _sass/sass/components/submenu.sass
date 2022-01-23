@@ -1,0 +1,43 @@
+.submenu
+  margin-top: -4px
+
+  +widescreen
+    position: absolute
+    top: 50px
+    left: 50%
+    transform: translateX(-50%)
+    min-width: 115px
+    display: none
+    margin-top: 0
+
+  .navbar__item:hover &,
+  .navbar__item:focus-within &,
+  .navbar__link:focus + &
+    display: block
+
+  &__item
+    padding-bottom: 2px
+
+  &__link
+    font-family: "Changa One", cursive
+    display: block
+    transition: 0.2s ease all
+    text-align: center
+    color: $lightblue-color
+
+    &.active
+      color: white
+
+    &:hover
+      color: $white
+
+    +widescreen
+      color: white
+      background-color: #4183D7
+      padding: 6px 11px
+      text-align: left
+
+      &.active,
+      &:hover
+        color: white
+        background-color: lighten(#050D19, 5%)

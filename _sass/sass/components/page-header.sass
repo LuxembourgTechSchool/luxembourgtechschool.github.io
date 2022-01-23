@@ -10,3 +10,28 @@
     margin-bottom: 50px
     +tablet
       margin-bottom: 80px
+
+  &__image
+    position: relative
+    width: 100%
+    max-width: 700px
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    margin-bottom: 30px
+
+    &:after
+      content: ""
+      padding-bottom: 56.25%
+      display: block
+
+    +widescreen
+      width: 500px
+      height: 500px
+      position: absolute
+      right: 0
+      top: 60px
+
+    +fullhd
+      top: 110px
+

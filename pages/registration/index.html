@@ -14,17 +14,11 @@ permalink: registration
     <h2 class="subtitle">
         It's open! Hurry up!
     </h2>
-    <!--
     <div class="content content--highlighted">
-        <strong>Important:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-        <ul>
-            <li>lorem</li>
-            <li>lorem</li>
-        </ul>
+        For this school year, the registrations for Level G0 and Level 1 are closed. <br>
+        <b>But no worries,</b> you can now join in our <a href="{{ site.github.url }}/program/online">LTS ONLINE
+        Pilot about 3D Art</a>.
     </div>
-    -->
 </section>
 
 
@@ -42,7 +36,7 @@ permalink: registration
     <ul class="is-flex is-flex-wrap-wrap">
         {% for level in site.data.registration.levels %}
         <li class="register__level">
-            <h2 class="title is-uppercase">{{ level.name }}</h2>
+            <h2 class="title">{{ level.name }}</h2>
             <div class="program-level__informations">
                 {% for info in level.information %}
                 <div class="program-level__information">
@@ -51,9 +45,7 @@ permalink: registration
                 {% endfor %}
             </div>
 
-            <a href="{{level.link}}" {% if level.link_target== "external" %} target="_blank" {% endif %} rel="noopener
-            noreferrer" class="button button--blue {% if level.status == "closed" %}button--disabled{% endif %}
-            ">{{level.button_text}}</a>
+            <a href="{{level.link}}" target="_blank" rel="noopener noreferrer" class="button button--blue">Register</a>
 
             {% if level.footnote %}
             <div class="program-level__footnote">
@@ -64,11 +56,11 @@ permalink: registration
         {% endfor %}
     </ul>
     {% else %}
-        <div class="register__level register__level--closed">
-            <h2 class="title">Registrations are closed</h2>
-            <p>Unfortunately the registrations for the school-year 2021-2022 are <strong>closed</strong>.</p>
-            <p>But no worries, you will be able to register for the next school-year in <strong>May 2022</strong>.</p>
-        </div>
+    <div class="register__level register__level--closed">
+        <h2 class="title">Registrations are closed</h2>
+        <p>Unfortunately the registrations for the school-year 2021-2022 are <strong>closed</strong>.</p>
+        <p>But no worries, you will be able to register for the next school-year in <strong>May 2022</strong>.</p>
+    </div>
     {% endif %}
 </section>
 

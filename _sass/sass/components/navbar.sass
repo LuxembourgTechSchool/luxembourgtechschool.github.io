@@ -25,14 +25,14 @@
     width: 100%
     display: flex
     flex-flow: column wrap
-    align-items: flex-start
+    align-items: center
     justify-content: center
-    padding: 15px 3% 40px
+    padding: 15px 3% 35px
     -webkit-transition: all 0.35s cubic-bezier(0.5, 1, 0.89, 1)
     transition: all 0.35s cubic-bezier(0.5, 1, 0.89, 1)
     transform: translateY(-100%)
 
-    &--open
+    &.open
       top: 68px
       transform: translateY(0)
 
@@ -41,7 +41,7 @@
       transform: translateX(100%)
       max-width: 360px
 
-      &--open
+      &.open
         transform: translateX(0)
 
     +widescreen
@@ -85,23 +85,49 @@
     img
       display: block
 
-
   &__item
+    position: relative
+    margin: 0 0 10px
+
+    +widescreen
+      margin: 0 28px 0 0
+
+    &--registration
+      margin-top: 7px
+
+      +widescreen
+        margin-top: 0
+
+  &__link
     font-size: 20px
     font-family: $font-title
     color: $lightblue-color
-    margin: 0 0 10px
     padding: 5px
+    display: inline-flex
+    align-items: center
+
+    +widescreen
+      padding: 14px 5px
 
     &.active
       color: $white
 
     +widescreen
       font-size: 18px
-      margin: 0 28px 0 0
 
     &:last-child
       margin-right: 0
 
     &:hover
       color: $white
+
+  &__icon
+    fill: $lightblue-color
+    width: 7px
+    height: 4px
+    transition: 0.2s ease fill
+    margin-left: 8px
+
+    .navbar__link:hover &,
+    .active &
+      fill: $white

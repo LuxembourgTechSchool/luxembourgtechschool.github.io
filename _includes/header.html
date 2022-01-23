@@ -21,16 +21,45 @@
             </div>
 
 
-            <div class="navbar__menu">
+            <ul class="navbar__menu js-navbar-menu">
                 {% for nav in site.data.navigation %}
-                <a href="/{{ nav.permalink }}"
-                   class="navbar__item {% if nav.permalink == page.permalink %}active{% endif %}">{{ nav.text }}</a>
+                <li class="navbar__item">
+                    <a href="/{{ nav.permalink }}"
+                       class="navbar__link
+                       {% if nav.permalink == page.permalink %}active{% endif %}
+
+                        {% for link in nav.sublinks %}
+                          {% if link.permalink == page.permalink %}active{% endif %}
+                        {% endfor %}">
+                        {{ nav.text }}
+                        {% if nav.sublinks %}
+                        <svg viewBox="0 0 6.644 3.769" xmlns="http://www.w3.org/2000/svg" class="navbar__icon"
+                             aria-hidden="true">
+                            <path d="m11.742 192h5.749a.446.446 0 0 1 .315.762l-2.874 2.876a.448.448 0 0 1 -.632 0l-2.874-2.876a.446.446 0 0 1 .316-.762z"
+                                  transform="translate(-11.295 -192)"/>
+                        </svg>
+                        {% endif %}
+                    </a>
+
+                    {% if nav.sublinks %}
+                    <ul class="submenu">
+                        {% for link in nav.sublinks %}
+                        <li class="submenu__item">
+                            <a href="/{{ link.permalink }}"
+                               class="submenu__link {% if link.permalink == page.permalink %}active{% endif %}">{{
+                                link.text }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
                 {% endfor %}
 
                 {% if site.data.registration.open %}
-                <a class="button button--blue button--nav" href="/registration">Registration</a>
+                <li class="navbar__item navbar__item--registration"><a class="button button--blue button--nav"
+                                                                       href="/registration">Registration</a></li>
                 {% endif %}
-            </div>
+            </ul>
         </div>
     </nav>
 </header>

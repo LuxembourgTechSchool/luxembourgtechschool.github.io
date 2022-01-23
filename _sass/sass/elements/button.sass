@@ -2,7 +2,7 @@
   font-size: 1.25em
   line-height: 1
   font-family: $font-title
-  padding: 14px 36px
+  padding: 13px 30px
   background: $black
   color: $white
   display: inline-block
@@ -10,6 +10,9 @@
   border: none
   border-radius: 0
   cursor: pointer
+
+  +tablet
+    padding: 14px 36px
 
   &:hover
     background: $blue
@@ -48,7 +51,10 @@
 
   &--big
     font-size: 23px
-    padding: 16px 40px
+    padding: 13px 30px
+
+    +tablet
+      padding: 16px 40px
 
   &--nav
     font-size: 1.125em
