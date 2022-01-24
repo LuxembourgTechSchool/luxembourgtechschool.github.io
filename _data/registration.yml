@@ -55,8 +55,7 @@ levels:
 #      This is a short test that aims to challenge your motivation and tech-related interests.
 
   - name: LTS Online 2022 - Pilot Program
-    # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UMjRHSVJENFJGUFkwMVhZNzZNSjdNMFJJUC4u'
-    link: '#'
+    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBImDUO3hLslIvgJRY-BjZQVUOFc4VlA1UkFSVDk5NTZUQ0xUSUNUQUFKRS4u'
     link_target: internal
     status: open
     button_text: Register
