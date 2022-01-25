@@ -25,12 +25,7 @@
                 {% for nav in site.data.navigation %}
                 <li class="navbar__item">
                     <a href="/{{ nav.permalink }}"
-                       class="navbar__link
-                       {% if nav.permalink == page.permalink %}active{% endif %}
-
-                        {% for link in nav.sublinks %}
-                          {% if link.permalink == page.permalink %}active{% endif %}
-                        {% endfor %}">
+                       class="navbar__link {% if nav.permalink == page.permalink %}active{% endif %}{% for link in nav.sublinks %}{% if link.permalink == page.permalink %}active{% endif %}{% endfor %}">
                         {{ nav.text }}
                         {% if nav.sublinks %}
                         <svg viewBox="0 0 6.644 3.769" xmlns="http://www.w3.org/2000/svg" class="navbar__icon"
