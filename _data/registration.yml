@@ -1,72 +1,72 @@
-open: true
+open: false
 levels:
-  #  - name: Level G0
-  #    # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UMjRHSVJENFJGUFkwMVhZNzZNSjdNMFJJUC4u'
-  #    link: '#'
-  #    link_target: internal
-  #    #status: closed
-  #    status: open
-  #    button_text: Register
-  #    information:
-  #      - key: Age
-  #        value: 12-14
-  #      - key: Language
-  #        value: English or German/Luxemburgish
-  #      - key: Classes
-  #        value: 1x90min per week
-  #      - key: Duration
-  #        value: 1 year program
-  #      - key: Prior knowledge
-  #        value: No coding knowledge required
-  #      - key: Price
-  #        value: 100% Free
-  #      - key: Deadline for registration
-  #        value: 23/06/2021
-  #  - name: Level One
-  #    # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UM1YwQksxWEVNTlpXMjJXUlZJQk1ETE1PRi4u'
-  #    link: '/contact'
-  #    link_target: internal
-  #    #status: closed
-  #    #status: waiting
-  #    status: Register
-  #    #button_text: A few spots left, contact us !
-  #    button_text: Register
-  #    information:
-  #      - key: Age
-  #        value: 15-19
-  #      - key: Language
-  #        value: English
-  #      - key: Classes
-  #        value: 1x100min per week
-  #      - key: Duration
-  #        value: 1 year program
-  #      - key: Prior knowledge
-  #        value: No coding knowledge required
-  #      - key: Price
-  #        value: 100% Free
-  #      - key: Deadline for registration
-  #        value: 23/06/2021
-  ##    footnote:
-  ##      After registering, you will be invited to an <strong>online selection test</strong> scheduled for <strong>Friday, 25 June 2021 at 17h00</strong>.
-  ##      This is a short test that aims to challenge your motivation and tech-related interests.
-  ##      All details about the selection test will be sent on <strong>Friday, 11th June 2021</strong>.
-  #    footnote:
-  #      After registering, you will be invited to an <b>online selection test</b>. <br>
-  #      This is a short test that aims to challenge your motivation and tech-related interests.
-
-  - name: LTS Online 2022 - Pilot Program
-    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBImDUO3hLslIvgJRY-BjZQVUOFc4VlA1UkFSVDk5NTZUQ0xUSUNUQUFKRS4u'
+  - name: Level G0
+    # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UMjRHSVJENFJGUFkwMVhZNzZNSjdNMFJJUC4u'
+    link: '#'
     link_target: internal
+    #status: closed
     status: open
     button_text: Register
     information:
       - key: Age
-        value: 14-18
-      - key: Topic
-        value: 3D Art
-      - key: Period
-        value: March to June 2022
+        value: 12-14
+      - key: Language
+        value: English or German/Luxemburgish
+      - key: Classes
+        value: 1x90min per week
+      - key: Duration
+        value: 1 year program
+      - key: Prior knowledge
+        value: No coding knowledge required
+      - key: Price
+        value: 100% Free
+      - key: Deadline for registration
+        value: 23/06/2021
+  - name: Level One
+    # link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBMDufQjCr9tJt5ddsT-Q0C9UM1YwQksxWEVNTlpXMjJXUlZJQk1ETE1PRi4u'
+    link: '/contact'
+    link_target: internal
+    #status: closed
+    #status: waiting
+    status: Register
+    #button_text: A few spots left, contact us !
+    button_text: Register
+    information:
+      - key: Age
+        value: 15-19
       - key: Language
         value: English
+      - key: Classes
+        value: 1x100min per week
+      - key: Duration
+        value: 1 year program
+      - key: Prior knowledge
+        value: No coding knowledge required
+      - key: Price
+        value: 100% Free
       - key: Deadline for registration
-        value: 1st March, 2022
+        value: 23/06/2021
+#    footnote:
+#      After registering, you will be invited to an <strong>online selection test</strong> scheduled for <strong>Friday, 25 June 2021 at 17h00</strong>.
+#      This is a short test that aims to challenge your motivation and tech-related interests.
+#      All details about the selection test will be sent on <strong>Friday, 11th June 2021</strong>.
+    footnote:
+      After registering, you will be invited to an <b>online selection test</b>. <br>
+      This is a short test that aims to challenge your motivation and tech-related interests.
+
+#  - name: LTS Online 2022 - Pilot Program
+#    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBImDUO3hLslIvgJRY-BjZQVUOFc4VlA1UkFSVDk5NTZUQ0xUSUNUQUFKRS4u'
+#    link_target: internal
+#    status: open
+#    button_text: Register
+#    information:
+#      - key: Age
+#        value: 14-18
+#      - key: Topic
+#        value: 3D Art
+#      - key: Period
+#        value: March to June 2022
+#      - key: Language
+#        value: English
+#      - key: Deadline for registration
+#        value: 1st March, 2022
