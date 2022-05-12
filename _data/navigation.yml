@@ -2,9 +2,6 @@
   permalink: how-it-works
 - text: Program
   permalink: program
-  sublinks:
-    - text: Online
-      permalink: ltsonline
 - text: News
   permalink: news
 - text: Projects
