@@ -35,7 +35,9 @@ custom_js: home
                     <li>Express your creativity</li>
                 </ul>
 
-                <!--<a href="#" class="button">Learn more</a>-->
+                {% if site.data.registration.open %}
+                <a href="{{ site.github.url }}/registration" class="button button--blue">Register now</a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -154,12 +156,12 @@ custom_js: home
     </div>
 </section>
 
+{% if site.data.registration.open %}
 <section class="section want-to-join has-text-centered">
     <h2 class="title title--white is-uppercase">Want to join ?</h2>
-    <h3 class="subtitle subtitle--dark mb-4">It's totally free !</h3>
-
     <div class="button-center">
-        <a href="/registration" class="button button--big">Register</a>
+        <a href="/registration" class="button button--big">Register now</a>
     </div>
 </section>
+{% endif %}
 
