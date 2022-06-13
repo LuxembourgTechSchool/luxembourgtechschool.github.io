@@ -22,6 +22,9 @@
 - name: State Street
   url: https://www.statestreet.com/
   image: /images/sponsors/logo-stt.png
+- name: nexten.io
+  url: https://www.nexten.io/
+  image: /images/sponsors/logo-nexten.jpg
 - name: Luxembourg House of Financial Technology (LHoFT)
   url: https://lhoft.com
   image: /images/sponsors/logo-lhoft.png
