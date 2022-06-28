@@ -1,11 +1,12 @@
-open: true
+#status: open
+status: waiting
+#status: closed
 levels:
   - name: Level G0
     link: 'https://forms.office.com/r/YYsHp9kFqJ'
-    # link: '#'
-    link_target: internal
+    #status: open
     #status: closed
-    status: open
+    status: waiting
     button_text: Register
     information:
       - key: Age
@@ -24,12 +25,9 @@ levels:
         value: 24/06/2022
   - name: Level One
     link: 'https://forms.office.com/r/gPKXbScE4n'
-    # link: '/contact'
-    link_target: internal
-    #status: closed
+    #status: open
+    status: closed
     #status: waiting
-    status: Register
-    #button_text: A few spots left, contact us !
     button_text: Register
     information:
       - key: Age
@@ -47,12 +45,8 @@ levels:
       - key: Deadline for registration
         value: 24/06/2022
 #    footnote:
-#      After registering, you will be invited to an <strong>online selection test</strong> scheduled for <strong>Friday, 25 June 2021 at 17h00</strong>.
+#      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
-#      All details about the selection test will be sent on <strong>Friday, 11th June 2021</strong>.
-    footnote:
-      After registering, you will be invited to an <b>online selection test</b>. <br>
-      This is a short test that aims to challenge your motivation and tech-related interests.
 
 #  - name: LTS Online 2022 - Pilot Program
 #    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBImDUO3hLslIvgJRY-BjZQVUOFc4VlA1UkFSVDk5NTZUQ0xUSUNUQUFKRS4u'

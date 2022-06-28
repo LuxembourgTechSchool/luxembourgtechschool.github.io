@@ -6,7 +6,7 @@ permalink: registration
 
 <div class="blob"></div>
 
-{% if site.data.registration.open %}
+{% if site.data.registration.status == 'open' %}
 <section class="page-header container">
     <h1 class="title title--main is-spaced">
         Want to register?
@@ -17,7 +17,8 @@ permalink: registration
     <div class="content content--highlighted">
         <p>
             The registrations for <a href="{{ site.github.url }}/program#lvlg0">Level G0</a> and
-            <a href="{{ site.github.url }}/program#lvl1">Level One</a> for the up-coming <b>school year 2022-2023</b> are
+            <a href="{{ site.github.url }}/program#lvl1">Level One</a> for the up-coming <b>school year 2022-2023</b>
+            are
             open. <br>
             You can register directly via the registration forms below <i>(by clicking on the corresponding blue
             "Register" button)</i>.</p>
@@ -29,7 +30,21 @@ permalink: registration
 </section>
 
 
-{% else %}
+{% elsif site.data.registration.status == 'waiting' %}
+
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        Registration
+    </h1>
+    <div class="content content--highlighted">
+        <p>The registration for <a href="{{ site.github.url }}/program#lvlg0">Level G0</a> and <a
+                href="{{ site.github.url }}/program#lvl1">Level One</a> for the up-coming school year 2022-2023 are
+            closed, but there might be some spots left for Level G0.
+            Please <a href="{{ site.github.url }}/contact">get in touch with us</a> if you are interested.</p>
+    </div>
+</section>
+
+{% elsif site.data.registration.status == 'closed' %}
 <section class="page-header has-text-centered container">
     <h1 class="title title--main is-spaced">
         Registration
@@ -39,10 +54,10 @@ permalink: registration
 
 <section class="section container">
 
-    {% if site.data.registration.open %}
+    {% if site.data.registration.status != 'closed' %}
     <ul class="is-flex is-flex-wrap-wrap">
         {% for level in site.data.registration.levels %}
-        <li class="register__level">
+        <li class="register__level {% if level.status == 'closed' %}register__level--closed{% endif %}">
             <h2 class="title">{{ level.name }}</h2>
             <div class="program-level__informations">
                 {% for info in level.information %}
@@ -52,7 +67,13 @@ permalink: registration
                 {% endfor %}
             </div>
 
-            <a href="{{level.link}}" target="_blank" rel="noopener noreferrer" class="button button--blue">Register</a>
+            {% if level.status == 'open' %}
+            <a href="{{level.link}}" target="_blank" rel="noopener noreferrer" class="button button--blue">{{level.button_text}}</a>
+            {% elsif level.status == 'closed' %}
+            <span class="button button--disabled">Registration Closed</span>
+            {%  elsif level.status == 'waiting' %}
+            <a href="{{ site.github.url }}/contact" rel="noopener noreferrer" class="button button--blue">Contact us !</a>
+            {% endif %}
 
             {% if level.footnote %}
             <div class="program-level__footnote">
@@ -62,11 +83,13 @@ permalink: registration
         </li>
         {% endfor %}
     </ul>
-    {% else %}
-    <div class="register__level register__level--closed">
+    {% elsif site.data.registration.status == 'waiting' %}
+
+    {% elsif site.data.registration.status == 'closed' %}
+    <div class="register__level register__level--year-closed">
         <h2 class="title">Registrations are closed</h2>
-        <p>For the current school year 2021-2022, the registrations for all programs are closed.</p>
-        <p>The registration for the school year 2022-2023 <b> will be opened here in mid-May 2022.</b></p>
+        <p>For the school year 2022-2023, the registrations for all programs are closed.</p>
+        <p>The registration for the school year 2023-2024 <b> will be opened here in mid-May 2023.</b></p>
     </div>
     {% endif %}
 </section>
