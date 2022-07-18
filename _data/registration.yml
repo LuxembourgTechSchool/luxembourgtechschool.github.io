@@ -1,12 +1,12 @@
 #status: open
-status: waiting
-#status: closed
+#status: waiting
+status: closed
 levels:
   - name: Level G0
     link: 'https://forms.office.com/r/YYsHp9kFqJ'
     #status: open
-    #status: closed
-    status: waiting
+    status: closed
+    #status: waiting
     button_text: Register
     information:
       - key: Age
