@@ -34,12 +34,6 @@
   image: /images/team/sara.jpg
   twitter: https://twitter.com/sakaiser
 
-- name: Georges Jentgen
-  jobtitle: Lead Coach
-  description: He loves software with a special focus on UX, front-end solutions, web and mobile app development. All connected to the clouds, obviously.
-  image: /images/team/georges.jpg
-  twitter: https://twitter.com/polysign
-
 - name: Filipe Costa Pinto
   jobtitle: Digital Coach
   description: He loves to create, educate and is fascinated by innovation.
@@ -50,12 +44,6 @@
   jobtitle: Digital Coach
   description: He loves logic AND geometry AND everything else about mathematics.
   image: /images/team/melvyn.jpg
-  twitter:
-
-- name: Valentin Grouès
-  jobtitle: Lead Coach
-  description: He loves technology, programming and obviously Software!
-  image: /images/team/valentin.jpg
   twitter:
 
 - name: Gary Cornelius
@@ -86,12 +74,6 @@
   jobtitle: Lead Coach
   description: She loves problem solving and to join research from different disciplines together in order to get the big(ger) picture - all with a philosophical touch.
   image: /images/team/julie.jpg
-  twitter:
-
-- name: Amelia Conte
-  jobtitle: Project Officer
-  description: She loves who inspires values and empowers creativity.
-  image: /images/team/amelia.jpg
   twitter:
 
 - name: Johannes Kneer
