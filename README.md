@@ -5,7 +5,7 @@ Built using [Jekyll](https://jekyllrb.com).
 
 Hosted on [GitHub Pages](https://pages.github.com).
 
-&copy; 2016-2021 Luxembourg Tech School.
+&copy; 2016-2022 Luxembourg Tech School.
 
 ## Run locally
 
