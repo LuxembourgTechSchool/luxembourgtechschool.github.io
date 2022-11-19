@@ -26,17 +26,16 @@ permalink: jobs
         {% endunless %}
 
         {% if site.data.jobs.open %}
-        {% for job in site.data.jobs.positions %}
-        <div class="jobs__list">
+        <ul class="jobs__list">
+            {% for job in site.data.jobs.positions %}
             <li class="job-preview">
                 <a href="{{ job.url }}" class="job-preview__link" target="_blank">
                     <span class="job-preview__contract-type">{{ job.contract }}</span>
                     <h3 class="job-preview__title">{{ job.title }}</h3>
                 </a>
             </li>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        </ul>
         {% endif %}
-
     </div>
 </section>
