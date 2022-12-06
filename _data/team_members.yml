@@ -81,3 +81,15 @@
   description: He loves complex technical problems and the engineering toolset that supports solving those - enthusiastic about numeric modelling, lab experiments and 3d printing.
   image: /images/team/johannes.jpg
   twitter:
+
+- name: Mayerling Romero
+  jobtitle: Project Officer
+  description: She loves to contribute to the smooth operation and successful completion of projects and to learn new skills.
+  image: /images/team/mayerling.jpg
+  twitter:
+
+- name: Kevin Rosamont Prombo
+  jobtitle: Digital Coach
+  description: He loves to explore data and to make it speak for itself. He also creates educational contents.
+  image: /images/team/kevin.jpg
+  twitter:
