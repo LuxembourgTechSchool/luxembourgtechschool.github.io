@@ -46,13 +46,13 @@
         - Learn professional game engines
       event: Game Competition Event
       eventLink:
-    - name: BigData
-      image: images/modules/lvl_1_BigData.png
+    - name: AI Everywhere
+      image: images/modules/lvl_1_AiEverywhere.png
       items:
-        - Discover Big Data
-        - Analyse large datasets
-        - Create visualizations
-        - Tell stories with data
+        - Discover Artificial Intelligence (AI)
+        - Build your own AI
+        - Make data speak
+        - Develop intelligent web services
         - Code with Python
       event: Data for Social Good Event
       eventLink:
@@ -85,15 +85,15 @@
         - Learn about autonomous robots
       event: Space Event
       eventLink:
-    - name: AI4Finance
-      image: images/modules/lvl_up_Ai4Finance.png
+    - name: Emerging Tech
+      image: images/modules/lvl_up_EmergingTech.png
       items:
-        - Discover Artificial Intelligence (A.I.)
-        - Understand financial (r)evolution
-        - Develop applications for wearables
-        - Build you own Chatbot
-        - Create an Advisor based on Deep Learning
-        - Learn & experiment with Fraud Detection
+        - Discover the Future of Tech
+        - Experience Brain-Computer Interfaces
+        - Dive into Quantum Computing
+        - Create with Augmented/Virtual Reality
+        - Get hands on with Wearables
+        - Build Applications of the Future
       event: AI4Finance Hackathon
       eventLink:
     - name: AI Creativity & Arts
