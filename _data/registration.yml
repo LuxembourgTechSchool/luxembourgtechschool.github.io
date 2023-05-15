@@ -22,7 +22,7 @@ levels:
       - key: Price
         value: 100% Free
       - key: Deadline for registration
-        value: 16/06/2023
+        value: 26/06/2023
   - name: Level One
     link: 'https://forms.office.com/e/uZR8AY9imE'
     status: open
@@ -43,7 +43,7 @@ levels:
       - key: Price
         value: 100% Free
       - key: Deadline for registration
-        value: 16/06/2023
+        value: 26/06/2023
 #    footnote:
 #      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
