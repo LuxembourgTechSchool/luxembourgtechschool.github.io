@@ -101,6 +101,15 @@ custom_js: home
     </div>
 </section>
 
+{% if site.data.registration.status == 'open' %}
+<section class="section want-to-join has-text-centered">
+    <h2 class="title title--white is-uppercase">Want to join ?</h2>
+    <div class="button-center">
+        <a href="/registration" class="button button--big">Register now</a>
+    </div>
+</section>
+{% endif %}
+
 <section class="section where">
     <div class="container">
         <div class="where__header">
@@ -155,13 +164,4 @@ custom_js: home
         </div>
     </div>
 </section>
-
-{% if site.data.registration.status == 'open' %}
-<section class="section want-to-join has-text-centered">
-    <h2 class="title title--white is-uppercase">Want to join ?</h2>
-    <div class="button-center">
-        <a href="/registration" class="button button--big">Register now</a>
-    </div>
-</section>
-{% endif %}
 
