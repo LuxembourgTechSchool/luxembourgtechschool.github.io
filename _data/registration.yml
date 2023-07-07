@@ -1,11 +1,11 @@
-status: open
+#status: open
 #status: waiting
-#status: closed
+status: closed
 levels:
   - name: Level G0
     link: 'https://forms.office.com/e/kU7g1ATdBR'
-    status: open
-#    status: closed
+#    status: open
+    status: closed
 #    status: waiting
     button_text: Register
     information:
@@ -25,8 +25,8 @@ levels:
         value: 26/06/2023
   - name: Level One
     link: 'https://forms.office.com/e/uZR8AY9imE'
-    status: open
-#    status: closed
+#    status: open
+    status: closed
 #    status: waiting
     button_text: Register
     information:
