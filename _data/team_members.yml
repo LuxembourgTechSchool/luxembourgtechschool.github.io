@@ -8,25 +8,17 @@
   jobtitle: Co-Founder
   description: He loves software and creates lots of teaching content. He also designs stuff.
   image: /images/team/ralph.jpg
-  twitter: https://twitter.com/RalphMarschall
 
 - name: Anush Manukyan
   jobtitle: Co-Founder & Head of Innovation
   description: She loves making robots super smart and teaches things to students. She also creates cool content.
   image: /images/team/anush.jpg
-  twitter: https://twitter.com/Anush_Manukyan
 
 - name: Christophe Trefois
   jobtitle: Co-Founder
   description: He loves sharing knowledge and handles the teaching platform. He also solves technical issues.
   image: /images/team/christophe.jpg
   twitter: https://twitter.com/Trefex
-
-- name: Rocio Lopez Perez
-  jobtitle: AI Research Associate
-  description: She loves creating educational chatbots and working with students to realize their projects. Her passion is to educate the younger generations.
-  image: /images/team/rocio.jpg
-  twitter: https://twitter.com/RocioLoperez
 
 - name: Sara Kaiser
   jobtitle: Program Director
@@ -52,18 +44,6 @@
   image: /images/team/gary.jpg
   twitter: https://twitter.com/to4dy
 
-- name: Antonio Del Rio
-  jobtitle: Digital Coach
-  description: He loves tech, especially blockchain and space exploration! After being a student at the LTS himself, he is really excited to be an LTS coach!
-  image: /images/team/antonio.jpg
-  twitter:
-
-- name: Isman Fromes
-  jobtitle: Lead Coach
-  description: He loves web development and everything linked to it.
-  image: /images/team/isman.jpg
-  twitter:
-
 - name: Laura Plein
   jobtitle: Lead Coach
   description: She loves to bring young people together and teach them about creative coding. She also likes AI and Cybersecurity.
@@ -86,12 +66,6 @@
   jobtitle: Project Officer
   description: She loves to contribute to the smooth operation and successful completion of projects and to learn new skills.
   image: /images/team/mayerling.jpg
-  twitter:
-
-- name: Kevin Rosamont Prombo
-  jobtitle: Digital Coach
-  description: He loves to explore data and to make it speak for itself. He also creates educational contents.
-  image: /images/team/kevin.jpg
   twitter:
 
 - name: Amrit Gill
