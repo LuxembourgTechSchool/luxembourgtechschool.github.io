@@ -11,7 +11,8 @@ thumbnail: /images/projects/cc4all.jpg
 
 ## A Revolutionary Tech Education Initiative
 
-**Creative Coding for ALL (CC4ALL for short)** is a program that was launched in collaboration with [Croix Rouge Luxembourg](https://www.croix-rouge.lu) in 2020. The program's main goal is to make education accessible and enjoyable for everyone. We believe that with an inclusive, supportive, and well-equipped learning environment, everyone can learn, grow, and excel. This program is more than just about tech education. It is a movement to empower learners from all backgrounds and abilities in an increasingly digital world.
+**Creative Coding for ALL (CC4ALL for short)** is a program that was launched in collaboration with [Croix Rouge Luxembourg](https://www.croix-rouge.lu) in 2020 and is today fully supported by the [André Losch Fondation](https://www.loschfondation.lu). The program's main goal is to make education accessible and enjoyable for everyone. We believe that with an inclusive, supportive, and well-equipped learning environment, everyone can learn, grow, and excel. This program is more than just about tech education. It is a movement to empower learners from all backgrounds and abilities in an increasingly digital world.
+
 
 <div class="columns">
     <div class="column">
