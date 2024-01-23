@@ -79,7 +79,7 @@ We are not just a coding program. We are a community dedicated to making the dig
     </div>
     <div class="column">
         <img src="/images/projects/cc4all/CC4ALL_Picture7.jpg">
-        <div>One year later, we ended the school year with a visit new friend: QTrobot. </div>
+        <div>One year later, we ended the school year with a visit from a new friend: QTrobot. </div>
     </div>
 </div>
 
