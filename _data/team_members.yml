@@ -60,13 +60,13 @@
 
 - name: Johannes Kneer
   jobtitle: Digital Coach
-  description: He loves complex technical problems and the engineering toolset that supports solving those - enthusiastic about numeric modelling, lab experiments and 3d printing.
+  description: He loves complex technical problems and the engineering toolsets that supports solving those - enthusiastic about numeric modelling, lab experiments and 3d printing.
   image: /images/team/johannes.jpg
 
-- name: Amrit Gill
+- name: Julia Boes
   jobtitle: Digital Coach
-  description: He is passionate about energy markets, mathematics and software.
-  image: /images/team/amrit.jpg
+  description: She is passionate about software engineering.
+  image: /images/team/julia.jpg
 
 - name: Roy Steinmetzer
   jobtitle: Tech Educator
