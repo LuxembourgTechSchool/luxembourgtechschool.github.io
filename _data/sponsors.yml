@@ -25,6 +25,9 @@
 - name: nexten.io
   url: https://www.nexten.io/
   image: /images/sponsors/logo-nexten.jpg
+- name: Luxair
+  url: https://www.luxair.lu
+  image: /images/sponsors/logo-luxair.png
 - name: Luxembourg House of Financial Technology (LHoFT)
   url: https://lhoft.com
   image: /images/sponsors/logo-lhoft.png
