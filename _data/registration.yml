@@ -1,11 +1,13 @@
 #status: open
 #status: waiting
-status: closed
+status: open
+year: 2024-2025
+nextYear: 2025-2026
 levels:
   - name: Level G0
-    link: 'https://forms.office.com/e/kU7g1ATdBR'
+    link: 'https://register.techschool.lu/levelgo'
 #    status: open
-    status: closed
+    status: open
 #    status: waiting
     button_text: Register
     information:
@@ -22,11 +24,11 @@ levels:
       - key: Price
         value: 100% Free
       - key: Deadline for registration
-        value: 26/06/2023
+        value: 26/06/2024
   - name: Level One
-    link: 'https://forms.office.com/e/uZR8AY9imE'
+    link: 'https://register.techschool.lu/levelone'
 #    status: open
-    status: closed
+    status: open
 #    status: waiting
     button_text: Register
     information:
@@ -43,7 +45,7 @@ levels:
       - key: Price
         value: 100% Free
       - key: Deadline for registration
-        value: 26/06/2023
+        value: 26/06/2024
 #    footnote:
 #      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
