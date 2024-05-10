@@ -2,7 +2,7 @@
 layout: post
 title: "Cybersecurity Workshop: Don't get PWNED"
 date: 2024-03-16 08:00:00 +0200
-short_description: "In collaboration with the LetzPwn, along with the first Luxembourgish Capture the Flag team, we organized a special Cybersecurity workshop."
+short_description: "In collaboration with the LetzPwn, the first Luxembourgish Capture the Flag team, we organized a special Cybersecurity workshop."
 thumbnail: /images/news/cyber-2.png
 ---
 
