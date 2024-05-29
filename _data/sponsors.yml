@@ -22,9 +22,12 @@
 - name: State Street
   url: https://www.statestreet.com/
   image: /images/sponsors/logo-stt.png
-- name: nexten.io
-  url: https://www.nexten.io/
-  image: /images/sponsors/logo-nexten.jpg
+#- name: nexten.io
+#  url: https://www.nexten.io/
+#  image: /images/sponsors/logo-nexten.jpg
+- name: Œuvre Nationale de Secours Grande-Duchesse Charlotte
+  url: https://www.oeuvre.lu
+  image: /images/sponsors/logo-oeuvre.jpg
 - name: Luxair
   url: https://www.luxair.lu
   image: /images/sponsors/logo-luxair.png
