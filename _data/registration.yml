@@ -1,4 +1,3 @@
-#status: open
 #status: waiting
 status: open
 year: 2024-2025
@@ -6,7 +5,6 @@ nextYear: 2025-2026
 levels:
   - name: Level G0
     link: 'https://register.techschool.lu/levelgo'
-#    status: open
     status: open
 #    status: waiting
     button_text: Register
@@ -27,7 +25,6 @@ levels:
         value: 26/06/2024
   - name: Level One
     link: 'https://register.techschool.lu/levelone'
-#    status: open
     status: open
 #    status: waiting
     button_text: Register
@@ -71,6 +68,30 @@ levels:
         value: 100% Free
       - key: Deadline for registration
         value: 17/07/2024
+
+  - name: Creative Coding Summer Camp
+    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBP5HahFMo6BDkt7CmFuWArJUMVVXNlg1RTlBV0ZKV0RZOUFMMllCOUVJMi4u'
+    status: open
+    button_text: Register
+    information:
+      - key: Information
+        value: Dedicated 3-week program for refugees
+      - key: Age
+        value: 12-15
+      - key: Language
+        value: French & English
+      - key: Classes
+        value: Every Tuesday & Thursday from 10:00 to 11:30.
+      - key: Duration
+        value: July 16 to August 1
+      - key: House of Startups, 9 rue du laboratoire, L-1911 Luxembourg.
+        value: Luxembourg City
+      - key: Prior knowledge
+        value: No coding knowledge required
+      - key: Price
+        value: 100% Free
+      - key: Deadline for registration
+        value: 14/07/2024
 
 #  - name: LTS Online 2022 - Pilot Program
 #    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBImDUO3hLslIvgJRY-BjZQVUOFc4VlA1UkFSVDk5NTZUQ0xUSUNUQUFKRS4u'
