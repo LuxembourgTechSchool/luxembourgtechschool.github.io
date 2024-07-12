@@ -20,7 +20,6 @@
                 </div>
             </div>
 
-
             <ul class="navbar__menu js-navbar-menu">
                 {% for nav in site.data.navigation %}
                 <li class="navbar__item">
@@ -28,10 +27,8 @@
                        class="navbar__link {% if nav.permalink == page.permalink %}active{% endif %}{% for link in nav.sublinks %}{% if link.permalink == page.permalink %}active{% endif %}{% endfor %}">
                         {{ nav.text }}
                         {% if nav.sublinks %}
-                        <svg viewBox="0 0 6.644 3.769" xmlns="http://www.w3.org/2000/svg" class="navbar__icon"
-                             aria-hidden="true">
-                            <path d="m11.742 192h5.749a.446.446 0 0 1 .315.762l-2.874 2.876a.448.448 0 0 1 -.632 0l-2.874-2.876a.446.446 0 0 1 .316-.762z"
-                                  transform="translate(-11.295 -192)"/>
+                        <svg viewBox="0 0 6.644 3.769" xmlns="http://www.w3.org/2000/svg" class="navbar__icon" aria-hidden="true">
+                            <path d="m11.742 192h5.749a.446.446 0 0 1 .315.762l-2.874 2.876a.448.448 0 0 1 -.632 0l-2.874-2.876a.446.446 0 0 1 .316-.762z" transform="translate(-11.295 -192)"/>
                         </svg>
                         {% endif %}
                     </a>
@@ -50,9 +47,10 @@
                 </li>
                 {% endfor %}
 
-                {% if site.data.registration.status == 'open' %}
-                <li class="navbar__item navbar__item--registration"><a class="button button--blue button--nav"
-                                                                       href="/registration">Registration</a></li>
+                {% if site.data.registration.status != 'closed' %}
+                <li class="navbar__item navbar__item--registration">
+                    <a class="button button--blue button--nav" href="/registration">Registration</a>
+                </li>
                 {% endif %}
             </ul>
         </div>

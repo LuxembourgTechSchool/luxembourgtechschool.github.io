@@ -45,11 +45,13 @@ permalink: registration
 </section>
 
 {% elsif site.data.registration.status == 'closed' %}
+
 <section class="page-header has-text-centered container">
     <h1 class="title title--main is-spaced">
         Registration
     </h1>
 </section>
+
 {% endif %}
 
 <section class="section container">
@@ -94,3 +96,45 @@ permalink: registration
     {% endif %}
 </section>
 
+{% if site.data.registration.summercamps.size > 0 %}
+<section class="page-header container">
+    <h1 class="title title--main is-spaced">
+        Summer Camps
+    </h1>
+    <div class="content content--highlighted">
+        <p>We are still active during the summer! Check out what we have.</p>
+    </div>
+</section>
+
+<section class="section container">
+
+    <ul class="is-flex is-flex-wrap-wrap">
+        {% for level in site.data.registration.summercamps %}
+        <li class="register__level {% if level.status == 'closed' %}register__level--closed{% endif %}">
+            <h2 class="title">{{ level.name }}</h2>
+            <div class="program-level__informations">
+                {% for info in level.information %}
+                <div class="program-level__information">
+                    <strong>{{info.key}}</strong> <span>{{info.value}}</span>
+                </div>
+                {% endfor %}
+            </div>
+
+            {% if level.status == 'open' %}
+            <a href="{{level.link}}" target="_blank" rel="noopener noreferrer" class="button button--blue">{{level.button_text}}</a>
+            {% elsif level.status == 'closed' %}
+            <span class="button button--disabled">Registration Closed</span>
+            {%  elsif level.status == 'waiting' %}
+            <a href="{{ site.github.url }}/contact" rel="noopener noreferrer" class="button button--blue">Contact us !</a>
+            {% endif %}
+
+            {% if level.footnote %}
+            <div class="program-level__footnote">
+                {{level.footnote}}
+            </div>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

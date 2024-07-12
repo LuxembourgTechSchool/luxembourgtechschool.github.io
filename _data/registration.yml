@@ -1,12 +1,12 @@
 #status: waiting
-status: open
+status: waiting
 year: 2024-2025
 nextYear: 2025-2026
 levels:
   - name: Level G0
     link: 'https://register.techschool.lu/levelgo'
-    status: open
-#    status: waiting
+    status: waiting
+#    status: waiting or open
     button_text: Register
     information:
       - key: Age
@@ -25,8 +25,7 @@ levels:
         value: 26/06/2024
   - name: Level One
     link: 'https://register.techschool.lu/levelone'
-    status: open
-#    status: waiting
+    status: closed # closed, waiting
     button_text: Register
     information:
       - key: Age
@@ -46,7 +45,7 @@ levels:
 #    footnote:
 #      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
-
+summercamps:
   - name: AI For All Summer Camp
     link: 'https://forms.office.com/e/Eqq7TCNk5y'
     status: open
@@ -92,20 +91,3 @@ levels:
         value: 100% Free
       - key: Deadline for registration
         value: 14/07/2024
-
-#  - name: LTS Online 2022 - Pilot Program
-#    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBImDUO3hLslIvgJRY-BjZQVUOFc4VlA1UkFSVDk5NTZUQ0xUSUNUQUFKRS4u'
-#    link_target: internal
-#    status: open
-#    button_text: Register
-#    information:
-#      - key: Age
-#        value: 14-18
-#      - key: Topic
-#        value: 3D Art
-#      - key: Period
-#        value: March to June 2022
-#      - key: Language
-#        value: English
-#      - key: Deadline for registration
-#        value: 1st March, 2022
