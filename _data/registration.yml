@@ -1,11 +1,11 @@
 #status: waiting
-status: waiting
+status: closed
 year: 2024-2025
 nextYear: 2025-2026
 levels:
   - name: Level G0
     link: 'https://register.techschool.lu/levelgo'
-    status: waiting
+    status: closed
 #    status: waiting or open
     button_text: Register
     information:
@@ -45,49 +45,49 @@ levels:
 #    footnote:
 #      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
-summercamps:
-  - name: AI For All Summer Camp
-    link: 'https://forms.office.com/e/Eqq7TCNk5y'
-    status: open
-    button_text: Register
-    information:
-      - key: Age
-        value: 15-19
-      - key: Language
-        value: English
-      - key: Classes
-        value: Monday-Friday, 9h30-15h30
-      - key: Duration
-        value: July 22 to August 2
-      - key: Location
-        value: Kirchberg
-      - key: Prior knowledge
-        value: No coding knowledge required
-      - key: Price
-        value: 100% Free
-      - key: Deadline for registration
-        value: 17/07/2024
+#summercamps:
+#   - name: AI For All Summer Camp
+#     link: 'https://forms.office.com/e/Eqq7TCNk5y'
+#     status: open
+#     button_text: Register
+#     information:
+#       - key: Age
+#         value: 15-19
+#       - key: Language
+#         value: English
+#       - key: Classes
+#         value: Monday-Friday, 9h30-15h30
+#       - key: Duration
+#         value: July 22 to August 2
+#       - key: Location
+#         value: Kirchberg
+#       - key: Prior knowledge
+#         value: No coding knowledge required
+#       - key: Price
+#         value: 100% Free
+#       - key: Deadline for registration
+#         value: 17/07/2024
 
-  - name: Creative Coding Summer Camp
-    link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBP5HahFMo6BDkt7CmFuWArJUMVVXNlg1RTlBV0ZKV0RZOUFMMllCOUVJMi4u'
-    status: open
-    button_text: Register
-    information:
-      - key: Information
-        value: Dedicated 3-week program for refugees
-      - key: Age
-        value: 12-15
-      - key: Language
-        value: French & English
-      - key: Classes
-        value: Every Tuesday & Thursday from 10:00 to 11:30.
-      - key: Duration
-        value: July 16 to August 1
-      - key: House of Startups, 9 rue du laboratoire, L-1911 Luxembourg.
-        value: Luxembourg City
-      - key: Prior knowledge
-        value: No coding knowledge required
-      - key: Price
-        value: 100% Free
-      - key: Deadline for registration
-        value: 14/07/2024
+#   - name: Creative Coding Summer Camp
+#     link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=xQ4KNpTw8UWjGcbcNWAnBP5HahFMo6BDkt7CmFuWArJUMVVXNlg1RTlBV0ZKV0RZOUFMMllCOUVJMi4u'
+#     status: open
+#     button_text: Register
+#     information:
+#       - key: Information
+#         value: Dedicated 3-week program for refugees
+#       - key: Age
+#         value: 12-15
+#       - key: Language
+#         value: French & English
+#       - key: Classes
+#         value: Every Tuesday & Thursday from 10:00 to 11:30.
+#       - key: Duration
+#         value: July 16 to August 1
+#       - key: House of Startups, 9 rue du laboratoire, L-1911 Luxembourg.
+#         value: Luxembourg City
+#       - key: Prior knowledge
+#         value: No coding knowledge required
+#       - key: Price
+#         value: 100% Free
+#       - key: Deadline for registration
+#         value: 14/07/2024
