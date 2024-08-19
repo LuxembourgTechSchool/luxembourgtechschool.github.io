@@ -96,14 +96,14 @@
         - Build Applications of the Future
       event: AI4Finance Hackathon
       eventLink:
-    - name: AI Creativity & Arts
-      image: images/modules/lvl_up_AiCreativityArts.png
+    - name: Module "C"
+      image: images/modules/placeholder.png
       items:
-        - Discover Generative Artificial Intelligence (A.I.)
-        - Understand the limits of A.I.
-        - Create music with A.I.
-        - Generate stories
-        - Draw artistic images & videos
-        - Work on your own A.I. art project
-      event: Creative Showcase
+        - New module in preparation
+        - Announcement Sept. 2024
+        # - ...
+        # - ...
+        # - ...
+        # - ...
+      event: ...
       eventLink:
