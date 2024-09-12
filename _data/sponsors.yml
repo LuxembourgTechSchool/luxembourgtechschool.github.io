@@ -16,9 +16,9 @@
 - name: André Losch Fondation
   url: https://www.loschfondation.lu
   image: /images/sponsors/logo-fal.png
-#- name: The Luxembourg Bankers Association (ABBL)
-#  url: https://www.abbl.lu
-#  image: /images/sponsors/logo-abbl.png
+- name: The Luxembourg Bankers Association (ABBL)
+  url: https://www.abbl.lu
+  image: /images/sponsors/logo-abbl.png
 - name: State Street
   url: https://www.statestreet.com/
   image: /images/sponsors/logo-stt.png
