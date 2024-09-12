@@ -96,14 +96,14 @@
         - Build Applications of the Future
       event: AI4Finance Hackathon
       eventLink:
-    - name: Module "C"
-      image: images/modules/placeholder.png
+    - name: Cybersecurity
+      image: images/modules/lvl_up_Cybersecurity.png
       items:
-        - New module in preparation
-        - Announcement Sept. 2024
-        # - ...
-        # - ...
-        # - ...
-        # - ...
+        - Learn & understand encryption and cryptography
+        - Learn about malwares and attacks
+        - Secure your own data
+        - Hardware security
+        - Ethical Hacking
+        - Work on Case studies
       event: ...
       eventLink:
