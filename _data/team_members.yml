@@ -19,7 +19,7 @@
   image: /images/team/christophe.jpg
 
 - name: Sara Kaiser
-  jobtitle: Education Program Specialist
+  jobtitle: Digital Innovation & Education Specialist
   description: She loves to bring arts, humanities and creativity into technology.
   image: /images/team/sara.jpg
 
@@ -53,4 +53,8 @@
   description: She is passionate about software engineering and loves teaching. Her favourite days are those where she learned something new and got to share it with others.
   image: /images/team/julia.jpg
 
+- name: Sebastian Barillaro
+  jobtitle: Digital Coach
+  description: He loves Tech-you-can-Touch and flying machines. He is specialised in IoT and believes in empowering people to take off the next generation of tech leaders.
+  image: /images/team/sebastian.jpg
 
