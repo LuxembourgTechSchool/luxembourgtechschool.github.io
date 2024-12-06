@@ -53,7 +53,17 @@
   description: He loves Tech-you-can-Touch and flying machines. He is specialised in IoT and believes in empowering people to take off the next generation of tech leaders.
   image: /images/team/sebastian.jpg
 
+- name: Georges Jentgen
+  jobtitle: Lead Coach
+  description: He loves software with a special focus on UX, front-end solutions, web and mobile app development. All connected to the clouds, obviously.
+  image: /images/team/georges.jpg
+
 - name: Justin Vinandy
   jobtitle: Digital Coach
   description: Former LTS student and now a coach. He likes learning new fun technologies and solving puzzles.
-  image: /images/team/justin.
+  image: /images/team/justin.jpg
+
+- name: Kushnoor Patan
+  jobtitle: Digital Coach
+  description: She is passionate about elegant UI/UX, building impactful web applications, and mentoring talent to shape innovative, sustainable web solutions.
+  image: /images/team/kushnoor.jpg
