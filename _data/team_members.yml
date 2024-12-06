@@ -28,11 +28,6 @@
   description: He loves to create, educate and is fascinated by innovation.
   image: /images/team/filipe.jpg
 
-- name: Melvyn Mainini
-  jobtitle: Digital Coach
-  description: He loves logic AND geometry AND everything else about mathematics.
-  image: /images/team/melvyn.jpg
-
 - name: Julie Tangeten
   jobtitle: Lead Coach
   description: She loves problem solving and to join research from different disciplines together in order to get the big(ger) picture - all with a philosophical touch.
@@ -57,3 +52,8 @@
   jobtitle: Digital Coach
   description: He loves Tech-you-can-Touch and flying machines. He is specialised in IoT and believes in empowering people to take off the next generation of tech leaders.
   image: /images/team/sebastian.jpg
+
+- name: Justin Vinandy
+  jobtitle: Digital Coach
+  description: Former LTS student and now a coach. He likes learning new fun technologies and solving puzzles.
+  image: /images/team/justin.
