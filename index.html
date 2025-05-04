@@ -35,7 +35,7 @@ custom_js: home
                     <li>Express your creativity</li>
                 </ul>
 
-                {% if site.data.registration.open %}
+                {% if site.data.registration.status != 'closed' %}
                 <a href="{{ site.github.url }}/registration" class="button button--blue">Register now</a>
                 {% endif %}
             </div>
