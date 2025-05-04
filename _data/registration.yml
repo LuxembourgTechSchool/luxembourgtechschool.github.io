@@ -1,11 +1,11 @@
 #status: waiting
-status: closed
-year: 2024-2025
-nextYear: 2025-2026
+status: open
+year: 2025-2026
+nextYear: 2026-2027
 levels:
   - name: Level G0
     link: 'https://register.techschool.lu/levelgo'
-    status: closed
+    status: open
 #    status: waiting or open
     button_text: Register
     information:
@@ -22,10 +22,10 @@ levels:
       - key: Price
         value: 100% Free
       - key: Deadline for registration
-        value: 26/06/2024
+        value: 26/06/2025
   - name: Level One
     link: 'https://register.techschool.lu/levelone'
-    status: closed # closed, waiting
+    status: open # closed, waiting
     button_text: Register
     information:
       - key: Age
@@ -41,7 +41,7 @@ levels:
       - key: Price
         value: 100% Free
       - key: Deadline for registration
-        value: 26/06/2024
+        value: 26/06/2025
 #    footnote:
 #      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
