@@ -11,26 +11,30 @@
       link: https://www.lml.lu/
     - name: International School of Luxembourg
       link: https://www.islux.lu
+    - name: Lycée Michel Lucius
+      link: https://en.wikipedia.org/wiki/Lyc%C3%A9e_Michel_Lucius
 - location: South
   color: orange
   schools:
     - name: Lycée de Garçons Esch
       link: http://lge.lu/
-    - name: Lycée Hubert Clément Esch
-      link: https://www.lhce.lu/
-- location: North
-  color: green
-  schools:
-    - name: Lycée Technique Agricole
-      link: https://www.lta.lu/
+#- location: North
+#  color: 
+#  schools:
+#    - name: Lycée Technique Agricole
+#      link: https://www.lta.lu/
 - location: East
   color: red
   schools:
-    - name: Maacher Lycée
-      link: https://www.maacherlycee.lu/fr
+    - name: Lënster Lycée International School
+      link: https://lensterlycee.lu/
 - location: West
-  color: 
+  color: green
   schools:
     - name: Lycée Josy Barthel Mamer
       link: http://ljbm.lu/
+    - name: Schola Europaea Luxembourg I
+      link: https://www.euroschool.lu/site/
+      
+
       
