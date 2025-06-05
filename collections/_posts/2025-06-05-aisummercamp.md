@@ -3,10 +3,10 @@ layout: post
 title: "Discover How AI Really Works at the LTS Summer Camp"
 date: 2025-06-05 08:00:00 +0200
 short_description: 7-day program to play with A.l. tools, robotics and visit research labs!
-thumbnail: /images/news/images/news/ai-summer-camp-2024.jpeg
+thumbnail: /images/news/ai-summer-camp-2024.jpeg
 ---
 
-![Picture of the 2024 AI For All Summer Camp](/images/news/images/news/ai-summer-camp-2024.jpeg)
+![Picture of the 2024 AI For All Summer Camp](/images/news/ai-summer-camp-2024.jpeg)
 
 If you’re between 15 and 19 years old and curious about technology, you can sign up for the second edition of the LTS AI 4 ALL Summer Camp. This is a one-week program that will help you learn how to start your own AI projects.
 
