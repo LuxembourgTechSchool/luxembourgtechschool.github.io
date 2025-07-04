@@ -71,8 +71,8 @@
   description: >
     With more than 85% satisfaction from Level One students, they asked for more.
     The next level covers even more technological domains and will let you discover Space and the world of Artificial Intelligence.
-  age: 15-19
-  requirement: Complete Level One
+  age: 16-19
+  #requirement: Complete Level One
   modules:
     - name: Space Resources
       image: images/modules/lvl_up_SpaceResources.png
