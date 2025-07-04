@@ -15,6 +15,12 @@ Hosted on [GitHub Pages](https://pages.github.com).
 docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/minimal jekyll serve
 ```
 
+If you get errors on Apple Silicon, try this:
+
+```bash
+docker run --platform linux/amd64 --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/minimal /bin/bash -c "gem install webrick && jekyll serve --livereload"
+```
+
 ### Docker on Windows
 
 ```powershell
