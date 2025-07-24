@@ -26,7 +26,14 @@
             {% endfor %}
         </ul>
 
-        <p class="footer__credit">&copy; {{ 'now' | date: "%Y" }} Luxembourg Tech School</p>
+        <div class="footer__credit">
+            <p class="footer__credit__copy">
+                &copy; {{ 'now' | date: "%Y" }} Luxembourg Tech School
+            </p>
+            <p class="footer__credit__details">
+                ASBL recognized as public interest organisation
+            </p>
+        </div>
     </div>
 </footer>
 
