@@ -25,7 +25,7 @@ levels:
         value: 26/06/2025
   - name: Level One
     link: 'https://register.techschool.lu/levelone'
-    status: open # closed, waiting
+    status: closed # closed, waiting
     button_text: Register
     information:
       - key: Age
@@ -44,7 +44,7 @@ levels:
         value: 10/09/2025
   - name: Level Up
     link: 'https://register.techschool.lu/levelup'
-    status: open # closed, waiting
+    status: closed # closed, waiting
     button_text: Register
     information:
       - key: Age
