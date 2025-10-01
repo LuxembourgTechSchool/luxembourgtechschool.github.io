@@ -1,0 +1,19 @@
+- name: Maxime
+  image: /images/testimonials/Maxime.jpeg
+  description: "LTS isn’t just about programming and coding. It really gives you an overview of all emerging and new technologies, so you get a glimpse of everything that’s out there. Then <em>you can choose what interests you the most and dive deeper on your own.</em>"
+- name: Avanti
+  image: /images/testimonials/Avanti.jpeg
+  description: "<em>You should 100% go for it!</em> You’re going to learn so many new skills, meet so many new people, and develop competencies that will let you do things you wouldn’t normally do like pitching, presenting in front of people, working in groups, and coming up with real-world solutions to problems."
+- name: Leon
+  image: /images/testimonials/Leon.jpeg
+  description: "LTS puts you in a context where you get to focus on specific areas across three distinct modules. <em>The coaches are motivated and give you all the support you need to complete your projects.</em> The modules are very diverse; you get to explore areas that you wouldn’t have otherwise. LTS is different from school: there are no tests, no exams. That sends a powerful message: you are not there to score well in an exam but to develop yourself. "
+- name: Chiara
+  image: /images/testimonials/Chiara.jpeg
+  description: "I joined LTS because I like experiencing new things, and I really wanted to step outside my comfort zone. I had never done coding before and hadn’t really worked with technology, so it seemed like a good idea to dive into this new pool of skills. I’m happy to say it’s been a really good experience. <em>I met so many interesting people, learned a lot, and got better at technology.</em>"
+- name: Alyssa
+  image: /images/testimonials/Alyssa.jpeg
+  description: "<em>We had no experience at all, and we were still able to create a little game.</em> It fascinated me, and I wanted to continue doing that. The coaches were like friends who want to teach you something they know."
+- name: Elisa
+  image: /images/testimonials/Elisa.jpeg
+  description: "<em>LTS helped me decide what I want to do in the future.</em> In the beginning, I was really into coding, but in the end, I think I’m going to pursue animation. Now I’m more confident that I can do it."
+

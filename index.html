@@ -26,14 +26,53 @@ custom_js: home
 
             </div>
             <div class="hero__content">
+                <span class="tag is-warning is-medium" style="margin-bottom:5px">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="15" heigh="15">
+                        <path fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .692.462l1.41 3.393 3.664.293a.75.75 0 0 1 .428 1.317l-2.791 2.39.853 3.575a.75.75 0 0 1-1.12.814L7.998 12.08l-3.135 1.915a.75.75 0 0 1-1.12-.814l.852-3.574-2.79-2.39a.75.75 0 0 1 .427-1.318l3.663-.293 1.41-3.393A.75.75 0 0 1 8 1.75Z" clip-rule="evenodd" />
+                    </svg>
+                    &nbsp;
+                    <strong>10 YEAR ANNIVERSARY</strong>
+                    &nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="15" heigh="15">
+                        <path fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .692.462l1.41 3.393 3.664.293a.75.75 0 0 1 .428 1.317l-2.791 2.39.853 3.575a.75.75 0 0 1-1.12.814L7.998 12.08l-3.135 1.915a.75.75 0 0 1-1.12-.814l.852-3.574-2.79-2.39a.75.75 0 0 1 .427-1.318l3.663-.293 1.41-3.393A.75.75 0 0 1 8 1.75Z" clip-rule="evenodd" />
+                    </svg>
+                </span>
                 <h1 class="title title--main">Become a Digital Leader</h1>
+                <p class="title--secondary">
+                    Bring your ideas to life with technology.
+                    A free after-school program for ages 12-19 in Luxembourg.
+                    All year long with classes once a week.
+                </p>
 
-                <ul class="list list--big">
-                    <li>For 12-19 years old students</li>
-                    <li>Learn the latest technologies</li>
-                    <li>Grow your business & industry knowledge</li>
-                    <li>Express your creativity</li>
+                <ul class="list--big">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" class="list--icon--green">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm3.844-8.791a.75.75 0 0 0-1.188-.918l-3.7 4.79-1.649-1.833a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.15-.043l4.25-5.5Z" clip-rule="evenodd" />
+                        </svg>
+                        Gain tech skills now and get ready for the future
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" class="list--icon--green">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm3.844-8.791a.75.75 0 0 0-1.188-.918l-3.7 4.79-1.649-1.833a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.15-.043l4.25-5.5Z" clip-rule="evenodd" />
+                        </svg>
+                        Work on your projects with a team
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" class="list--icon--green">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm3.844-8.791a.75.75 0 0 0-1.188-.918l-3.7 4.79-1.649-1.833a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.15-.043l4.25-5.5Z" clip-rule="evenodd" />
+                        </svg>
+                        Discover and develop your strengths
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="18" height="18" class="list--icon--green">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm3.844-8.791a.75.75 0 0 0-1.188-.918l-3.7 4.79-1.649-1.833a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.15-.043l4.25-5.5Z" clip-rule="evenodd" />
+                        </svg>
+                        Get personalised coaching
+                    </li>
                 </ul>
+
+                <div>
+                </div>
 
                 {% if site.data.registration.status != 'closed' %}
                 <a href="{{ site.github.url }}/registration" class="button button--blue">Register now</a>
@@ -43,11 +82,73 @@ custom_js: home
     </div>
 </section>
 
+
+<!-- Sponsors for Social proof -->
+<section id="sponsors-proof" class="sponsors-proof">
+	<div class="sponsors-proof__marquee sponsors-proof__first-row">
+        {% for i in (1..5) %}
+        {% for sponsor in site.data.sponsors %}
+        <a href="{{sponsor.url}}" target="_blank" rel="noopener noreferrer" class="sponsors-proof__marquee-item">
+            <img src="{{ site.github.url }}{{sponsor.image}}" alt="{{sponsor.name}}" class="sponsors-proof__image">
+        </a>
+        {% endfor %}
+        {% endfor %}
+	</div>
+</div>
+    
+</section>
+
+<!-- Social proof -->
+<section class="section social-proof">
+    <div class="container">
+        <div class="columns is-centered is-multiline">
+
+            {% for member in site.data.social_proofs %}
+            <div class="column is-half-tablet is-one-third-desktop is-one-third-widescreen">
+                <div class="social-proof__card">
+                    <div class="social-proof__card__description">
+                        <div class="social-proof__card__stars">
+                        {% for i in (1..5) %}
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="social-proof__card__stars__item">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                        {% endfor %}
+                        </div>
+
+                        <br>
+                        &quot;{{member.description}}&quot;                        
+                    </div>
+
+                    <div class="columns is-mobile is-vcentered">
+                        <div class="column">
+                            <div class="social-proof__card__image-wrapper img-border">
+                                {% if member.image %}
+                                <img src="{{ site.github.url }}{{member.image}}" class="social-proof__card__image"
+                                    alt="{{member.name}} picture">
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h3 class="social-proof__card__name">{{member.name}}</h3>
+                        </div>
+                    <!-- <span class="social-proof__jobtitle">{{member.jobtitle}}</span> -->
+                    </div>
+
+                    
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+</section>
+
 <section class="section image-left">
     <div class="container">
         <div class="columns">
             <div class="column has-text-centered">
-                <img class="image section__image section__image--shifted"
+                <img class="image section__image /section__image--shifted"
                      src="{{ site.github.url }}/images/highlights/ictspring.jpg"
                      alt="">
             </div>
@@ -116,6 +217,14 @@ custom_js: home
             <h2 class="title is-uppercase">Where ?</h2>
             <h3 class="subtitle">10+ Schools, 1000+ Graduated Students</h3>
         </div>
+        <div class="content">
+            <p>
+                We are present in many schools and have online groups. 
+                When you register for LTS, you can select the location that is most convenient to you!
+                You do not need to be a student in the listed school to join the LTS class!
+            </p>
+            <a href="/program" class="button button--big">Check the shedule</a>
+        </div>
 
         <div class="columns is-desktop is-flex-wrap-wrap mt-5 where__list">
             {% for location in site.data.schools %}
@@ -123,7 +232,8 @@ custom_js: home
                 <h3 class="where__title where__title--{{location.color}}">{{location.location}}</h3>
                 <ul class="list list--bullet">
                     {% for school in location.schools %}
-                    <li><a href="{{school.link}}" target="_blank" rel="noopener noreferrer" class="where__link">{{school.name}}</a>
+                    <li>
+                        <a href="{{school.link}}" target="_blank" rel="noopener noreferrer" class="where__link">{{school.name}}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -132,9 +242,8 @@ custom_js: home
         </div>
 
         <div class="where__footer">
-            <strong>Not a student in one of these schools ? No problem !</strong>
-            <p><a href="/contact">Get in touch with us</a> and we will find a suitable group for you in one of the
-                places.</p>
+            <strong>Do you want to have LTS in your school?</strong>
+            <p><a href="/contact">Get in touch</a> and let's discuss.</p>
         </div>
     </div>
 </section>

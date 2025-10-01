@@ -1,0 +1,113 @@
+.social-proof
+  padding: 20px 0px
+  margin-bottom: 50px
+
+  &__card
+    padding: 25px 28px
+    background: $white
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+
+    &__image-wrapper
+      max-width: 80px
+      height: 80px
+      border-radius: 50%
+      margin: 0 auto
+      overflow: hidden
+      background: #DEDFE1
+      border: 1px solid #DEDFE1
+
+      &.img-border
+        border: 5px solid #DEDFE1
+        padding: 5px
+        background: linear-gradient(45deg, rgba(28,135,245,1) 0%, rgba(201,11,47,1) 100%)
+
+    &__image
+      width: 100%
+      display: block
+      border-radius: 50%
+
+    &__socials
+      height: 28px
+
+    &__name
+      font-family: $font-title
+      font-size: 28px
+      line-height: 1
+      color: $black
+
+    &__jobtitle
+      font-size: 18px
+      line-height: 1
+      font-weight: 600
+      color: #3D4755
+      margin-top: 3px
+      display: block
+
+    &__description
+      position: relative
+      margin-bottom: 13px
+      padding-bottom: 13px
+      font-size: 20px
+      line-height: 1.5
+      color: #3B4754
+      text-align: center
+
+      em
+        background-color: #fff695
+
+    &__stars
+      display: inline-block
+
+      &__item
+        display: inline-block
+        width: 25px
+        height: 25px
+        color: #ffdc13
+
+    &:hover
+      transform: translateY(-5px) rotate(-1deg)
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+
+@keyframes Scroll
+  0%
+    transform: translateX(-50vw)
+  100%
+    transform: translateX(50vw)
+
+.sponsors-proof
+  overflow-x: hidden
+  padding: 20px 0px 50px
+
+  &__marquee
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 200vw
+
+  &__marquee-item
+    display: flex
+    align-items: center
+    justify-content: center
+    background: white
+    height: 120px
+    // width: 100vw
+    /*line 43 is very important. since we have 16 items, width of the Marquee which is 200vw must be devided between them. which turns out to be 12.5vw*/
+    margin: 0 10px
+    border-radius: 15px
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+
+    &:hover
+      transform: translateY(-5px)
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+
+  img
+    padding: 0 15px
+    max-height: 100px
+    max-width: 200px
+
+  &__first-row
+    animation: Scroll 180s linear infinite
+
+  &__second-row
+    animation: Scroll 180s linear infinite
+    animation-direction: reverse
