@@ -3,7 +3,7 @@
   description: >
     Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
   age: 12-14
-  registration_status: open
+# registration_status: open
 #  registration_status: closed
   modules:
     - name: Creative Coding
@@ -27,13 +27,28 @@
         - Start to work with microcomputers
         - Get to know simple robots and learn more about Space
         - Have enough time to explore and tinker
+  shedule:
+    - day: Monday
+      locations:
+      - Schola Europaea Luxembourg I
+    - day: Tuesday
+      locations:
+      - École internationale Gaston Thorn
+      - Athénée de Luxembourg
+    - day: Wednesday
+      locations:
+      - Lycée Michel Lucius
+    - day: Thursday
+      locations:
+      - Athénée de Luxembourg
+      - Online
 - name: Level 1
   anchor: lvl1
   description: >
     Interested to learn about technology, teamwork and to work on your own project?
     This level covers several industries and will set you on the path to become a Digital Leader.
   age: 15-19
-  registration_status: open
+#  registration_status: open
 #  registration_status: closed
   modules:
     - name: GameDev
@@ -66,13 +81,24 @@
         - Learn about web security
       event: FinTech Hackathon
       eventLink:
+  shedule:
+    - day: Wednesday
+      locations:
+      - Lënster Lycée International School
+    - day: Thursday
+      locations:
+      - Online
+    - day: Friday
+      locations:
+      - Athénée de Luxembourg
 - name: Level Up
   anchor: lvlup
   description: >
     With more than 85% satisfaction from Level One students, they asked for more.
     The next level covers even more technological domains and will let you discover Space and the world of Artificial Intelligence.
   age: 16-19
-  #requirement: Complete Level One
+#  registration_status: open
+# requirement: Complete Level One
   modules:
     - name: Space Resources
       image: images/modules/lvl_up_SpaceResources.png
@@ -107,3 +133,7 @@
         - Work on Case studies
       event: ...
       eventLink:
+  shedule:
+    - day: Friday
+      locations:
+      - Athénée de Luxembourg

@@ -92,6 +92,20 @@ permalink: program
             {% elsif program.registration_status == 'closed' %}
             <a href="/registration" class="button button--big">Registration closed</a>
             {% endif %}
+            
+            <div class="program-level__shedule">
+                <h3 class="subtitle">Shedule. When is it taking place?</h3>
+                {% for shedule in program.shedule %}
+                <div>
+                    <h4 class="program-level__day-title">{{shedule.day}}</h4>
+                    <ul class="list list--bullet">
+                        {% for location in shedule.locations %} 
+                        <li class="program-level__day-list">{{location}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
 
         </div>
     </div>
