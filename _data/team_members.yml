@@ -33,15 +33,10 @@
   description: She loves to contribute to the smooth operation and successful completion of projects and to learn new skills.
   image: /images/team/mayerling.jpg
 
-- name: Johannes Kneer
-  jobtitle: Digital Coach
-  description: He loves complex technical problems and the engineering toolsets that supports solving those - enthusiastic about numeric modelling, lab experiments and 3d printing.
-  image: /images/team/johannes.jpg
-
-- name: Julia Boes
-  jobtitle: Digital Coach
-  description: She is passionate about software engineering and loves teaching. Her favourite days are those where she learned something new and got to share it with others.
-  image: /images/team/julia.jpg
+# - name: Johannes Kneer
+#   jobtitle: Digital Coach
+#   description: He loves complex technical problems and the engineering toolsets that supports solving those - enthusiastic about numeric modelling, lab experiments and 3d printing.
+#   image: /images/team/johannes.jpg
 
 - name: Sebastian Barillaro
   jobtitle: Digital Coach
@@ -63,3 +58,7 @@
   description: She loves discovering the latest in tech, especially when it comes to AI. She also keeps our socials buzzing.
   image: /images/team/diana.jpg
 
+- name: Daniel Zeimentz
+  jobtitle: Digital Coach
+  description: He loves electronics, mechatronics, tech, coding and loves sharing his knowledge. He's fascinated by AI. He also has a strong background in automotive engineering.
+  image: /images/team/daniel.jpg
