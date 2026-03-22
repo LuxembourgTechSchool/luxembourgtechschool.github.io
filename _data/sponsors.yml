@@ -31,6 +31,9 @@
 - name: Luxair
   url: https://www.luxair.lu
   image: /images/sponsors/logo-luxair.png
+- name: LuxProvide
+  url: https://www.luxprovide.lu
+  image: /images/sponsors/logo-luxprovide.png
 - name: Playtiles
   url: https://get.playtil.es
   image: /images/sponsors/logo-playtiles.png
