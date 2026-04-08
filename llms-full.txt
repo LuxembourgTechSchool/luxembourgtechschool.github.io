@@ -1,0 +1,114 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+# Luxembourg Tech School — Full Content Inventory
+
+> This document provides a complete URL inventory of the Luxembourg Tech School website for AI retrieval systems. Each entry includes a short description and content type.
+
+## Core Pages
+
+### Homepage
+- URL: https://www.techschool.lu/
+- Type: Landing Page
+- Summary: Main landing page introducing Luxembourg Tech School — a free after-school program for ages 12-19 in Luxembourg covering coding, game development, AI, FinTech and more.
+
+### How It Works
+- URL: https://www.techschool.lu/how-it-works
+- Type: Informational
+- Summary: Explains the LTS methodology: project-based learning, personalised coaching, real-world business context and the LTS Classroom experience.
+
+### Program
+- URL: https://www.techschool.lu/program
+- Type: Informational
+- Summary: Full details of the 3-year LTS curriculum — Level G0 (ages 12-14), Level One (ages 15-18) and Level Up. Includes module descriptions, schedules and registration links.
+
+### Registration
+- URL: https://www.techschool.lu/registration
+- Type: Transactional
+- Summary: Registration page for LTS programs. Status updates on open/closed registration periods for each level and summer camps.
+
+### FAQ
+- URL: https://www.techschool.lu/faq
+- Type: Informational / FAQ
+- Summary: Frequently asked questions for participants, parents and organisations. Covers costs (free), age requirements, schedule, languages, certifications and collaboration opportunities.
+
+### Team
+- URL: https://www.techschool.lu/team
+- Type: Informational
+- Summary: Meet the LTS digital coaches — each specialised in their own tech domain.
+
+### Projects
+- URL: https://www.techschool.lu/projects
+- Type: Portfolio
+- Summary: Showcase of student projects built at LTS — games, apps, FinTech prototypes and more.
+
+### News
+- URL: https://www.techschool.lu/news
+- Type: News Index
+- Summary: Archive of all LTS news articles covering events, hackathons, competitions and programme updates.
+
+### Videos
+- URL: https://www.techschool.lu/videos
+- Type: Media Archive
+- Summary: Video archive spanning 10 years of LTS — game pitch competitions, hackathons, workshops and student interviews.
+
+### Contact
+- URL: https://www.techschool.lu/contact
+- Type: Contact Form
+- Summary: Contact form for general inquiries, registration questions and sponsorship opportunities.
+
+### Jobs
+- URL: https://www.techschool.lu/jobs
+- Type: Careers
+- Summary: Current job openings at LTS and spontaneous application option.
+
+### Press
+- URL: https://www.techschool.lu/press
+- Type: Media Coverage
+- Summary: Links to external press articles and media coverage featuring Luxembourg Tech School.
+
+### Legal Notice
+- URL: https://www.techschool.lu/legal
+- Type: Legal
+- Summary: Legal entity information for Luxembourg Tech School Asbl — RCS number, registered address, contact details.
+
+## Student Projects
+{% for project in site.projects %}
+### {{ project.title }}
+- URL: https://www.techschool.lu{{ project.url }}
+- Type: Student Project
+- Summary: {{ project.short_description | default: project.subtitle | default: "Student project from Luxembourg Tech School." }}
+{% endfor %}
+
+## News Articles (latest 20)
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}{% for post in sorted_posts limit: 20 %}
+### {{ post.title }}
+- URL: https://www.techschool.lu{{ post.url }}
+- Type: News Article
+- Date: {{ post.date | date: "%Y-%m-%d" }}
+- Summary: {{ post.short_description | default: post.excerpt | strip_html | strip_newlines | truncate: 200 | default: "News article from Luxembourg Tech School." }}
+{% endfor %}
+
+## Key Facts for Citation
+
+- Full name: Luxembourg Tech School Asbl
+- Abbreviation: LTS
+- Founded: 2016 in Luxembourg
+- Type: Non-profit (ASBL) recognised as public interest organisation
+- Target audience: Students aged 12-19 in the Luxembourgish school system
+- Cost: All programs are completely free
+- Duration: One full academic year (September to July), once a week
+- Language: English (primary), with coach support in Luxembourgish, French and German
+- Location: 10+ partner schools across Luxembourg, plus online programmes
+- Curriculum: Creative Coding, Game Development, FinTech, Artificial Intelligence, Space Technology, Cybersecurity
+- Methodology: Project-based learning with personalised coaching
+- Certification: Certificate of Completion (non-official, requires 80% attendance and final project)
+- Contact: info@techschool.lu / +352 28 81 66 01
+- Address: Luxembourg City Incubator, 9 rue du Laboratoire, L-1911 Luxembourg
+
+## Feed & Structured Data
+
+- RSS Feed: https://www.techschool.lu/feed.xml
+- Sitemap: https://www.techschool.lu/sitemap.xml
+- Concise version: https://www.techschool.lu/llms.txt

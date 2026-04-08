@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "Luxembourg Tech School",
+      "alternateName": "LTS",
+      "legalName": "Luxembourg Tech School Asbl",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/images/LogoLTS.png"
+      },
+      "description": "{{ site.description | strip_newlines | strip }}",
+      "foundingDate": "2016",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9, rue du Laboratoire",
+        "addressLocality": "Luxembourg",
+        "postalCode": "L-1911",
+        "addressCountry": "LU"
+      },
+      "telephone": "+352288166001",
+      "email": "{{ site.email }}",
+      "sameAs": [
+        {% for item in site.data.social %}"{{ item.url }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "publisher": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>

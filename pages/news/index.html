@@ -2,6 +2,7 @@
 layout: default
 title: Luxembourg Tech School - News
 permalink: news
+description: "Latest news from Luxembourg Tech School: events, hackathons, student projects, competitions and activities from the LTS school year."
 ---
 
 <div class="blob"></div>
@@ -22,7 +23,7 @@ permalink: news
         {% for post in site.posts %}
         <div class="column is-half-tablet is-one-third-desktop">
             <a class="item-preview" href="{{post.url}}">
-                <time class="item-preview__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                <time class="item-preview__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
                     {{ post.date | date: "%b %-d, %Y" }}
                 </time>
                 <h3 class="item-preview__title is-uppercase">{{post.title}}</h3>

@@ -2,13 +2,14 @@
 layout: default
 title: Luxembourg Tech School - Videos
 permalink: videos
+description: "Watch videos from 10 years of Luxembourg Tech School: game pitch competitions, hackathons, workshops and student interviews."
 ---
 
 <div class="blob"></div>
 
 <section class="page-header container">
     <h1 class="title title--main is-spaced">
-        Videos <img src="{{ site.github.url }}/images/LogoLTSOriginals.png" alt=""
+        Videos <img src="{{ site.github.url }}/images/LogoLTSOriginals.png" alt="LTS Originals logo"
                     style="display: inline; height:50px; padding-top:10px">
     </h1>
     <h2 class="subtitle">
@@ -22,9 +23,9 @@ permalink: videos
 {% for year in site.data.media %}
 <section id="media" class="section">
     <div class="container">
-        <h1 class="title">
+        <h2 class="title">
             <strong>{{year.title}}</strong>
-        </h1>
+        </h2>
 
         <div class="columns is-multiline">
             {% for video in year.videos %}

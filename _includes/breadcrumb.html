@@ -1,0 +1,10 @@
+{% if page.url != "/" %}
+<nav class="breadcrumb" aria-label="breadcrumbs" style="padding: 1.75rem 0 0; margin-bottom: 0;">
+    <div class="container">
+        <ol>
+            <li class="is-size-6"><a href="/">Home</a></li>
+            <li class="is-active is-size-6"><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" aria-current="page">{{ page.title | default: page.name | escape }}</a></li>
+        </ol>
+    </div>
+</nav>
+{% endif %}

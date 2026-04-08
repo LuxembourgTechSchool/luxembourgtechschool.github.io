@@ -1,0 +1,59 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Luxembourg Tech School (LTS)
+
+> Luxembourg Tech School is a free after-school educational program for students aged 12-19 in Luxembourg. Founded in 2016, LTS teaches coding, game development, AI, FinTech, cybersecurity and more through a unique project-based methodology with personalised coaching.
+
+## Organisation Details
+
+- Legal name: Luxembourg Tech School Asbl
+- Short name: LTS
+- Website: https://www.techschool.lu
+- Email: info@techschool.lu
+- Phone: +352 28 81 66 01
+- Address: Luxembourg City Incubator, 9 rue du Laboratoire, L-1911 Luxembourg
+- Founded: 2016
+- Status: ASBL recognised as public interest organisation
+- Language: English (primary)
+
+## Core Pages
+
+- Homepage: https://www.techschool.lu/
+- How It Works: https://www.techschool.lu/how-it-works
+- Program: https://www.techschool.lu/program
+- Registration: https://www.techschool.lu/registration
+- FAQ: https://www.techschool.lu/faq
+- Team: https://www.techschool.lu/team
+- Projects: https://www.techschool.lu/projects
+- News: https://www.techschool.lu/news
+- Videos: https://www.techschool.lu/videos
+- Contact: https://www.techschool.lu/contact
+- Jobs: https://www.techschool.lu/jobs
+- Press: https://www.techschool.lu/press
+- Legal Notice: https://www.techschool.lu/legal
+
+## Social Media
+
+- LinkedIn: https://www.linkedin.com/company/luxembourg-tech-school
+- Twitter/X: https://twitter.com/LuxTechSchool
+- Instagram: https://www.instagram.com/luxtechschool/
+- Facebook: https://www.facebook.com/LuxTechSchool/
+- GitHub: https://github.com/LuxembourgTechSchool
+- Medium: https://medium.com/luxembourg-tech-school
+- YouTube: https://www.youtube.com/c/LuxembourgTechSchool
+
+## Programs Offered
+
+LTS offers a 3-year program:
+- Level G0: For ages 12-14. Introduction to Creative Coding and computers through playful, hands-on projects.
+- Level One: For ages 15-18. Game Development, FinTech, AI and more — project-based with teamwork and entrepreneurship.
+- Level Up: Continuation of Level One. Advanced modules including Space technology, cybersecurity and digital leadership.
+
+All programs are free, last one full academic year (September to July), and take place once a week in partner schools across Luxembourg.
+
+## Extended Corpus
+
+For a complete URL inventory with summaries, see: https://www.techschool.lu/llms-full.txt
+For RSS feed: https://www.techschool.lu/feed.xml
