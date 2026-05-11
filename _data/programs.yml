@@ -23,7 +23,7 @@
     - name: Space Tinkering
       image: images/modules/lvl_go_SpaceTinkering.png
       items:
-        - Expore how humans interact with robots
+        - Explore how humans interact with robots
         - Use microcontrollers and sensors
         - Collect and visualise data like in a mission control
         - Find creative solutions for space challenges
