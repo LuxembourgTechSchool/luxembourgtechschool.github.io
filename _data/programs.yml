@@ -20,13 +20,13 @@
         - Strengthen your logical thinking online and unplugged
         - Get a first understanding of Artificial Intelligence (A.I.)
         - Build up your digital knowledge, skills and values
-    - name: Interaction Design
-      image: images/modules/lvl_go_InteractionDesign.png
+    - name: Space Tinkering
+      image: images/modules/lvl_go_SpaceTinkering.png
       items:
-        - Learn how machines and humans interact
-        - Start to work with microcomputers
-        - Get to know simple robots and learn more about Space
-        - Have enough time to explore and tinker
+        - Expore how humans interact with robots
+        - Use microcontrollers and sensors
+        - Collect and visualise data like in a mission control
+        - Find creative solutions for space challenges
   shedule:
     - day: Monday
       locations:
