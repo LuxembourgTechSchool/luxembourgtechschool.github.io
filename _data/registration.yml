@@ -21,8 +21,8 @@ levels:
         value: No coding knowledge required
       - key: Price
         value: 100% Free
-      - key: Deadline for registration
-        value: 20/06/2026
+      - key: Deadline for registration (last chance)
+        value: 24/06/2026
   - name: Level One
     link: 'https://register.techschool.lu/levelone'
     status: open # closed, waiting
@@ -40,8 +40,8 @@ levels:
         value: No coding knowledge required
       - key: Price
         value: 100% Free
-      - key: Deadline for registration
-        value: 20/06/2026
+      - key: Deadline for registration (last chance)
+        value: 24/06/2026
   - name: Level Up
     link: 'https://register.techschool.lu/levelup'
     status: open # closed, waiting
@@ -59,8 +59,8 @@ levels:
         value: Strong interest in Tech
       - key: Price
         value: 100% Free
-      - key: Deadline for registration
-        value: 20/06/2026
+      - key: Deadline for registration (last chance)
+        value: 24/06/2026
 #    footnote:
 #      After registering, you will be invited to an <b>online selection test</b>. <br>
 #      This is a short test that aims to challenge your motivation and tech-related interests.
