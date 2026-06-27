@@ -1,0 +1,31 @@
+- name: LEVEL F-1
+  anchor: financelaw
+  description: >
+    Interested to learn about personal finances, law, financial technologies, teamwork and to work on your own project?
+    This level sets you on the path to become a Leader in Finance, Law & AI.
+  age: 15-19
+  duration: 5 months
+#  registration_status: open
+# requirement: Complete Level One
+  modules:
+    - name: Module 1
+      image: images/modules/placeholder.png
+      items:
+        - Learn about Personal Finances
+        - Plan Savings & Investments
+        - Master Security in Finance
+        - Explore Cryptocurrencies
+        - Apply AI to Finance
+      event: 
+      eventLink:
+    - name: Module 2
+      image: images/modules/placeholder.png
+      items:
+        - Work on a large scale group project
+        - Build a digital banking
+      event: Hackathon
+      eventLink:
+  shedule:
+    - day: Tuesday or Thursday afternoons (To be determined)
+      locations:
+      - Athénée de Luxembourg

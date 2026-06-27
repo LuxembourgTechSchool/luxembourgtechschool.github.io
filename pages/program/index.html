@@ -9,7 +9,7 @@ description: "Discover the 3-year LTS program for students aged 12-19. Modules i
 
 <section class="page-header page-header--program container">
     <h1 class="title title--main is-spaced">
-        Discover The Program
+        Future Digital Leaders Program
     </h1>
     <h2 class="subtitle">
         This epic program is for all 12-19 years old students who are passionate about the digital world and eager to
@@ -22,17 +22,17 @@ description: "Discover the 3-year LTS program for students aged 12-19. Modules i
             Each level is divided into up to 3 modules, each centered on one specific domain.
         </p>
         <p>
-            At the end of each course, you will have the opportunity to <strong>present your project to the real world</strong>!
+            At the end of each course, you have the opportunity to <strong>present your project to the real world</strong>!
         </p>
         <p>
             The program below is a preview of the cool topics that are covered.
             There won't be much theory (a little is always useful).
-            It is filled with <strong>practical examples</strong>, <strong>exercices</strong> and you <strong>work on your
+            It is filled with <strong>practical activities</strong>, <strong>exercices</strong> and you <strong>work on your
             own project</strong>!
         </p>
         <p>
-            During Level G0 you will discover the creative side of coding and how to talk to machines.
-            During Level One and Level Up, you will learn a lot about <strong>teamwork</strong>, <strong>software
+            During Level G0 you discover the creative side of coding and how to talk to machines.
+            During Level One and Level Up, you learn a lot about <strong>teamwork</strong>, <strong>software
             development</strong>, entrepreneurship and even upgrade your presentation skills by multiple factors.
         </p>
         <p>
@@ -42,74 +42,28 @@ description: "Discover the 3-year LTS program for students aged 12-19. Modules i
     </div>
 </section>
 
-<section class="section section--program">
-    {% for program in site.data.programs %}
-    <div class="program-level" id="{{program.anchor}}">
-        <div class="container">
-            <h2 class="title is-uppercase">{{program.name}}</h2>
-            <h3 class="subtitle subtitle--small">
-                {{program.description}}
-            </h3>
-            <div class="program-level__information">
-                <div class="program-level__age">
-                    <strong class="is-uppercase">Age:</strong>
-                    {{program.age}}
-                </div>
-                <div class="program-level__extra">
-                    <strong class="is-uppercase">Duration:</strong>
-                    1 Academic Year
-                </div>
-                {% if program.requirement %}
-                <div class="program-level__extra">
-                    <strong class="is-uppercase">Requirement:</strong>
-                    {{ program.requirement }}
-                </div>
-                {% endif %}
-            </div>
-            <div class="columns is-tablet is-flex-wrap-wrap">
-                {% for module in program.modules %}
-                <div class="column is-half-tablet is-one-third-desktop program-module">
-                    <img class="program-module__image" src="{{ site.github.url }}/{{module.image}}"
-                         alt="{{module.name}} illustration">
-                    <h3 class="program-module__title">{{module.name}}</h3>
-                    <ul class="list">
-                        {% for item in module.items %}
-                        <li>{{item}}</li>
-                        {% endfor %}
+{% include program-section.html programs=site.data.programs %}
 
-                        {% if module.eventLink %}
-                        <li class="program-module__event">
-                            <a href="{{module.eventLink}}" class="program-module__event-link"><span
-                                    class="program-module__event-icon"></span>{{module.event}}</a>
-                        </li>
-                        {% endif %}
-                    </ul>
-                </div>
-                {% endfor %}
-            </div>
-
-            {% if program.registration_status == 'open' %}
-                <a href="/registration" class="button button--purple button--big">Registration</a>
-            {% elsif program.registration_status == 'closed' %}
-            <a href="/registration" class="button button--big">Registration closed</a>
-            {% endif %}
-            
-            <div class="program-level__shedule">
-                <h3 class="subtitle">Shedule. When is it taking place?</h3>
-                {% for shedule in program.shedule %}
-                <div>
-                    <h4 class="program-level__day-title">{{shedule.day}}</h4>
-                    <ul class="list list--bullet">
-                        {% for location in shedule.locations %} 
-                        <li class="program-level__day-list">{{location}}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endfor %}
-            </div>
-
-        </div>
+<section class="page-header page-header--program container">
+    <h1 class="title title--main is-spaced">
+        Future Leaders in Finance, Law &amp; AI
+    </h1>
+    <h2 class="subtitle">
+        Most people learn how money and the law actually work far too late, once the costly mistakes are already made.
+        This program flips that. We equip 15-19 year olds with the financial, legal and AI skills to make smart decisions, spot opportunities and stay ahead long before entering the workforce.
+    </h2>
+    <div class="content content--highlighted">
+        <p>
+            Following the LTS methodology, you learn the basics of personal finances, investments, crypto, AI applied on finance and more, and you work on your own project.
+        </p>
+        <p>
+            At the end of the program,you <strong>present your project to the real world</strong>, in front of industry experts!
+        </p>
+        <p>
+            The financial and legal world affects everyone. 
+            This program gives you a head start in understanding and navigating the real world, all while having a lot of fun.
+        </p>
     </div>
-    {% endfor %}
 </section>
 
+{% include program-section.html programs=site.data.programs_finance %}
