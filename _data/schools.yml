@@ -18,6 +18,8 @@
   schools:
     - name: Lycée de Garçons Esch
       link: http://lge.lu/
+    - name: Lycée Privé Emile Metz
+      link: https://lpem.lu
 #- location: North
 #  color: 
 #  schools:
