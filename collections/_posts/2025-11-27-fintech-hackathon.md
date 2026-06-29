@@ -8,7 +8,7 @@ thumbnail: /images/news/fintech-hackathon-2025.png
 
 ![FinTech Hackathon](/images/news/fintech-hackathon-2025.png)
 
-Young students in Luxembourg need improved access to educational programs that teach them how to manage their finances and understand the financial industry. In the FinTech module, part of LTS Level 1, students learn about app design, user experience (UX), and web security so they can prototype their own banking solutions.  
+Young students in Luxembourg need improved access to educational programs that teach them how to manage their finances and understand the financial industry. In the FinTech module, part of LTS Level One, students learn about app design, user experience (UX), and web security so they can prototype their own banking solutions.  
 The highlight of the module is the FinTech Hackathon. Organised in partnership with Fondation ABBL pour l’éducation financière and the LHoFT, it is a full weekend in which students choose ideas to develop together and transform into digital solution demos.
 
 On the final day of the hackathon, each team presents their prototype to an expert jury. This year’s jury included Daniela Ragni (André Losch Fondation); Alex Panican (The LHoFT); Jessica Thyrion (ABBL); Hélène Lange (ABBL); and Claude Marx (Commission de Surveillance du Secteur Financier – CSSF). We were extremely pleased to have them on board.

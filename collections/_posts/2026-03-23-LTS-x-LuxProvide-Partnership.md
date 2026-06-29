@@ -12,7 +12,7 @@ The Luxembourg Tech School team is excited to announce a new partnership with ou
 
 Through this collaboration, LTS will gain access to LuxProvide’s Model as a Service platform. Instead of running AI models locally, users can access them on advanced infrastructure through the platform to experiment with AI and build new applications.
 
-LuxProvide will contribute by supporting the AI Everywhere module for LTS Level 1 students. In this module, students work in teams to develop their own AI-based projects. Thanks to this partnership, students will be able to experiment with AI using the same infrastructure that is accessible in professional environments.
+LuxProvide will contribute by supporting the AI Everywhere module for LTS Level One students. In this module, students work in teams to develop their own AI-based projects. Thanks to this partnership, students will be able to experiment with AI using the same infrastructure that is accessible in professional environments.
 
 In addition, LTS researchers will receive access to MeluXina in order to train AI models and run experiments.
 
