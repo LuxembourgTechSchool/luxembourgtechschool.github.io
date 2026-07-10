@@ -1,8 +1,11 @@
 - name: Linkedin
   url: https://www.linkedin.com/company/luxembourg-tech-school
 
-- name: Twitter
-  url: https://twitter.com/LuxTechSchool
+# - name: Twitter
+#   url: https://twitter.com/LuxTechSchool
+
+- name: TikTok
+  url: https://www.tiktok.com/@luxtechschool
 
 - name: Instagram
   url: https://www.instagram.com/luxtechschool/
