@@ -3,6 +3,26 @@
   padding: 25px 28px
   height: 100%
 
+  &--link
+    display: block
+    color: $white
+    background: #4183D7
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+
+    &:hover,
+    &:focus
+      color: $white
+      transform: translateY(-4px)
+      box-shadow: 0 8px 20px rgba(61, 71, 85, 0.15)
+
+    .coach__name,
+    .coach__jobtitle,
+    .coach__description
+      color: $white
+
+    .coach__description:before
+      background: $white
+
   &__image-wrapper
     max-width: 172px
     height: 172px
