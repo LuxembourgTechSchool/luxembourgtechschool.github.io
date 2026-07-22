@@ -1,6 +1,6 @@
-- name: Digital Luxembourg
-  url: https://digital-luxembourg.public.lu/
-  image: /images/sponsors/logo-digitalluxembourg.png
+# - name: Digital Luxembourg
+#   url: https://digital-luxembourg.public.lu/
+#   image: /images/sponsors/logo-digitalluxembourg.png
 - name: SCRIPT
   url: https://www.script.lu/
   image: /images/sponsors/logo-script.png
