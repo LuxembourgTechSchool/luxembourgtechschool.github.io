@@ -4,7 +4,7 @@ title: Luxembourg Tech School - Contact
 permalink: contact
 description: "Get in touch with Luxembourg Tech School. Ask questions about registration, sponsorship or collaboration opportunities."
 custom_js:
-- kwes
+- contact
 ---
 
 <div class="blob"></div>
@@ -21,13 +21,14 @@ custom_js:
     <div class="container">
         <div class="columns">
             <div class="column is-half is-offset-one-quarter contact-form">
-                <form class="kwes-form" action="https://kwes.io/api/foreign/forms/rVNHbaBKGShMrd7SMSRB" method="POST">
-                    
+                <form id="contact-form" novalidate>
+
                     <div class="field mb-4">
                         <label for="name" class="label">Name</label>
                         <div class="control">
-                            <input class="input" type="input" name="name" id="name" placeholder="Your Name" required rules="required|max:255">
+                            <input class="input" type="text" name="name" id="name" placeholder="Your Name" required maxlength="255">
                         </div>
+                        <p class="help is-danger" data-error-for="name" style="display: none;"></p>
                     </div>
 
                     <div class="field mb-4">
@@ -35,17 +36,20 @@ custom_js:
                         <div class="control">
                             <input class="input" type="email" name="email" id="email" placeholder="Your e-mail" required>
                         </div>
+                        <p class="help is-danger" data-error-for="email" style="display: none;"></p>
                     </div>
 
                     <div class="field mb-4">
                         <label for="topic" class="label">Topic</label>
                         <div class="select is-fullwidth">
                             <select name="topic" id="topic">
+                                <option value="" selected disabled>Select a topic</option>
                                 <option value="general">General</option>
                                 <option value="registration">Registration</option>
                                 <option value="sponsor">Sponsorship</option>
                             </select>
                         </div>
+                        <p class="help is-danger" data-error-for="topic" style="display: none;"></p>
                     </div>
 
                     <div class="field">
@@ -53,6 +57,7 @@ custom_js:
                         <div class="control">
                             <textarea class="textarea" name="message" rows="5" id="message" placeholder="Your Message" required></textarea>
                         </div>
+                        <p class="help is-danger" data-error-for="message" style="display: none;"></p>
                     </div>
 
                     <div class="field mt-4">
@@ -61,6 +66,8 @@ custom_js:
                             I agree with the <a target="_blank" href="{{ site.github.url }}/privacy-policy.pdf">Data Protection Policy</a>.
                         </label>
                     </div>
+
+                    <p id="form-status" class="form-status mt-4" style="display: none;" role="status" aria-live="polite"></p>
 
                     <div class="control flex is-flex is-justify-content-flex-end">
                         <button class="button button--blue" type="submit" id="submit-btn">Submit
