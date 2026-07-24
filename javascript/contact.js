@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    const POCKETBASE_URL = 'https://register.techschool.lu';
+    const POCKETBASE_URL = 'https://register.techschool.lu/api/';
     const COLLECTION = 'contacts';
 
     const $form = document.getElementById('contact-form');
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         setLoading(true);
         setStatus('Sending your message…', '');
-
+        
         fetch(POCKETBASE_URL + '/api/collections/' + COLLECTION + '/records', {
             method: 'POST',
             headers: {
