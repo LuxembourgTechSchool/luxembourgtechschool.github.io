@@ -62,8 +62,15 @@
             <a href="/registration" class="button button--big">Registration closed</a>
             {% endif %}
 
+            {% unless include.hide_schedule %}
             <div class="program-level__shedule">
                 <h3 class="title">Shedule. When is it taking place?</h3>
+                <div class="content">
+                    <p>
+                        <strong>All modules are included and completed</strong> as part of this one-year long program.
+                        Classes are taking place once a week during the school year.
+                    </p>
+                </div>
                 {% for shedule in program.shedule %}
                 <div>
                     <h4 class="program-level__day-title">{{shedule.day}}</h4>
@@ -75,6 +82,8 @@
                 </div>
                 {% endfor %}
             </div>
+            {% endunless %}
+
             {% unless include.hide_intro %}
             <p class="py-6"`>
                 <a href="/{{ program.permalink }}" class="button">Discover {{ program.name }} in detail</a>

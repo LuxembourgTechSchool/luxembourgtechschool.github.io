@@ -18,7 +18,7 @@ description: "Explore student projects built at Luxembourg Tech School — from 
 
 <section class="section container">
     <div class="columns is-multiline">
-        {% assign projects = site.projects | sort: 'date' | reverse %}
+        {% assign projects = site.projects | sort: "date" | reverse %}
         {% for project in projects | sort: "date" | reverse %}
         <div class="column is-half-tablet is-one-third-desktop">
             <a class="item-preview" href="{{project.url}}">
