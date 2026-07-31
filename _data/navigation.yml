@@ -2,6 +2,15 @@
   permalink: how-it-works
 - text: Program
   permalink: program
+  sublinks:
+    - text: "Level Go"
+      permalink: program/level-go
+    - text: "Level One"
+      permalink: program/level-one
+    - text: "Level Up"
+      permalink: program/level-up
+    - text: Level F-1
+      permalink: program/f-1
 - text: Projects
   permalink: projects
 - text: News

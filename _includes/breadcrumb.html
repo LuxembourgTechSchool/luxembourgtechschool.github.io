@@ -1,9 +1,24 @@
 {% if page.url != "/" %}
+{% assign breadcrumb_parent = nil %}
+{% assign breadcrumb_current = nil %}
+{% for navigation_item in site.data.navigation %}
+    {% for sublink in navigation_item.sublinks %}
+        {% assign sublink_url = sublink.permalink | prepend: "/" %}
+        {% assign sublink_url_with_slash = sublink_url | append: "/" %}
+        {% if page.url == sublink_url or page.url == sublink_url_with_slash %}
+            {% assign breadcrumb_parent = navigation_item %}
+            {% assign breadcrumb_current = sublink %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
 <nav class="breadcrumb" aria-label="breadcrumbs" style="padding: 1.75rem 0 0; margin-bottom: 0;">
     <div class="container">
         <ol>
             <li class="is-size-6"><a href="/">Home</a></li>
-            <li class="is-active is-size-6"><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" aria-current="page">{{ page.title | default: page.name | escape }}</a></li>
+            {% if breadcrumb_parent %}
+            <li class="is-size-6"><a href="{{ breadcrumb_parent.permalink | prepend: '/' | relative_url }}">{{ breadcrumb_parent.text | escape }}</a></li>
+            {% endif %}
+            <li class="is-active is-size-6"><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" aria-current="page">{{ breadcrumb_current.text | default: page.title | default: page.name | escape }}</a></li>
         </ol>
     </div>
 </nav>

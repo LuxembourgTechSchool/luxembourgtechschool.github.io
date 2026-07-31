@@ -11,7 +11,8 @@
                              alt="Luxembourg Tech School: Building the next Digital Leaders" height="35">
                     </a>
 
-                    <button class="navbar__burger burger js-burger" aria-expanded="false">
+                    <button class="navbar__burger burger js-burger" type="button" aria-expanded="false"
+                            aria-controls="main-navigation-menu" aria-label="Toggle main navigation">
                         <span class="burger__item burger__item--1"></span>
                         <span class="burger__item burger__item--2"></span>
                         <span class="burger__item burger__item--3"></span>
@@ -20,10 +21,12 @@
                 </div>
             </div>
 
-            <ul class="navbar__menu js-navbar-menu">
+            <ul class="navbar__menu js-navbar-menu" id="main-navigation-menu">
                 {% for nav in site.data.navigation %}
                 <li class="navbar__item">
                     <a href="/{{ nav.permalink }}"
+                       {% if nav.sublinks %}aria-haspopup="true"{% endif %}
+                       {% if nav.permalink == page.permalink %}aria-current="page"{% endif %}
                        class="navbar__link {% if nav.permalink == page.permalink %}active{% endif %}{% for link in nav.sublinks %}{% if link.permalink == page.permalink %}active{% endif %}{% endfor %}">
                         {{ nav.text }}
                         {% if nav.sublinks %}
@@ -34,10 +37,11 @@
                     </a>
 
                     {% if nav.sublinks %}
-                    <ul class="submenu">
+                    <ul class="submenu" aria-label="{{ nav.text }} submenu">
                         {% for link in nav.sublinks %}
                         <li class="submenu__item">
                             <a href="/{{ link.permalink }}"
+                               {% if link.permalink == page.permalink %}aria-current="page"{% endif %}
                                class="submenu__link {% if link.permalink == page.permalink %}active{% endif %}">{{
                                 link.text }}</a>
                         </li>

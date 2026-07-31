@@ -1,0 +1,34 @@
+---
+layout: default
+title: Luxembourg Tech School - Level Go
+permalink: program/level-go
+description: "Discover Level Go, the Luxembourg Tech School program for students aged 12-14 covering creative coding, digital thinking and space tinkering."
+---
+
+{% assign selected_programs = site.data.programs | where: "anchor", "lvlg0" %}
+{% assign program = selected_programs | first %}
+
+<div class="blob"></div>
+
+<section class="page-header page-header--program container image-right">
+    <div class="columns is-vcentered">
+        <div class="column has-text-centered">
+            <img class="image section__image"
+                 src="{{ site.github.url }}/images/programs/lego-1.jpeg"
+                 alt="Level Go Lego">
+        </div>
+        <div class="column">
+            <h1 class="title title--main is-spaced">{{ program.name }}</h1>
+            <h2 class="subtitle">{{ program.description }}</h2>
+            <div class="content content--highlighted">
+                <p>
+                    Level Go is the starting point for younger students who want to turn their ideas into digital creations.
+                    Explore coding, computers and technology through practical, creative projects.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include program-section.html programs=selected_programs hide_intro=true %}
+

@@ -1,0 +1,119 @@
+---
+layout: default
+title: Luxembourg Tech School - Level One
+permalink: program/level-one
+description: "Discover Level One, the Luxembourg Tech School program for students aged 15-19 covering game development, artificial intelligence and FinTech."
+---
+
+{% assign selected_programs = site.data.programs | where: "anchor", "lvl1" %}
+{% assign program = selected_programs | first %}
+
+<div class="blob"></div>
+
+<section class="page-header page-header--program container image-right">
+    <div class="columns is-vcentered">
+        <div class="column has-text-centered">
+            <img class="image section__image"
+                 src="{{ site.github.url }}/images/programs/project-1.JPG"
+                 alt="Level One Project Selection">
+        </div>
+        <div class="column">
+            <h1 class="title title--main is-spaced">{{ program.name }}</h1>
+            <h2 class="subtitle">{{ program.description }}</h2>
+            <div class="content content--highlighted">
+                <p>
+                    Level One combines technology, teamwork and entrepreneurship. Build real projects while discovering game
+                    development, artificial intelligence and financial technology.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include program-section.html programs=selected_programs hide_intro=true %}
+
+<section class="section image-left">
+    <div class="container">
+        <div class="columns">
+            <div class="column has-text-centered">
+                <img class="image section__image /section__image--shifted"
+                     src="{{ site.github.url }}/images/programs/gamedev-2.png"
+                     alt="LTS students presenting at ICT Spring">
+            </div>
+            <div class="column">
+                <h2 class="title is-uppercase">Create your own </h2>
+                <div class="content">
+                    <p>
+                        Luxembourg needs people with digital skills!
+                        Still, a large number of children and students have never been engaged in any coding activity.
+                        This is both a challenge and an opportunity to fill this void and provide new learning
+                        possibilities.
+                    </p>
+                    <p>
+                        If you are between 12 and 19 years old, passionate about the digital realm and eager to learn
+                        and apply technology in a real business or creative context, then the Luxembourg Tech School
+                        (LTS for short)
+                        is for you!
+                    </p>
+                </div>
+            </div>
+        </div> <!-- columns -->
+    </div>
+</section>
+
+<section class="section image-right">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+                <img class="image section__image"
+                     src="{{ site.github.url }}/images/programs/teamwork-1.png" 
+                     alt="LTS students at the AstroPi workshop at SES">
+            </div>
+            <div class="column">
+                <h2 class="title is-uppercase">Create your own Apps</h2>
+                <div class="content">
+                    <p>
+                        Since 2016, the Luxembourg Tech School supports the national strategy by developing the future
+                        digital leaders.
+                        We implemented a unique project-based methodology that has proven, not only, successful, but
+                        also highly motivating and fun for you.
+                    </p>
+                    <p>
+                        You work in teams on your own projects, learn new technologies and get personalised coaching!
+                        From Creative Coding, to Game Development, passing by Financial Technologies, Artificial
+                        Intelligence or even Space, we provide a packed program.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- columns -->
+    </div>
+</section>
+
+<section class="section image-left">
+    <div class="container">
+        <div class="columns">
+            <div class="column has-text-centered">
+                <img class="image section__image /section__image--shifted"
+                     src="{{ site.github.url }}/images/programs/gamedev-1.jpg"
+                     alt="LTS students presenting at ICT Spring">
+            </div>
+            <div class="column">
+                <h2 class="title is-uppercase">Pitch in front of industry professionals</h2>
+                <div class="content">
+                    <p>
+                        Luxembourg needs people with digital skills!
+                        Still, a large number of children and students have never been engaged in any coding activity.
+                        This is both a challenge and an opportunity to fill this void and provide new learning
+                        possibilities.
+                    </p>
+                    <p>
+                        If you are between 12 and 19 years old, passionate about the digital realm and eager to learn
+                        and apply technology in a real business or creative context, then the Luxembourg Tech School
+                        (LTS for short)
+                        is for you!
+                    </p>
+                </div>
+            </div>
+        </div> <!-- columns -->
+    </div>
+</section>

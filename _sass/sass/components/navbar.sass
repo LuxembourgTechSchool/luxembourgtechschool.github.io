@@ -28,6 +28,8 @@
     align-items: center
     justify-content: center
     padding: 15px 3% 35px
+    max-height: calc(100vh - 68px)
+    overflow-y: auto
     -webkit-transition: all 0.35s cubic-bezier(0.5, 1, 0.89, 1)
     transition: all 0.35s cubic-bezier(0.5, 1, 0.89, 1)
     transform: translateY(-100%)
@@ -38,6 +40,7 @@
 
     +tablet
       top: 80px
+      max-height: calc(100vh - 80px)
       transform: translateX(100%)
       max-width: 360px
 
@@ -55,6 +58,8 @@
       visibility: visible
       opacity: 1
       max-width: inherit
+      max-height: none
+      overflow-y: visible
       transform: translateX(0)
 
   &__brand

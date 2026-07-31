@@ -2,10 +2,14 @@
     {% for program in include.programs %}
     <div class="program-level" id="{{program.anchor}}">
         <div class="container">
-            <h2 class="title is-uppercase">{{program.name}}</h2>
+            {% unless include.hide_intro %}
+            <h2 class="title is-uppercase">
+                <a href="/{{ program.permalink }}">{{program.name}}</a>
+            </h2>
             <h3 class="subtitle subtitle--small">
                 {{program.description}}
             </h3>
+            {% endunless %}
             <div class="program-level__information">
                 <div class="program-level__age">
                     <strong class="is-uppercase">Age:</strong>
@@ -53,13 +57,13 @@
             </div>
 
             {% if program.registration_status == 'open' %}
-                <a href="/registration" class="button button--purple button--big">Registration</a>
+            <a href="/registration" class="button button--purple button--big">Registration</a>
             {% elsif program.registration_status == 'closed' %}
             <a href="/registration" class="button button--big">Registration closed</a>
             {% endif %}
 
             <div class="program-level__shedule">
-                <h3 class="subtitle">Shedule. When is it taking place?</h3>
+                <h3 class="title">Shedule. When is it taking place?</h3>
                 {% for shedule in program.shedule %}
                 <div>
                     <h4 class="program-level__day-title">{{shedule.day}}</h4>
@@ -71,7 +75,11 @@
                 </div>
                 {% endfor %}
             </div>
-
+            {% unless include.hide_intro %}
+            <p class="py-6"`>
+                <a href="/{{ program.permalink }}" class="button">Discover {{ program.name }} in detail</a>
+            </p>
+            {% endunless %}
         </div>
     </div>
     {% endfor %}
