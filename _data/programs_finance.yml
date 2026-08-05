@@ -9,8 +9,8 @@
 #  registration_status: open
 # requirement: Complete Level One
   modules:
-    - name: Module 1
-      image: images/modules/placeholder.png
+    - name: Personal Financess
+      image: images/modules/lvl_f1_Module1.png
       items:
         - Learn about Personal Finances
         - Plan Savings & Investments
@@ -19,8 +19,8 @@
         - Apply AI to Finance
       event: 
       eventLink:
-    - name: Module 2
-      image: images/modules/placeholder.png
+    - name: Digital Banking
+      image: images/modules/lvl_f1_Module2.png
       items:
         - Work on a large scale group project
         - Build a digital banking

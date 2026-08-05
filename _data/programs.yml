@@ -2,7 +2,7 @@
   anchor: lvlg0
   permalink: program/level-go
   description: >
-    Would you like to create digital art and animations with shapes, patterns and images? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology?
+    Would you like to create digital art, little games and animations? And at the same time learn the basics of coding and computers? Are you between 12 and 14 years old and curious to explore the world of technology? 
   age: 12-14
   duration: 1 Academic Year
 # registration_status: open
@@ -13,22 +13,22 @@
       items:
         - Create digital and animated graphics with code
         - Understand the basics of coding
-        - Code first web development projects
-        - Express yourself creatively
+        - Take the first steps into web development
+        - Express yourself and develop your own creative style 
     - name: Digital Thinking
       image: images/modules/lvl_go_DigitalThinking.png
       items:
         - Discover how to talk to machines and computers
-        - Strengthen your logical thinking online and unplugged
-        - Get a first understanding of Artificial Intelligence (A.I.)
-        - Build up your digital knowledge, skills and values
+        - Strengthen your logical thinking, both on-screen and through hands-on unplugged activities 
+        - Get a first understanding of Artificial Intelligence and learn to think critically about it 
+        - Build up digital knowledge, skills, and a healthy set of digital values 
     - name: Space Tinkering
       image: images/modules/lvl_go_SpaceTinkering.png
       items:
-        - Explore how humans interact with robots
-        - Use microcontrollers and sensors
-        - Collect and visualise data like in a mission control
-        - Find creative solutions for space challenges
+        - Explore how humans and robots work together 
+        - Use microcontrollers and sensors to measure the world around you
+        - Collect and visualise data, like a real mission control
+        - Invent creative solutions to real space challenges 
   shedule:
     - day: Monday
       locations:
