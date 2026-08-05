@@ -1,15 +1,15 @@
-- name: LEVEL F-1
+- name: Level F-1
   anchor: financelaw
   permalink: program/f-1
   description: >
-    Interested to learn about personal finances, law, financial technologies, teamwork and to work on your own project?
-    This level sets you on the path to become a Leader in Finance, Law & AI.
+    Interested in learning about personal finances, law, financial technologies, teamwork and working on your own project?
+    This level sets you on the path to becoming a Leader in Finance, Law & AI.
   age: 15-19
   duration: 5 months
 #  registration_status: open
 # requirement: Complete Level One
   modules:
-    - name: Personal Financess
+    - name: Personal Finances
       image: images/modules/lvl_f1_Module1.png
       items:
         - Learn about Personal Finances
@@ -22,8 +22,8 @@
     - name: Digital Banking
       image: images/modules/lvl_f1_Module2.png
       items:
-        - Work on a large scale group project
-        - Build a digital banking
+        - Work on a large-scale group project
+        - Build a digital banking app
       event: Hackathon
       eventLink:
   shedule:

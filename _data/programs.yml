@@ -48,8 +48,8 @@
   anchor: lvl1
   permalink: program/level-one
   description: >
-    Interested to learn about technology, teamwork and to work on your own project?
-    This level covers several industries and will set you on the path to become a Digital Leader.
+    Interested in learning about technology, teamwork and working on your own project?
+    This level covers several industries and will set you on the path to becoming a Digital Leader.
   age: 15-19
   duration: 1 Academic Year
 #  registration_status: open
@@ -124,7 +124,7 @@
         - Experience Brain-Computer Interfaces
         - Dive into Quantum Computing
         - Create with Augmented/Virtual Reality
-        - Get hands on with Wearables
+        - Get hands-on with Wearables
         - Build Applications of the Future
       event: AI4Finance Hackathon
       eventLink: https://youtu.be/xyJ6oMGzuH8?si=uw8ZqNEUPmYAYnGH
@@ -132,7 +132,7 @@
       image: images/modules/lvl_up_Cybersecurity.png
       items:
         - Learn & understand encryption and cryptography
-        - Learn about malwares and attacks
+        - Learn about malware and attacks
         - Secure your own data
         - Hardware security
         - Ethical Hacking
