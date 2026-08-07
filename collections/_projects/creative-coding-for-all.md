@@ -9,10 +9,9 @@ thumbnail: /images/projects/cc4all.jpg
 
 ![Photo of an LTS Creative Coding for All session](/images/projects/cc4all.jpg)
 
-## A Revolutionary Tech Education Initiative
+## An Inclusive Tech Education Initiative
 
-**Creative Coding for ALL (CC4ALL for short)** is a program that was launched in collaboration with [Croix Rouge Luxembourg](https://www.croix-rouge.lu) in 2020 and is today fully supported by the [André Losch Fondation](https://www.loschfondation.lu). The program's main goal is to make education accessible and enjoyable for everyone. We believe that with an inclusive, supportive, and well-equipped learning environment, everyone can learn, grow, and excel. This program is more than just about tech education. It is a movement to empower learners from all backgrounds and abilities in an increasingly digital world.
-
+**Creative Coding for ALL (CC4ALL for short)** is a program launched in collaboration with [Croix Rouge Luxembourg](https://www.croix-rouge.lu) in 2020 and today fully supported by the [André Losch Fondation](https://www.loschfondation.lu). Its goal is to make digital education accessible and enjoyable for young people who are too often left out of it. We believe that with an inclusive, supportive, and well-equipped learning environment, everyone can learn, grow, and create. More than tech education, CC4ALL is about giving learners of all backgrounds and abilities a real place in an increasingly digital world.
 
 <div class="columns">
     <div class="column">
@@ -27,11 +26,11 @@ thumbnail: /images/projects/cc4all.jpg
 
 ## Expanding Horizons: CC4ALL’s Growth to Include Diverse Learners
 
-CC4ALL first focused on helping refugee kids aged 11-15 learn digital skills through Creative Coding. We are thrilled to share that our program has now expanded in Luxembourg's tech education landscape. It now includes ASD (autism spectrum disorder) students and those with special educational needs (SEN). Our expansion has made CC4ALL an exceptional and one-of-a-kind digital education program and we are committed to making a positive impact in the lives of our students.
+CC4ALL first focused on helping refugee teenagers aged 11-18 learn digital skills through Creative Coding. Since then, the program has grown to include students on the autism spectrum (ASD), students with intellectual disabilities, and others with special educational needs (SEN). Since 2020 we have reached more than 800 young people across 90+ groups in Luxembourg, through 1,100+ workshops and sessions - always free of charge for participants and schools.
 
 ## Innovative Curriculum: Blending Digital Creativity with Personalised Learning
 
-We inspire digital creativity and encourage holistic development. We do this through Creative Coding, Digital Thinking, and Interaction Design. That's why we've designed a tailored and enriched curriculum. It combines personalised support, essential tools like donated laptops, and hands-on learning experiences. We cover a wide range of topics, from digital graphics to AI basics. Furthermore, we incorporate fun and exploratory activities using physical computing tools like micro:bits, Arduino, and mBots. This makes learning exciting and easy for everyone.
+We encourage digital creativity and holistic development through Creative Coding, Computational Thinking, and hands-on making. Rather than a fixed curriculum, we adapt the content to each group, combining personalised support, essential tools like laptops (lent or gifted(, and playful, exploratory activities. Topics range from digital graphics and games with Scratch to physical computing with tools such VinciBots, micro:bits or Makey Makeys, chosen to fit each learner's age and profile.
 
 ## Interactive Learning: Real-World Applications of CC4ALL's Curriculum
 
@@ -39,47 +38,36 @@ Discover interactive learning with CC4ALL. Our curriculum engages students with 
 
 ![Photo of an LTS Creative Coding for All session](/images/projects/cc4all/CC4ALL_Picture3.jpg)
 
-*During our exploratory session, we used micro:bits with Scratch to teach digital skills to our ASD students. The micro:bits are small, programmable computers. They provide a fun and interactive way to learn computing concepts, as proved in the picture. In this session, the students creatively used these devices to create a heart shape. They brought it to life by simulating a pulsating heartbeat. This hands-on activity was immensely enjoyable. It also served as an excellent exercise in fine-tuning their motor skills.*
+*During our exploratory session, we used micro:bits with Scratch to teach digital skills to our ASD students. The micro:bits are small, programmable computers. They provide a fun and interactive way to learn computing concepts. In this session, the students creatively used these devices to create a heart shape. They brought it to life by simulating a pulsating heartbeat. This hands-on activity was immensely enjoyable and served as an excellent exercise in fine-tuning their motor skills.*
 
 ![Photo of an LTS Creative Coding for All session](/images/projects/cc4all/CC4ALL_Picture4.jpg)
 
-*We have a task at hand - repairing a smart home that is controlled by Arduino but has been hacked. This exercise aims to prove that coding is not just about understanding code. It's also about how these blocks can bring an LED light to life or open a door in a smart home model. It's about making the abstract more concrete. It fosters curiosity and teamwork and encourages further exploration!*
+*We have a task at hand - repairing a smart home that is controlled by code but has been "hacked". This exercise aims to prove that coding is not just about understanding code. It's also about how these blocks can bring an LED light to life or open a door in a smart home model. It's about making the abstract more concrete. It fosters curiosity and teamwork and encourages further exploration!*
 
-We'd love to help your child succeed! If you think our courses could be a good fit for them, please don't hesitate to get in touch.
+Do you work with young people who could benefit from this? If our workshops sound like a good fit, we’d love to hear from you.
 
 ## More Than Coding: The Four Pillars of CC4ALL's Mission
 
-We designed our "Creative Coding for ALL" program to go beyond coding :
+We designed our "Creative Coding for ALL" to go beyond coding. Three of these pillars are about the young people we work with, the fourth is about our own role at LTS:
 
-- **⁠Empowerment:** Equipping students with basic digital skills and coding skills for independence and confidence.
+- **⁠Active Participation:** Giving young people the foundational skills to take part and express themselves in the digital world.
 
-- **⁠Overcoming Challenges:** Using digital education to transcend personal and societal barriers. This is especially true with our ASD students whom we have seen become more socially active and confident through these activities.
+- **⁠Independence & Empowerment:** Building agency, self-efficacy, and the confidence to keep learning, and using digital tools to overcome linguistic, cognitive, and circumstantial barriers.
 
-- **⁠Leadership:** Cultivating tomorrow's digital pioneers with foundational tech knowledge.
+- **⁠Overcoming challenges:** Helping students move past personal and societal barriers. This is especially visible with our ASD students, who often become more socially active and confident through what they create.
 
-- **⁠Pioneering Innovation:** Preparing students to lead in the digital era.
-
+- **⁠Pioneering inclusive digital education:** Our own commitment, as LTS, to leading inclusive digital education in Luxembourg and beyond and bringing emerging tools and approaches into the work.
 
 ## Evolving Education: Emerging Technologies for Digital Inclusion
 
 ![Photo of an LTS Creative Coding for All session](/images/projects/cc4all/CC4ALL_Picture5.jpg)
 
-*At LTS, we continuously improve our educational content. We explore new technologies to address specific challenges faced by students with special needs. For instance, our workshop with QTrobot helps autistic students overcome social and educational challenges (see picture above). This highlights our dedication to innovative learning solutions.*
+*At LTS, we continuously improve our educational content. We explore new technologies to address specific challenges faced by students with special needs. For instance, we ran a workshop with the QTrobot to explore how a social robot might support autistic students’ interaction and learning. This is one example of how we keep testing new approaches together with our partners.*
 
 ## Recognitions and Collaborations: Celebrating CC4ALL's Achievements and Partnerships
 
-CC4ALL has an impressive track record of winning awards, such as the 2021 Youth Award and the 2022 FNR Award. We have established fruitful partnerships with organizations like Autisme Luxembourg and CTSA (Centre pour enfants et jeunes présentant un trouble du spectre de l’autisme). CC4ALL is continuously expanding its reach. In fact, there are even more partnerships in the pipeline for 2024. We are also the first organisation from Luxembourg to join the 2022-2024 Scratch Education Collaborative (SEC) cohort. This aligns LTS with global organisations that share the mission of making programming universally accessible.
+CC4ALL received the 2021 Jugendpräis in the “Go Digital” category, awarded by the Service national de la jeunesse Luxembourg, and it is part of the wider LTS work recognised with the 2022 FNR Award. In 2022, LTS was also the first organisation from Luxembourg to join the Scratch Education Collaborative (SEC, 2022–2024), anchored at the MIT Media Lab, connecting us with mission-aligned organisations worldwide that share the goal of making coding accessible to everyone.
 
-We are not just a coding program. We are a community dedicated to making the digital landscape more inclusive and creative. Join us to empower the next generation of digital creators! Contact us to explore collaborative possibilities. Let's shape a future rich in digital innovation and creativity!
+Above all, CC4ALL is built on partnership. We work hand in hand with specialised organisations such as CTSA, CDI, and Autisme Luxembourg: they bring the relationship with the young people, the specialised knowledge, and a familiar environment. We bring the tools, the digital content, and the Coaches. We could not do this alone - and the network continues to grow.
 
-<div class="columns">
-    <div class="column">
-        <img src="/images/projects/cc4all/CC4ALL_Picture6.jpg">
-        <div>Proud students received their first “Digital Creator” T-shirt from LTS on the last day of school 2022.</div>
-    </div>
-    <div class="column">
-        <img src="/images/projects/cc4all/CC4ALL_Picture7.jpg">
-        <div>One year later, we ended the school year with a visit from a new friend: QTrobot. </div>
-    </div>
-</div>
-
+If you’d like to explore a collaboration, get in touch. We’re always glad to hear from organisations that want to open digital education to more young people.
