@@ -19,14 +19,33 @@ description: "Explore student projects built at Luxembourg Tech School — from 
 <section class="section container">
     <div class="columns is-multiline">
         {% assign projects = site.projects | sort: "date" | reverse %}
-        {% for project in projects | sort: "date" | reverse %}
+        {% for project in projects %}
+        {% if project.featured %}
+        <div class="column is-full">
+            <a class="item-preview item-preview--featured" href="{{ project.url }}">
+                <div class="item-preview__featured-content">
+                    <div class="item-preview__badge">
+                        <span aria-hidden="true">★</span> Project Highlight
+                    </div>
+                    <h3 class="item-preview__title is-uppercase">{{ project.title }}</h3>
+                    <div class="item-preview__excerpt">{{ project.short_description }}</div>
+                </div>
+                <div class="item-preview__image" style="background-image: url({{ project.thumbnail }})"></div>
+            </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        {% for project in projects %}
+        {% unless project.featured %}
         <div class="column is-half-tablet is-one-third-desktop">
-            <a class="item-preview" href="{{project.url}}">
-                <h3 class="item-preview__title is-uppercase">{{project.title}}</h3>
+            <a class="item-preview" href="{{ project.url }}">
+                <h3 class="item-preview__title is-uppercase">{{ project.title }}</h3>
                 <div class="item-preview__image" style="background-image: url({{ project.thumbnail }})"></div>
                 <div class="item-preview__excerpt">{{ project.short_description }}</div>
             </a>
         </div>
+        {% endunless %}
         {% endfor %}
     </div>
 </section>

@@ -8,6 +8,50 @@
   +tablet
     padding: 25px 0 25px 25px
 
+  &--featured
+    border: 3px solid transparent
+    padding: 0
+    overflow: hidden
+
+    &:hover
+      border: 3px solid $blue
+
+    +tablet
+      display: flex
+      padding: 0
+
+    .item-preview__featured-content
+      padding: 25px
+
+      +tablet
+        display: flex
+        flex: 1
+        flex-direction: column
+        justify-content: center
+        padding: 40px
+
+    .item-preview__title,
+    .item-preview__excerpt
+      padding-right: 0
+
+    .item-preview__image
+      margin-bottom: 0
+
+      +tablet
+        flex: 1.5
+        padding-bottom: 33.75%
+
+  &__badge
+    align-self: flex-start
+    background: $yellow
+    color: $black
+    font-size: 0.875rem
+    font-weight: 700
+    letter-spacing: 0.04em
+    margin-bottom: 18px
+    padding: 7px 10px
+    text-transform: uppercase
+
   &__date
     font-size: 1.125rem
     font-weight: 600
