@@ -18,6 +18,7 @@ description: "Discover Level F-1, the Luxembourg Tech School program for student
                  alt="LTS students presenting their fintech solution">
         </div>
         <div class="column">
+            <p class="is-size-5 is-uppercase has-text-weight-semibold mb-2">Future Leaders in Finance, Law &amp; AI</p>
             <h1 class="title title--main is-spaced">{{ program.name }}</h1>
             <h2 class="subtitle">{{ program.description }}</h2>
             <div class="content content--highlighted">
@@ -32,7 +33,9 @@ description: "Discover Level F-1, the Luxembourg Tech School program for student
 
 {% include program-section.html programs=selected_programs hide_intro=true %}
 
-<section class="section image-left">
+{% include cta-register.html %}
+
+<section class="section image-left mt-6">
     <div class="container">
         <div class="columns">
             <div class="column has-text-centered">
