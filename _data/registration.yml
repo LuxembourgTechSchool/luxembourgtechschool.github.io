@@ -1,5 +1,5 @@
 #status: waiting
-status: open
+status: closed
 year: 2026-2027
 nextYear: 2027-2028
 levels:
@@ -63,7 +63,7 @@ levels:
         value: 24/06/2026
   - name: Finance, Law & AI
     link: 'https://register.techschool.lu/levelf1'
-    status: open # closed, waiting
+    status: closed # closed, waiting
     button_text: Register
     information:
       - key: Age
